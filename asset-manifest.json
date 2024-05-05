@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nastia-can/static/css/main.7acaea2f.css",
+    "main.js": "/nastia-can/static/js/main.07d3183d.js",
+    "index.html": "/nastia-can/index.html",
+    "main.7acaea2f.css.map": "/nastia-can/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/nastia-can/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
