@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/nastia-can/static/css/main.7acaea2f.css",
-    "main.js": "/nastia-can/static/js/main.07d3183d.js",
+    "main.css": "/nastia-can/static/css/main.2959268c.css",
+    "main.js": "/nastia-can/static/js/main.2a0be45c.js",
+    "static/media/bg-paper.webp": "/nastia-can/static/media/bg-paper.e68fa16a963a040de6a3.webp",
     "index.html": "/nastia-can/index.html",
-    "main.7acaea2f.css.map": "/nastia-can/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/nastia-can/static/js/main.07d3183d.js.map"
+    "main.2959268c.css.map": "/nastia-can/static/css/main.2959268c.css.map",
+    "main.2a0be45c.js.map": "/nastia-can/static/js/main.2a0be45c.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.2959268c.css",
+    "static/js/main.2a0be45c.js"
   ]
 }
