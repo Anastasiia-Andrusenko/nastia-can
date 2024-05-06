@@ -1,14 +1,21 @@
 {
   "files": {
-    "main.css": "/nastia-can/static/css/main.2959268c.css",
-    "main.js": "/nastia-can/static/js/main.2a0be45c.js",
+    "main.css": "/nastia-can/static/css/main.8e15fa96.css",
+    "main.js": "/nastia-can/static/js/main.c50b0f9f.js",
+    "static/css/630.0f010d10.chunk.css": "/nastia-can/static/css/630.0f010d10.chunk.css",
+    "static/js/630.9eb66447.chunk.js": "/nastia-can/static/js/630.9eb66447.chunk.js",
+    "static/js/822.3b7c07ee.chunk.js": "/nastia-can/static/js/822.3b7c07ee.chunk.js",
     "static/media/bg-paper.webp": "/nastia-can/static/media/bg-paper.e68fa16a963a040de6a3.webp",
+    "static/media/rb-portrait.webp": "/nastia-can/static/media/rb-portrait.2aa0e8c172a9e26463b1.webp",
     "index.html": "/nastia-can/index.html",
-    "main.2959268c.css.map": "/nastia-can/static/css/main.2959268c.css.map",
-    "main.2a0be45c.js.map": "/nastia-can/static/js/main.2a0be45c.js.map"
+    "main.8e15fa96.css.map": "/nastia-can/static/css/main.8e15fa96.css.map",
+    "main.c50b0f9f.js.map": "/nastia-can/static/js/main.c50b0f9f.js.map",
+    "630.0f010d10.chunk.css.map": "/nastia-can/static/css/630.0f010d10.chunk.css.map",
+    "630.9eb66447.chunk.js.map": "/nastia-can/static/js/630.9eb66447.chunk.js.map",
+    "822.3b7c07ee.chunk.js.map": "/nastia-can/static/js/822.3b7c07ee.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2959268c.css",
-    "static/js/main.2a0be45c.js"
+    "static/css/main.8e15fa96.css",
+    "static/js/main.c50b0f9f.js"
   ]
 }
