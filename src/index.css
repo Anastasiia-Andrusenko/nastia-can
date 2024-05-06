@@ -1,12 +1,21 @@
 @import-normalize; /* bring in normalize.css styles */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Neucha&family=Rubik+Scribble&display=swap');
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Neucha', cursive;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url('./img/bg-paper.webp');
+  background-size: cover;
+  width: 100vw;
+}
+
+h1,
+h2 {
+  font-family: 'Rubik Scribble', system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 code {
