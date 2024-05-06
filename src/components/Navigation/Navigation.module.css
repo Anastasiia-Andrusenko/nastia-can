@@ -1,0 +1,41 @@
+.likeList {
+  list-style: none;
+}
+
+.likeItem {
+  width: fit-content;
+  padding: 10px;
+  margin-bottom: 14px;
+  font-size: 1.3dvw;
+  transform: scale(0.9);
+  transition: all 200ms linear;
+  /* outline: 1px solid blue; */
+}
+
+.link {
+  font-size: 1.5dvw;
+}
+
+.likeItem:hover {
+  transform: scale(1);
+}
+
+.likeItem:hover .icon {
+  color: black;
+  margin: 0 10px 0 0;
+  padding: 0;
+  vertical-align: text-top;
+  transform: scale(1);
+}
+
+.current {
+  font-size: 1.5dvw;
+  text-decoration: underline;
+}
+
+.icon {
+  color: rgba(0, 0, 0, 0);
+  transform: scale(0);
+  transition: color 200ms linear;
+  transition: transform 200ms linear;
+}

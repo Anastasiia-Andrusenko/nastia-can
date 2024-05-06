@@ -1,0 +1,50 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 90%;
+  padding: 10px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.callToAction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-transform: uppercase;
+}
+
+.contactsList {
+  list-style: none;
+  display: flex;
+  gap: 5vw;
+}
+
+.contactItem {
+  transition: transform 200ms linear;
+}
+
+.contactItem:hover {
+  font-weight: 800;
+  transform: scale(1.2);
+}
+
+.hand {
+  vertical-align: middle;
+  font-size: 24px;
+  margin: 0 0 0 20px;
+  padding: 0;
+
+  animation: slide-right 1000ms linear 0s infinite alternate-reverse both;
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(20px);
+  }
+}
