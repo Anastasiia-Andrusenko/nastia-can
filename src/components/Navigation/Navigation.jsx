@@ -6,36 +6,40 @@ import { ImCamera } from 'react-icons/im';
 import { NavLink } from 'react-router-dom';
 import lang from '../../lang.js';
 
-// const getClassName = ({ isActive }) => {
-//   return isActive ? `${css.link} ${css.current}` : css.link;
-// };
-
-const Navigation = () => {
+const Navigation = ({ currentLanguage }) => {
   return (
     <>
       <ul className={css.likeList}>
         <li className={css.likeItem}>
           <NavLink className={css.link} to="/write">
             <SlBookOpen className={css.icon} />
-            {lang.likeList.ua[0]}
+            {currentLanguage === 'ua'
+              ? lang.likeList.ua[0]
+              : lang.likeList.en[0]}
           </NavLink>
         </li>
         <li className={css.likeItem}>
           <NavLink className={css.link} to="/draw">
             <PiPaintBrushDuotone className={css.icon} />
-            {lang.likeList.ua[1]}
+            {currentLanguage === 'ua'
+              ? lang.likeList.ua[1]
+              : lang.likeList.en[1]}
           </NavLink>
         </li>
         <li className={css.likeItem}>
           <NavLink className={css.link} to="/code">
             <FaLaptopCode className={css.icon} />
-            {lang.likeList.ua[2]}
+            {currentLanguage === 'ua'
+              ? lang.likeList.ua[2]
+              : lang.likeList.en[2]}
           </NavLink>
         </li>
         <li className={css.likeItem}>
           <NavLink className={css.link} to="/photo">
             <ImCamera className={css.icon} />
-            {lang.likeList.ua[3]}
+            {currentLanguage === 'ua'
+              ? lang.likeList.ua[3]
+              : lang.likeList.en[3]}
           </NavLink>
         </li>
       </ul>

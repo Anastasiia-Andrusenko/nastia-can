@@ -2,11 +2,11 @@ import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import css from './Code.module.css';
 
-const Code = () => {
+const Code = ({ currentLanguage }) => {
   return (
     <>
       <div className={css.section}>
-        <Header />
+        <Header currentLanguage={currentLanguage} />
         <div className={css.container}>
           <div className={css.skills}>
             <h3 className={css.title}>знаю це</h3>
@@ -29,7 +29,7 @@ const Code = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      <Footer currentLanguage={currentLanguage} />
     </>
   );
 };

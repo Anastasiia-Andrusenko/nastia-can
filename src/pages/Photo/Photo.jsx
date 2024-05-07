@@ -2,17 +2,17 @@ import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import css from './Photo.module.css';
 
-const Photo = () => {
+const Photo = ({ currentLanguage }) => {
   return (
     <>
       <div className={css.section}>
-        <Header />
+        <Header currentLanguage={currentLanguage} />
         <div className={css.container}>
           тут будуть фоточки
           <ul className={css.contents}></ul>
         </div>
       </div>
-      <Footer />
+      <Footer currentLanguage={currentLanguage} />
     </>
   );
 };

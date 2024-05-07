@@ -1,20 +1,20 @@
 const langArr = {
   welcome: {
     en: 'Hi!',
-    en2: 'My name is Nastia ;)',
+    en2: 'Iʼm Nastia',
     ua: 'Привіт!',
-    ua2: 'Я Настя ;)',
+    ua2: 'Я Настя',
   },
   language: {
     en: 'I can communicate in',
     ua: 'можу спілкуватися',
   },
   like: {
-    en: 'I like it:',
-    ua: 'Мені подобається:',
+    en: 'I like do it:',
+    ua: 'Мені подобається',
   },
   likeList: {
-    en: ['write', 'draw', 'code', 'photo'],
+    en: ['to write', 'to draw', 'to code', 'make photo'],
     ua: ['писати', 'малювати', 'кодити', 'фотографувати'],
   },
   noPage: {
@@ -27,7 +27,11 @@ const langArr = {
   },
   footer: {
     en: 'contact me in a convenient way',
-    ua: 'звяжися зі мною зручним способом',
+    ua: 'звʼяжися зі мною зручним способом',
+  },
+  headerTitle: {
+    en: 'Look what Nastia can do',
+    ua: 'Дивись, як Настя вміє',
   },
 };
 

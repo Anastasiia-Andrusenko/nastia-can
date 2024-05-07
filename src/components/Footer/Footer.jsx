@@ -2,11 +2,11 @@ import css from './Footer.module.css';
 import { FaRegHandPointRight } from 'react-icons/fa6';
 import langArr from '../../lang';
 
-const Footer = () => {
+const Footer = ({ currentLanguage }) => {
   return (
     <footer className={css.footer}>
       <p className={css.callToAction}>
-        {langArr.footer.ua}
+        {currentLanguage === 'ua' ? langArr.footer.ua : langArr.footer.en}
         <span className={css.hand}>
           <FaRegHandPointRight />
         </span>
@@ -18,7 +18,7 @@ const Footer = () => {
           </a>
         </li>
         <li className={css.contactItem}>
-          <a href="tel:+610383766284" target="blank">
+          <a href="tel:+380996434033" target="blank">
             +380 99 64 34 033
           </a>
         </li>

@@ -3,11 +3,11 @@ import Footer from '../../components/Footer/Footer';
 import css from './Write.module.css';
 import articleArr from '../../articles';
 
-const Write = () => {
+const Write = ({ currentLanguage }) => {
   return (
     <>
       <div className={css.section}>
-        <Header />
+        <Header currentLanguage={currentLanguage} />
         <div className={css.container}>
           <ul className={css.content}>
             <li className={css.contentItem}>{articleArr.name1.ua}</li>
@@ -53,7 +53,7 @@ const Write = () => {
           </article>
         </div>
       </div>
-      <Footer />
+      <Footer currentLanguage={currentLanguage} />
     </>
   );
 };
