@@ -1,6 +1,7 @@
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import css from './Write.module.css';
+import articleArr from '../../articles';
 
 const Write = () => {
   return (
@@ -8,10 +9,21 @@ const Write = () => {
       <div className={css.section}>
         <Header />
         <div className={css.container}>
-          <ul className={css.contents}>
-            <li>mfvkfmkv</li>
-            <li>mfvkfmkv</li>
-            <li>mfvkfmkv</li>
+          <ul className={css.content}>
+            <li className={css.contentItem}>{articleArr.name1.ua}</li>
+            <li className={css.contentItem}>{articleArr.name2.ua}</li>
+            <li className={css.contentItem}>{articleArr.name3.ua}</li>
+            <li className={css.contentItem}>{articleArr.name4.ua}</li>
+            <li className={css.contentItem}>{articleArr.name5.ua}</li>
+            <li className={css.contentItem}>{articleArr.name6.ua}</li>
+            <li className={css.contentItem}>{articleArr.name7.ua}</li>
+            <li className={css.contentItem}>{articleArr.name8.ua}</li>
+            <li className={css.contentItem}>{articleArr.name9.ua}</li>
+            <li className={css.contentItem}>{articleArr.name10.ua}</li>
+            <li className={css.contentItem}>{articleArr.name11.ua}</li>
+            <li className={css.contentItem}>{articleArr.name12.ua}</li>
+            <li className={css.contentItem}>{articleArr.name13.ua}</li>
+            <li className={css.contentItem}>{articleArr.name14.ua}</li>
           </ul>
           <article className={css.article}>
             <p>

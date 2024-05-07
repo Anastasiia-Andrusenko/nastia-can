@@ -1,0 +1,68 @@
+.section {
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  margin: 90px auto;
+  width: 80vw;
+  padding: 20px;
+  /* outline: 1px solid pink; */
+}
+
+.skills {
+  margin: 0;
+  padding: 16px;
+  border-radius: 6px;
+  width: 15vw;
+  max-height: 60vh;
+  overflow-y: scroll;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.title {
+  position: absolute;
+  z-index: 10;
+  top: -20px;
+  left: 11.5vw;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.titleWork {
+  position: absolute;
+  z-index: 10;
+  top: -20px;
+  right: 24vw;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.skill {
+  padding: 10px;
+  font-size: 20px;
+  /* transition: all 200ms linear; */
+}
+
+.works {
+  margin: 0;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 16px;
+  width: 40vw;
+  height: 60vh;
+  font-size: 20px;
+  overflow-y: scroll;
+  /* outline: 1px solid green; */
+}
