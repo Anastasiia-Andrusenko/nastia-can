@@ -17,6 +17,18 @@ const langArr = {
     en: ['write', 'draw', 'code', 'photo'],
     ua: ['писати', 'малювати', 'кодити', 'фотографувати'],
   },
+  noPage: {
+    en: 'Page not found:',
+    ua: 'Сторінка не знайдена',
+  },
+  goHome: {
+    en: 'To Home page',
+    ua: 'На головну сторінку',
+  },
+  footer: {
+    en: 'contact me in a convenient way',
+    ua: 'звяжися зі мною зручним способом',
+  },
 };
 
 export default langArr;

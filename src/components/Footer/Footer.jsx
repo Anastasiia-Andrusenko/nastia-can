@@ -1,11 +1,12 @@
 import css from './Footer.module.css';
 import { FaRegHandPointRight } from 'react-icons/fa6';
+import langArr from '../../lang';
 
 const Footer = () => {
   return (
     <footer className={css.footer}>
       <p className={css.callToAction}>
-        зв'яжися зі мною зручним способом способом
+        {langArr.footer.ua}
         <span className={css.hand}>
           <FaRegHandPointRight />
         </span>
