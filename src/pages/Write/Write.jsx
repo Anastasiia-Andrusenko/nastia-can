@@ -1,7 +1,7 @@
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import css from './Write.module.css';
-import articleArr from '../../articles';
+// import articleArr from '../../articles';
 
 const Write = ({ currentLanguage }) => {
   return (
