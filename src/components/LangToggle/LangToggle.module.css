@@ -5,6 +5,10 @@
   /* outline: 1px solid black; */
   position: absolute;
   right: 20px;
+
+  @media screen and (min-width: 860px) {
+    position: static;
+  }
 }
 
 .text {

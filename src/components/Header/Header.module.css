@@ -1,29 +1,67 @@
 .header {
   position: relative;
   display: flex;
-  width: 90%;
   padding: 10px 100px;
   display: flex;
   align-items: center;
   gap: 5vw;
   border-bottom: dotted 2px rgba(0, 0, 0, 0.2);
+
+  @media screen and (max-width: 520px) {
+    padding: 15px;
+    border-bottom: dotted 2px rgba(0, 0, 0, 0.2);
+  }
+
+  @media screen and (min-width: 860px) {
+    padding: 10px 40px;
+  }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1400px;
+  margin: auto;
+
+  @media screen and (min-width: 860px) {
+    width: 1400px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
 }
 
 .text {
-  display: inline;
-  margin: 0;
+  width: fit-content;
+  text-align: center;
+  margin: 60px auto 0 auto;
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 600;
+
+  @media screen and (min-width: 521px) {
+    margin-top: 20px;
+  }
+
+  @media screen and (min-width: 860px) {
+    margin-top: 10px;
+    margin-left: 40px;
+  }
 }
 
 .likeList {
   margin: 0;
+  margin-top: 20px;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 20px;
+
+  @media screen and (min-width: 860px) {
+    margin: 0;
+  }
 }
 
 .likeItem {
@@ -54,14 +92,19 @@
 }
 
 .homeIcon {
-  display: inline;
-  vertical-align: text-bottom;
-  margin-right: 2vw;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  padding: 0;
+}
+
+.iconHouse {
+  font-size: 30px;
 }
 
 .icon {
   margin-right: 8px;
-  font-size: 1.2dvw;
+  font-size: 20px;
   vertical-align: middle;
   transition: transform 200ms linear;
 }

@@ -9,7 +9,7 @@ const Write = ({ currentLanguage }) => {
       <div className={css.section}>
         <Header currentLanguage={currentLanguage} />
         <div className={css.container}>
-          <ul className={css.content}>
+          {/* <ul className={css.content}>
             <li className={css.contentItem}>{articleArr.name1.ua}</li>
             <li className={css.contentItem}>{articleArr.name2.ua}</li>
             <li className={css.contentItem}>{articleArr.name3.ua}</li>
@@ -50,7 +50,7 @@ const Write = ({ currentLanguage }) => {
               publishing software like Aldus PageMaker including versions of
               Lorem Ipsum.
             </p>
-          </article>
+          </article> */}
         </div>
       </div>
       <Footer currentLanguage={currentLanguage} />
