@@ -4,24 +4,33 @@
 
 .container {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
   max-width: 1400px;
-  margin: 90px auto;
+  margin: auto;
   padding: 20px;
+
+  @media screen and (min-width: 1000px) {
+    margin-top: 3vw;
+  }
   /* outline: 1px solid pink; */
 }
 
 .content {
   list-style: none;
-  margin: 0;
-  border: 2px solid black;
+  margin: auto;
+  max-width: 360px;
+  height: 80vh;
+  border: 2px solid rgba(0, 0, 0, 0.4);
   border-radius: 6px;
-  width: 20vw;
-  max-height: 60vh;
   overflow-y: scroll;
   padding: 16px;
   text-align: center;
   /* outline: 1px solid red; */
+
+  @media screen and (min-width: 860px) {
+    height: 70vh;
+  }
 }
 
 .contentItem {
@@ -40,13 +49,18 @@
 }
 
 .article {
-  margin: 0;
-  border: 2px solid black;
+  text-align: center;
+  margin: auto;
+  width: 360px;
+  height: 80vh;
+  border: 2px solid rgba(0, 0, 0, 0.4);
   border-radius: 6px;
   padding: 16px;
-  width: 40vw;
-  height: 60vh;
   font-size: 20px;
   overflow-y: scroll;
-  /* outline: 1px solid green; */
+
+  @media screen and (min-width: 860px) {
+    width: 40vw;
+    height: 70vh;
+  }
 }

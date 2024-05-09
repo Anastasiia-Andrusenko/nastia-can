@@ -1,56 +1,157 @@
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import css from './Write.module.css';
-// import articleArr from '../../articles';
+import articleArr from '../../articles';
+import React, { useState } from 'react';
 
 const Write = ({ currentLanguage }) => {
+  const [selectedText, setSelectedText] = useState('');
+  const getArticleNumber = () => {
+    const numberOfArticle = localStorage.getItem('number of item') || 0;
+    // console.log(numberOfArticle);
+    return numberOfArticle;
+  };
+
+  const setItemNumber = number => {
+    localStorage.setItem('number of item', number);
+  };
+
+  const getArticle = () => {
+    const articleNumber = parseInt(getArticleNumber());
+    const text =
+      articleArr[`text${articleNumber}`]?.ua || 'oops, article not ready yet';
+    setSelectedText(text);
+  };
+
+  const handleClickOnList = e => {
+    const selectedItem = e.target.value;
+    setItemNumber(selectedItem);
+    getArticle();
+  };
+
   return (
     <>
       <div className={css.section}>
         <Header currentLanguage={currentLanguage} />
         <div className={css.container}>
-          {/* <ul className={css.content}>
-            <li className={css.contentItem}>{articleArr.name1.ua}</li>
-            <li className={css.contentItem}>{articleArr.name2.ua}</li>
-            <li className={css.contentItem}>{articleArr.name3.ua}</li>
-            <li className={css.contentItem}>{articleArr.name4.ua}</li>
-            <li className={css.contentItem}>{articleArr.name5.ua}</li>
-            <li className={css.contentItem}>{articleArr.name6.ua}</li>
-            <li className={css.contentItem}>{articleArr.name7.ua}</li>
-            <li className={css.contentItem}>{articleArr.name8.ua}</li>
-            <li className={css.contentItem}>{articleArr.name9.ua}</li>
-            <li className={css.contentItem}>{articleArr.name10.ua}</li>
-            <li className={css.contentItem}>{articleArr.name11.ua}</li>
-            <li className={css.contentItem}>{articleArr.name12.ua}</li>
-            <li className={css.contentItem}>{articleArr.name13.ua}</li>
-            <li className={css.contentItem}>{articleArr.name14.ua}</li>
-          </ul>
+          <ol className={css.content} type="1">
+            <li
+              className={css.contentItem}
+              value="1"
+              onClick={handleClickOnList}
+            >
+              {articleArr.name1.ua}
+            </li>
+            <li
+              className={css.contentItem}
+              value="2"
+              onClick={handleClickOnList}
+            >
+              {articleArr.name2.ua}
+            </li>
+            <li
+              className={css.contentItem}
+              value="3"
+              onClick={handleClickOnList}
+            >
+              {articleArr.name3.ua}
+            </li>
+            <li
+              className={css.contentItem}
+              value="4"
+              onClick={handleClickOnList}
+            >
+              {articleArr.name4.ua}
+            </li>
+            <li
+              className={css.contentItem}
+              value="5"
+              onClick={handleClickOnList}
+            >
+              {articleArr.name5.ua}
+            </li>
+            <li
+              className={css.contentItem}
+              value="6"
+              onClick={handleClickOnList}
+            >
+              {articleArr.name6.ua}
+            </li>
+            <li
+              className={css.contentItem}
+              value="7"
+              onClick={handleClickOnList}
+            >
+              {articleArr.name7.ua}
+            </li>
+            <li
+              className={css.contentItem}
+              value="15"
+              onClick={handleClickOnList}
+            >
+              {articleArr.name15.ua}
+            </li>
+            <li
+              className={css.contentItem}
+              value="8"
+              onClick={handleClickOnList}
+            >
+              {articleArr.name8.ua}
+            </li>
+            <li
+              className={css.contentItem}
+              value="9"
+              onClick={handleClickOnList}
+            >
+              {articleArr.name9.ua}
+            </li>
+            <li
+              className={css.contentItem}
+              value="10"
+              onClick={handleClickOnList}
+            >
+              {articleArr.name10.ua}
+            </li>
+            <li
+              className={css.contentItem}
+              value="11"
+              onClick={handleClickOnList}
+            >
+              {articleArr.name11.ua}
+            </li>
+            <li
+              className={css.contentItem}
+              value="12"
+              onClick={handleClickOnList}
+            >
+              {articleArr.name12.ua}
+            </li>
+            <li
+              className={css.contentItem}
+              value="13"
+              onClick={handleClickOnList}
+            >
+              {articleArr.name13.ua}
+            </li>
+            <li
+              className={css.contentItem}
+              value="14"
+              onClick={handleClickOnList}
+            >
+              {articleArr.name14.ua}
+            </li>
+          </ol>
           <article className={css.article}>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
-            </p>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
-            </p>
-          </article> */}
+            {/* Replacing `\n` with <br /> */}
+            {selectedText === ''
+              ? 'click on the item'
+              : selectedText.split('\n').map((line, index) => (
+                  <React.Fragment key={index}>
+                    {line}
+                    <br />
+                  </React.Fragment>
+                ))}
+          </article>
         </div>
       </div>
       <Footer currentLanguage={currentLanguage} />
