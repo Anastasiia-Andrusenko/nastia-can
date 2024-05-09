@@ -1,31 +1,41 @@
 .likeList {
   list-style: none;
+
+  @media screen and (max-width: 520px) {
+    flex-direction: column;
+  }
+
+  @media screen and (max-width: 1199px) {
+    display: flex;
+  }
 }
 
 .likeItem {
-  width: fit-content;
   padding: 10px;
   margin-bottom: 14px;
-  font-size: 1.3dvw;
   transform: scale(0.9);
   transition: all 200ms linear;
   /* outline: 1px solid blue; */
+
+  @media screen and (max-width: 520px) {
+    text-align: center;
+  }
 }
 
 .link {
-  font-size: 1.5dvw;
+  padding: 6px;
+  font-size: 28px;
+  line-height: 130%;
+  vertical-align: baseline;
+  transition: border 200ms linear;
 }
 
 .likeItem:hover {
   transform: scale(1);
 }
 
-.likeItem:hover .icon {
-  color: black;
-  margin: 0 10px 0 0;
-  padding: 0;
-  vertical-align: text-top;
-  transform: scale(1);
+.likeItem:hover .link {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
 }
 
 .current {
@@ -34,8 +44,23 @@
 }
 
 .icon {
+  vertical-align: text-bottom;
+  padding: 0;
+  margin: 0 10px 0 0;
   color: rgba(0, 0, 0, 0);
-  transform: scale(0);
+  transform: scale(0.1);
   transition: color 200ms linear;
   transition: transform 200ms linear;
+
+  @media screen and (max-width: 520px) {
+    color: black;
+    vertical-align: text-top;
+    transform: scale(1);
+  }
+}
+
+.likeItem:hover .icon {
+  color: black;
+  vertical-align: text-top;
+  transform: scale(1);
 }

@@ -2,35 +2,38 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: fit-content;
   /* outline: 1px solid black; */
   position: absolute;
-  right: 10vw;
+  right: 20px;
 }
 
 .text {
-  font-size: 1.3dvw;
+  font-size: 20px;
   padding: 0 6px;
 }
 
 .noText {
-  font-size: 1.3dvw;
+  font-size: 24px;
   padding: 0 6px;
   color: rgba(0, 0, 0, 0);
 }
 
 .lang {
+  display: block;
   border: none;
   background: none;
   font-family: inherit;
-  font-size: 1.3dvw;
+  font-size: 24px;
 
-  padding: 6px;
+  padding: 2px 4px;
   transform: scale(0.9);
+  transition: border 200ms linear;
+  transition: transform 200ms linear;
 }
 
 .lang:hover {
   font-weight: 900;
   cursor: pointer;
   transform: scale(1);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
 }
