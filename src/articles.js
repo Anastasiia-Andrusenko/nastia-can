@@ -6,18 +6,11 @@ const articleArr = {
   text1: {
     en: `Someday I will be a Christmas ball.\n
     I will lie in the dark for a whole year and see only the holiday and snow.\n
-    But for now we are all here. We courageously endure the distances, arrivals
-    and deaths, but we roar until we enter when the shell falls into the scrambled
-    eggs. We accumulate messages in news telegram channels. We are planning
-    vacations with the note "lets see." We wake up tired. We count the losses.
-    We want revenge. We try to be strong. We buy vitamins. Ignore the sirens.
-    We hide our fists in our pockets. We do not hold back tears. Lets save light. 
-    We are wasting our nerves.\n
+    But for now we are all here. We courageously endure the distances,
+    arrivals and deaths, but we roar until we enter when the shell falls into the scrambled eggs.
+    We accumulate messages in news telegram channels. We are planning vacations with the note "lets see." We wake up tired. We count the losses. We want revenge. We try to be strong. We buy vitamins. Ignore the sirens. We hide our fists in our pockets. We do not hold back tears. We are saving light. We are wasting our nerves.\n
     And I want to write myself an obituary. Tell about your happy childhood,
-    about the difficult 10 years of the war. About how I turned 29 on the 29th, and
-    I stopped dreaming. Admit that you got high from Miley Cyrus, who can buy
-    herself flowers. I want to briefly tell the story of my long life and love.
-    Tell me how I had two Jack Russell Terriers and a huge white pickup truck.
+    about the difficult 10 years of the war. About how I turned 29 on the 29th, and I stopped dreaming. Admit that you got high from Miley Cyrus, who can buy herself flowers. I want to briefly tell the story of my long life and love. Tell me how I had two Jack Russell Terriers and a huge white pickup truck.
     How in her old age she won poker and went on a cruise.\n
     I will tell you how I once became a Christmas ball. But for now we are all here.`,
     ua: `Колись я стану різдвяною кулькою.\n
@@ -93,7 +86,7 @@ const articleArr = {
     «Обережно, оголені люди»`,
   },
   name3: {
-    en: '',
+    en: 'I planned the 10th of May in advance',
     ua: 'Десяте травня я планувала заздалегідь',
   },
   text3: {

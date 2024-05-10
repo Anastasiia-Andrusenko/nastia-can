@@ -4,9 +4,11 @@ import css from './Write.module.css';
 import articleArr from '../../articles';
 import React, { useEffect, useState } from 'react';
 import { animateScroll as scroll, scrollSpy } from 'react-scroll';
+import langArr from '../../lang';
 
 const Write = ({ currentLanguage }) => {
   const [selectedText, setSelectedText] = useState('');
+
   useEffect(() => {
     scrollSpy.update();
   });
@@ -29,7 +31,7 @@ const Write = ({ currentLanguage }) => {
     const articleNumber = parseInt(getArticleNumber());
     const text =
       articleArr[`text${articleNumber}`]?.[currentLanguage] ||
-      'oops, article not ready yet';
+      langArr.oops?.[currentLanguage];
     setSelectedText(text);
   };
 
@@ -46,41 +48,53 @@ const Write = ({ currentLanguage }) => {
         <Header currentLanguage={currentLanguage} />
         <div className={css.container}>
           <ol className={css.content} type="1">
-            <li
-              onClick={handleClickOnList}
-              className={css.contentItem}
-              value="1"
-            >
-              {currentLanguage === 'ua'
-                ? articleArr.name1.ua
-                : articleArr.name1.en}
+            <li>
+              <button
+                type="button"
+                className={css.contentItem}
+                onClick={handleClickOnList}
+                value="1"
+              >
+                {currentLanguage === 'ua'
+                  ? articleArr.name1.ua
+                  : articleArr.name1.en}
+              </button>
             </li>
-            <li
-              className={css.contentItem}
-              value="2"
-              onClick={handleClickOnList}
-            >
-              {currentLanguage === 'ua'
-                ? articleArr.name2.ua
-                : articleArr.name2.en}
+            <li>
+              <button
+                type="button"
+                className={css.contentItem}
+                onClick={handleClickOnList}
+                value="2"
+              >
+                {currentLanguage === 'ua'
+                  ? articleArr.name2.ua
+                  : articleArr.name2.en}
+              </button>
             </li>
-            <li
-              className={css.contentItem}
-              value="3"
-              onClick={handleClickOnList}
-            >
-              {currentLanguage === 'ua'
-                ? articleArr.name3.ua
-                : articleArr.name3.en}
+            <li>
+              <button
+                type="button"
+                className={css.contentItem}
+                onClick={handleClickOnList}
+                value="3"
+              >
+                {currentLanguage === 'ua'
+                  ? articleArr.name3.ua
+                  : articleArr.name3.en}
+              </button>
             </li>
-            <li
-              className={css.contentItem}
-              value="4"
-              onClick={handleClickOnList}
-            >
-              {currentLanguage === 'ua'
-                ? articleArr.name4.ua
-                : articleArr.name4.en}
+            <li>
+              <button
+                type="button"
+                className={css.contentItem}
+                onClick={handleClickOnList}
+                value="4"
+              >
+                {currentLanguage === 'ua'
+                  ? articleArr.name4.ua
+                  : articleArr.name4.en}
+              </button>
             </li>
             <li
               className={css.contentItem}
@@ -161,9 +175,11 @@ const Write = ({ currentLanguage }) => {
             </li>
           </ol>
           <article className={css.article} name="article">
-            {/* Replacing `\n` with <br /> */}
+            {/* <div className={css.loader}></div> */}
             {selectedText === ''
-              ? 'click on the item'
+              ? currentLanguage === 'ua'
+                ? langArr.click.ua
+                : langArr.click.en
               : selectedText.split('\n').map((line, index) => (
                   <React.Fragment key={index}>
                     {line}

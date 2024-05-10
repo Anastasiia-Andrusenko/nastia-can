@@ -33,6 +33,22 @@ const langArr = {
     en: 'Look what Nastia can do',
     ua: 'Дивись, як Настя вміє',
   },
+  codeTeh: {
+    en: 'know it',
+    ua: 'знаю це',
+  },
+  codePortfolio: {
+    en: 'my works',
+    ua: 'мої роботи',
+  },
+  click: {
+    en: 'click on the item',
+    ua: 'тицяй на назву',
+  },
+  oops: {
+    en: 'oops, something went wrong',
+    ua: 'трясця, щось пішло не так',
+  },
 };
 
 export default langArr;
