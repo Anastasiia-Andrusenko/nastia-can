@@ -2,7 +2,7 @@ import css from './App.module.css';
 import NotFoundPage from '../pages/NotFoundPage/NotFoundPage';
 
 import { Route, Routes } from 'react-router-dom';
-import { lazy } from 'react';
+import { Suspense, lazy } from 'react';
 
 const HomePage = lazy(() => import('../pages/Home/Home'));
 const WritePage = lazy(() => import('../pages/Write/Write'));
@@ -20,26 +20,32 @@ export const App = () => {
 
   return (
     <div className={css.container}>
-      <Routes>
-        <Route index element={<HomePage currentLanguage={currentLanguage} />} />
-        <Route
-          path="/write"
-          element={<WritePage currentLanguage={currentLanguage} />}
-        />
-        <Route
-          path="/draw"
-          element={<DrawPage currentLanguage={currentLanguage} />}
-        />
-        <Route
-          path="/code"
-          element={<CodePage currentLanguage={currentLanguage} />}
-        />
-        <Route
-          path="/photo"
-          element={<PhotoPage currentLanguage={currentLanguage} />}
-        />
-        <Route path="*" element={<NotFoundPage />} />
-      </Routes>
+      <Suspense fallback={<div className={css.loader}></div>}>
+        <Routes>
+          <Route
+            index
+            path="/"
+            element={<HomePage currentLanguage={currentLanguage} />}
+          />
+          <Route
+            path="/write"
+            element={<WritePage currentLanguage={currentLanguage} />}
+          />
+          <Route
+            path="/draw"
+            element={<DrawPage currentLanguage={currentLanguage} />}
+          />
+          <Route
+            path="/code"
+            element={<CodePage currentLanguage={currentLanguage} />}
+          />
+          <Route
+            path="/photo"
+            element={<PhotoPage currentLanguage={currentLanguage} />}
+          />
+          <Route path="*" element={<NotFoundPage />} />
+        </Routes>
+      </Suspense>
     </div>
   );
 };

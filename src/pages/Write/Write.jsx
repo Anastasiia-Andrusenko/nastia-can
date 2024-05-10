@@ -2,10 +2,19 @@ import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import css from './Write.module.css';
 import articleArr from '../../articles';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { animateScroll as scroll, scrollSpy } from 'react-scroll';
 
 const Write = ({ currentLanguage }) => {
   const [selectedText, setSelectedText] = useState('');
+  useEffect(() => {
+    scrollSpy.update();
+  });
+
+  const scrollTo = () => {
+    scroll.scrollTo(950);
+  };
+
   const getArticleNumber = () => {
     const numberOfArticle = localStorage.getItem('number of item') || 0;
     // console.log(numberOfArticle);
@@ -19,7 +28,8 @@ const Write = ({ currentLanguage }) => {
   const getArticle = () => {
     const articleNumber = parseInt(getArticleNumber());
     const text =
-      articleArr[`text${articleNumber}`]?.ua || 'oops, article not ready yet';
+      articleArr[`text${articleNumber}`]?.[currentLanguage] ||
+      'oops, article not ready yet';
     setSelectedText(text);
   };
 
@@ -27,6 +37,7 @@ const Write = ({ currentLanguage }) => {
     const selectedItem = e.target.value;
     setItemNumber(selectedItem);
     getArticle();
+    scrollTo();
   };
 
   return (
@@ -36,32 +47,40 @@ const Write = ({ currentLanguage }) => {
         <div className={css.container}>
           <ol className={css.content} type="1">
             <li
+              onClick={handleClickOnList}
               className={css.contentItem}
               value="1"
-              onClick={handleClickOnList}
             >
-              {articleArr.name1.ua}
+              {currentLanguage === 'ua'
+                ? articleArr.name1.ua
+                : articleArr.name1.en}
             </li>
             <li
               className={css.contentItem}
               value="2"
               onClick={handleClickOnList}
             >
-              {articleArr.name2.ua}
+              {currentLanguage === 'ua'
+                ? articleArr.name2.ua
+                : articleArr.name2.en}
             </li>
             <li
               className={css.contentItem}
               value="3"
               onClick={handleClickOnList}
             >
-              {articleArr.name3.ua}
+              {currentLanguage === 'ua'
+                ? articleArr.name3.ua
+                : articleArr.name3.en}
             </li>
             <li
               className={css.contentItem}
               value="4"
               onClick={handleClickOnList}
             >
-              {articleArr.name4.ua}
+              {currentLanguage === 'ua'
+                ? articleArr.name4.ua
+                : articleArr.name4.en}
             </li>
             <li
               className={css.contentItem}
@@ -141,7 +160,7 @@ const Write = ({ currentLanguage }) => {
               {articleArr.name14.ua}
             </li>
           </ol>
-          <article className={css.article}>
+          <article className={css.article} name="article">
             {/* Replacing `\n` with <br /> */}
             {selectedText === ''
               ? 'click on the item'

@@ -4,7 +4,22 @@ const articleArr = {
     ua: 'Різдвяна кулька',
   },
   text1: {
-    en: `Someday I will be a Christmas ball. I will lie in the dark for a whole year and see only the holiday and snow. But for now we are all here. We courageously endure the distances, arrivals and deaths, but we roar until we enter when the shell falls into the scrambled eggs. We accumulate messages in news telegram channels. We are planning vacations with the note "lets see." We wake up tired. We count the losses. We want revenge. We try to be strong. We buy vitamins. Ignore the sirens. We hide our fists in our pockets. We do not hold back tears. Lets save light. We are wasting our nerves.And I want to write myself an obituary. Tell about your happy childhood, about the difficult 10 years of the war. About how I turned 29 on the 29th, and I stopped dreaming. Admit that you got high from Miley Cyrus, who can buy herself flowers. I want to briefly tell the story of my long life and love. Tell me how I had two Jack Russell Terriers and a huge white pickup truck. How in her old age she won poker and went on a cruise. I will tell you how I once became a Christmas ball. But for now we are all here.`,
+    en: `Someday I will be a Christmas ball.\n
+    I will lie in the dark for a whole year and see only the holiday and snow.\n
+    But for now we are all here. We courageously endure the distances, arrivals
+    and deaths, but we roar until we enter when the shell falls into the scrambled
+    eggs. We accumulate messages in news telegram channels. We are planning
+    vacations with the note "lets see." We wake up tired. We count the losses.
+    We want revenge. We try to be strong. We buy vitamins. Ignore the sirens.
+    We hide our fists in our pockets. We do not hold back tears. Lets save light. 
+    We are wasting our nerves.\n
+    And I want to write myself an obituary. Tell about your happy childhood,
+    about the difficult 10 years of the war. About how I turned 29 on the 29th, and
+    I stopped dreaming. Admit that you got high from Miley Cyrus, who can buy
+    herself flowers. I want to briefly tell the story of my long life and love.
+    Tell me how I had two Jack Russell Terriers and a huge white pickup truck.
+    How in her old age she won poker and went on a cruise.\n
+    I will tell you how I once became a Christmas ball. But for now we are all here.`,
     ua: `Колись я стану різдвяною кулькою.\n
     \n
     Лежатиму в темряві цілий рік і бачитиму тільки свято та сніг.\n
@@ -30,7 +45,29 @@ const articleArr = {
     ua: 'Обережно, оголена людина.',
   },
   text2: {
-    en: '',
+    en: `I first met her on the bridge near the railway station.\n
+     Snow was falling from the sky to the ground, and she was standing between them.
+     She was not aware of her nakedness and refused help.\n
+     After talking with her, I realized that her things and youth remained in
+     soft sign of Donetsk. Forever. She was dreamy enough to
+      be happy. And in order to warm herself, it was enough to inhale the smell of coal,
+     which came from track 11, on which the old train approached.\n
+     I met her for the second time in the summer after several years. She picked tomatoes
+     in Silpo and was exposed just like that. This time she was ashamed of her nakedness
+     and did not let people near her. Every extraneous touch killed her with a stream of memories.
+     She had so much nothing that she was drowning in her wealth.
+     The drowning woman pulled herself by the hair, grabbed at sad songs and grew muscles.\n
+     One autumn, I turned to the sound, only a naked person is able to rustle leaves like that.
+     It was her. She walked the streets and flaunted her nakedness. met
+     with many people, but went to the cinema alone. Laughed to sad songs, danced
+     to pain in the muscles. She was polite and greeted too much. The smile was very befitting of her nakedness.\n
+     Time passed, no one noticed her nakedness.\n
+     And she herself forgot the smell of the old railway.\n
+     And then the sirens went off all over the country and everyone lost something. Someone peace, someone home,
+     and some family.\n
+     \n
+     When I crossed the border, at the entrance to Ukraine, I saw the missing inscription \n
+     "Caution, naked people"`,
     ua: `Вперше я зустріла її на мосту біля залізничого вокзалу.\n
     Сніг спускався з неба на землю, а вона стояла між ними.
     Вона не усвідомлювала своєї оголеності та відмовлялася від допомоги.\n
@@ -64,8 +101,8 @@ const articleArr = {
     ua: '',
   },
   name4: {
-    en: '',
-    ua: '79 лет в коридоре',
+    en: '79 in the hallway',
+    ua: '79 в коридорі',
   },
   text4: {
     en: '',

@@ -6,9 +6,9 @@
   position: absolute;
   right: 20px;
 
-  @media screen and (min-width: 860px) {
-    position: static;
-  }
+  /* @media screen and (min-width: 860px) { */
+  /* position: static; */
+  /* } */
 }
 
 .text {
