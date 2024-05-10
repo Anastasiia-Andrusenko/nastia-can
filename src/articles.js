@@ -43,23 +43,14 @@ const articleArr = {
      She was not aware of her nakedness and refused help.\n
      After talking with her, I realized that her things and youth remained in
      soft sign of Donetsk. Forever. She was dreamy enough to
-      be happy. And in order to warm herself, it was enough to inhale the smell of coal,
-     which came from track 11, on which the old train approached.\n
-     I met her for the second time in the summer after several years. She picked tomatoes
-     in Silpo and was exposed just like that. This time she was ashamed of her nakedness
-     and did not let people near her. Every extraneous touch killed her with a stream of memories.
-     She had so much nothing that she was drowning in her wealth.
-     The drowning woman pulled herself by the hair, grabbed at sad songs and grew muscles.\n
-     One autumn, I turned to the sound, only a naked person is able to rustle leaves like that.
-     It was her. She walked the streets and flaunted her nakedness. met
-     with many people, but went to the cinema alone. Laughed to sad songs, danced
-     to pain in the muscles. She was polite and greeted too much. The smile was very befitting of her nakedness.\n
-     Time passed, no one noticed her nakedness.\n
-     And she herself forgot the smell of the old railway.\n
-     And then the sirens went off all over the country and everyone lost something. Someone peace, someone home,
-     and some family.\n
+      be happy. And in order to warm herself, it was enough to inhale the smell of coal, which came from track 11, on which the old train approached.\n
+     I met her for the second time in the summer after several years. She picked tomatoes in Silpo and was exposed just like that. This time she was ashamed of her nakedness and did not let people near her. Every extraneous touch killed her with a stream of memories. She had so much nothing that she was drowning in her wealth. The drowning she pulled herself by the hair, grabbed at sad songs and grew muscles.\n
+     One autumn, I turned to the sound, only a naked person is able to rustle leaves like that. It was her. She walked the streets and flaunted her nakedness. met with many people, but went to the cinema alone. Laughed to sad songs, danced to pain in the muscles. She was polite and greeted too much. The smile was very befitting of her nakedness.\n
+     Time passed, no one noticed her nakedness.
+     And she herself forgot the smell of the old railway.
+     And then the sirens went off all over the country and everyone lost something. Someone peace, someone home, and some family.\n
      \n
-     When I crossed the border, at the entrance to Ukraine, I saw the missing inscription \n
+     When I crossed the border, at the entrance to Ukraine, I saw the missing inscription:
      "Caution, naked people"`,
     ua: `Вперше я зустріла її на мосту біля залізничого вокзалу.\n
     Сніг спускався з неба на землю, а вона стояла між ними.
@@ -102,7 +93,7 @@ const articleArr = {
     ua: '',
   },
   name5: {
-    en: '',
+    en: 'Do you remember?',
     ua: 'А памʼятаєш?',
   },
   text5: {
@@ -110,15 +101,15 @@ const articleArr = {
     ua: '',
   },
   name6: {
-    en: '',
-    ua: 'Массовые мероприятия',
+    en: 'Mass events',
+    ua: 'Масові заходи',
   },
   text6: {
     en: '',
     ua: '',
   },
   name7: {
-    en: '',
+    en: 'Notes on the phone',
     ua: 'Нотатки на телефоні',
   },
   text7: {
@@ -126,7 +117,7 @@ const articleArr = {
     ua: '',
   },
   name15: {
-    en: '',
+    en: 'Ireland',
     ua: 'Ірландія',
   },
   text15: {
@@ -134,15 +125,15 @@ const articleArr = {
     ua: ``,
   },
   name8: {
-    en: '',
-    ua: 'Яйца пашот или всмятку?',
+    en: 'Poached or soft-boiled eggs?',
+    ua: 'Яйця пашот чи некруто?',
   },
   text8: {
     en: '',
     ua: '',
   },
   name9: {
-    en: '',
+    en: 'A special day',
     ua: 'Особливий день',
   },
   text9: {
@@ -150,23 +141,23 @@ const articleArr = {
     ua: '',
   },
   name10: {
-    en: '',
-    ua: 'Предвыборная кампания',
+    en: 'Election campaign',
+    ua: 'Передвиборча кампанія',
   },
   text10: {
     en: '',
     ua: '',
   },
   name11: {
-    en: '',
-    ua: 'Роза Донбасса',
+    en: 'Rose of Donbass',
+    ua: 'Троянда Донбасу',
   },
   text11: {
     en: '',
     ua: '',
   },
   name12: {
-    en: '',
+    en: 'Yesterday I caught a cockroach',
     ua: 'Вчора спіймала таргана',
   },
   text12: {
@@ -174,7 +165,7 @@ const articleArr = {
     ua: '',
   },
   name13: {
-    en: '',
+    en: `You just can't`,
     ua: 'Не можна просто',
   },
   text13: {
@@ -182,7 +173,7 @@ const articleArr = {
     ua: '',
   },
   name14: {
-    en: '',
+    en: 'Sadember',
     ua: 'Сумопад',
   },
   text14: {

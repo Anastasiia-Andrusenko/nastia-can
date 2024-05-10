@@ -96,82 +96,137 @@ const Write = ({ currentLanguage }) => {
                   : articleArr.name4.en}
               </button>
             </li>
-            <li
-              className={css.contentItem}
-              value="5"
-              onClick={handleClickOnList}
-            >
-              {articleArr.name5.ua}
+            <li>
+              <button
+                type="button"
+                className={css.contentItem}
+                onClick={handleClickOnList}
+                value="5"
+              >
+                {currentLanguage === 'ua'
+                  ? articleArr.name5.ua
+                  : articleArr.name5.en}
+              </button>
             </li>
-            <li
-              className={css.contentItem}
-              value="6"
-              onClick={handleClickOnList}
-            >
-              {articleArr.name6.ua}
+            <li>
+              <button
+                type="button"
+                className={css.contentItem}
+                onClick={handleClickOnList}
+                value="6"
+              >
+                {currentLanguage === 'ua'
+                  ? articleArr.name6.ua
+                  : articleArr.name6.en}
+              </button>
             </li>
-            <li
-              className={css.contentItem}
-              value="7"
-              onClick={handleClickOnList}
-            >
-              {articleArr.name7.ua}
+            <li>
+              <button
+                type="button"
+                className={css.contentItem}
+                onClick={handleClickOnList}
+                value="7"
+              >
+                {currentLanguage === 'ua'
+                  ? articleArr.name7.ua
+                  : articleArr.name7.en}
+              </button>
             </li>
-            <li
-              className={css.contentItem}
-              value="15"
-              onClick={handleClickOnList}
-            >
-              {articleArr.name15.ua}
+            <li>
+              <button
+                type="button"
+                className={css.contentItem}
+                onClick={handleClickOnList}
+                value="15"
+              >
+                {currentLanguage === 'ua'
+                  ? articleArr.name15.ua
+                  : articleArr.name15.en}
+              </button>
             </li>
-            <li
-              className={css.contentItem}
-              value="8"
-              onClick={handleClickOnList}
-            >
-              {articleArr.name8.ua}
+            <li>
+              <button
+                type="button"
+                className={css.contentItem}
+                onClick={handleClickOnList}
+                value="8"
+              >
+                {currentLanguage === 'ua'
+                  ? articleArr.name8.ua
+                  : articleArr.name8.en}
+              </button>
             </li>
-            <li
-              className={css.contentItem}
-              value="9"
-              onClick={handleClickOnList}
-            >
-              {articleArr.name9.ua}
+            <li>
+              <button
+                type="button"
+                className={css.contentItem}
+                onClick={handleClickOnList}
+                value="9"
+              >
+                {currentLanguage === 'ua'
+                  ? articleArr.name9.ua
+                  : articleArr.name9.en}
+              </button>
             </li>
-            <li
-              className={css.contentItem}
-              value="10"
-              onClick={handleClickOnList}
-            >
-              {articleArr.name10.ua}
+            <li>
+              <button
+                type="button"
+                className={css.contentItem}
+                onClick={handleClickOnList}
+                value="10"
+              >
+                {currentLanguage === 'ua'
+                  ? articleArr.name10.ua
+                  : articleArr.name10.en}
+              </button>
             </li>
-            <li
-              className={css.contentItem}
-              value="11"
-              onClick={handleClickOnList}
-            >
-              {articleArr.name11.ua}
+            <li>
+              <button
+                type="button"
+                className={css.contentItem}
+                onClick={handleClickOnList}
+                value="11"
+              >
+                {currentLanguage === 'ua'
+                  ? articleArr.name11.ua
+                  : articleArr.name11.en}
+              </button>
             </li>
-            <li
-              className={css.contentItem}
-              value="12"
-              onClick={handleClickOnList}
-            >
-              {articleArr.name12.ua}
+            <li>
+              <button
+                type="button"
+                className={css.contentItem}
+                onClick={handleClickOnList}
+                value="12"
+              >
+                {currentLanguage === 'ua'
+                  ? articleArr.name12.ua
+                  : articleArr.name12.en}
+              </button>
             </li>
-            <li
-              className={css.contentItem}
-              value="13"
-              onClick={handleClickOnList}
-            >
-              {articleArr.name13.ua}
+            <li>
+              <button
+                type="button"
+                className={css.contentItem}
+                onClick={handleClickOnList}
+                value="13"
+              >
+                {currentLanguage === 'ua'
+                  ? articleArr.name13.ua
+                  : articleArr.name13.en}
+              </button>
             </li>
-            <li
-              className={css.contentItem}
-              value="14"
-              onClick={handleClickOnList}
-            >
-              {articleArr.name14.ua}
+            <li>
+              <button
+                type="button"
+                className={css.contentItem}
+                onClick={handleClickOnList}
+                value="14"
+              >
+                {currentLanguage === 'ua'
+                  ? articleArr.name14.ua
+                  : articleArr.name14.en}
+              </button>
             </li>
           </ol>
           <article className={css.article} name="article">

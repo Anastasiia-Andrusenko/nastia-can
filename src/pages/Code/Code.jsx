@@ -72,7 +72,53 @@ const Code = ({ currentLanguage }) => {
                 ? langArr.codePortfolio.ua
                 : langArr.codePortfolio.en}
             </h3>
-            <ul className={css.list}></ul>
+            <ul className={css.workList}>
+              <li className={css.workItem}>
+                <a
+                  href="https://anastasiia-andrusenko.github.io/goit-markup-hw-08/"
+                  target="blank"
+                  className={css.webStudio}
+                >
+                  WebStudio
+                </a>
+              </li>
+              <li className={css.workItem}>
+                <a
+                  href="https://anastasiia-andrusenko.github.io/project14__ice-cream/"
+                  target="blank"
+                  className={css.iceCream}
+                >
+                  Ice Cream Shop
+                </a>
+              </li>
+              <li className={css.workItem}>
+                <a
+                  href="https://anastasiia-andrusenko.github.io/goit-react-hw-05-movies/"
+                  target="blank"
+                  className={css.movies}
+                >
+                  Movieland
+                </a>
+              </li>
+              <li className={css.workItem}>
+                <a
+                  href="https://anastasiia-andrusenko.github.io/world-family/"
+                  target="blank"
+                  className={css.family}
+                >
+                  World Family
+                </a>
+              </li>
+              <li className={css.workItem}>
+                <a
+                  href="https://yourpet-nu.vercel.app/main"
+                  target="blank"
+                  className={css.pets}
+                >
+                  Your Pet
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
