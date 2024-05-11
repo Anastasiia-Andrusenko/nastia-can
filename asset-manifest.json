@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/nastia-can/static/css/main.6b290438.css",
-    "main.js": "/nastia-can/static/js/main.a6dd7e1e.js",
+    "main.js": "/nastia-can/static/js/main.5817d542.js",
     "static/css/91.aae5f585.chunk.css": "/nastia-can/static/css/91.aae5f585.chunk.css",
     "static/js/91.41a8e430.chunk.js": "/nastia-can/static/js/91.41a8e430.chunk.js",
     "static/css/176.68f44514.chunk.css": "/nastia-can/static/css/176.68f44514.chunk.css",
     "static/js/176.3a360c19.chunk.js": "/nastia-can/static/js/176.3a360c19.chunk.js",
     "static/css/95.226a5304.chunk.css": "/nastia-can/static/css/95.226a5304.chunk.css",
     "static/js/95.d8831fa8.chunk.js": "/nastia-can/static/js/95.d8831fa8.chunk.js",
-    "static/css/905.5de0ce27.chunk.css": "/nastia-can/static/css/905.5de0ce27.chunk.css",
+    "static/css/905.3f6b83e5.chunk.css": "/nastia-can/static/css/905.3f6b83e5.chunk.css",
     "static/js/905.25324ca9.chunk.js": "/nastia-can/static/js/905.25324ca9.chunk.js",
     "static/css/147.226a5304.chunk.css": "/nastia-can/static/css/147.226a5304.chunk.css",
     "static/js/147.faa5a605.chunk.js": "/nastia-can/static/js/147.faa5a605.chunk.js",
@@ -18,20 +18,25 @@
     "static/media/bg-paper.webp": "/nastia-can/static/media/bg-paper.e68fa16a963a040de6a3.webp",
     "static/media/rb-portrait.webp": "/nastia-can/static/media/rb-portrait.2aa0e8c172a9e26463b1.webp",
     "static/media/movieland.webp": "/nastia-can/static/media/movieland.ccaa8fd3891d2c610ee4.webp",
+    "static/media/movieBW.webp": "/nastia-can/static/media/movieBW.6bc2f493b44d1a8c45bd.webp",
     "static/media/iceCream.webp": "/nastia-can/static/media/iceCream.5679f131a7b7f30566d9.webp",
+    "static/media/iceBW.webp": "/nastia-can/static/media/iceBW.86441c938ed407b2ec3c.webp",
     "static/media/webStudio.webp": "/nastia-can/static/media/webStudio.1b838b5bb464dc3dc046.webp",
+    "static/media/webStudioBW.webp": "/nastia-can/static/media/webStudioBW.de2db85e427906533e12.webp",
     "static/media/pets.webp": "/nastia-can/static/media/pets.6914cffc15c2715bfb9e.webp",
+    "static/media/petsBW.webp": "/nastia-can/static/media/petsBW.bb14fa6f46a5e88a5e4d.webp",
+    "static/media/familyBW.webp": "/nastia-can/static/media/familyBW.bf23d1ff14a65e4d000a.webp",
     "static/media/family.webp": "/nastia-can/static/media/family.340ee3508741368f5280.webp",
     "index.html": "/nastia-can/index.html",
     "main.6b290438.css.map": "/nastia-can/static/css/main.6b290438.css.map",
-    "main.a6dd7e1e.js.map": "/nastia-can/static/js/main.a6dd7e1e.js.map",
+    "main.5817d542.js.map": "/nastia-can/static/js/main.5817d542.js.map",
     "91.aae5f585.chunk.css.map": "/nastia-can/static/css/91.aae5f585.chunk.css.map",
     "91.41a8e430.chunk.js.map": "/nastia-can/static/js/91.41a8e430.chunk.js.map",
     "176.68f44514.chunk.css.map": "/nastia-can/static/css/176.68f44514.chunk.css.map",
     "176.3a360c19.chunk.js.map": "/nastia-can/static/js/176.3a360c19.chunk.js.map",
     "95.226a5304.chunk.css.map": "/nastia-can/static/css/95.226a5304.chunk.css.map",
     "95.d8831fa8.chunk.js.map": "/nastia-can/static/js/95.d8831fa8.chunk.js.map",
-    "905.5de0ce27.chunk.css.map": "/nastia-can/static/css/905.5de0ce27.chunk.css.map",
+    "905.3f6b83e5.chunk.css.map": "/nastia-can/static/css/905.3f6b83e5.chunk.css.map",
     "905.25324ca9.chunk.js.map": "/nastia-can/static/js/905.25324ca9.chunk.js.map",
     "147.226a5304.chunk.css.map": "/nastia-can/static/css/147.226a5304.chunk.css.map",
     "147.faa5a605.chunk.js.map": "/nastia-can/static/js/147.faa5a605.chunk.js.map",
@@ -41,6 +46,6 @@
   },
   "entrypoints": [
     "static/css/main.6b290438.css",
-    "static/js/main.a6dd7e1e.js"
+    "static/js/main.5817d542.js"
   ]
 }
