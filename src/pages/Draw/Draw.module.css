@@ -9,10 +9,12 @@
   max-width: 1400px;
   height: 60vh;
   margin: 40px auto;
-  padding: 100px;
   gap: 10px;
-  overflow: hidden;
   overflow: scroll;
+
+  @media screen and (min-width: 1200px) {
+    padding: 70px;
+  }
 }
 
 .img {
@@ -21,13 +23,14 @@
   width: 300px;
   height: 300px;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .img:hover,
 .img:focus {
+  /* position: fixed; */
   cursor: crosshair;
   z-index: 100;
   transform: scale(1.5);
