@@ -127,11 +127,12 @@
 .title {
   margin: 0;
   font-size: calc(100vw / 14);
-  font-weight: 100;
+  font-weight: 600;
 
   @media screen and (min-width: 768px) {
     font-size: 50px;
     margin-top: 40px;
+    margin-bottom: 30px;
   }
 
   @media screen and (max-width: 1199px) {
