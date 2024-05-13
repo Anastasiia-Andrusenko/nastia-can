@@ -10,6 +10,11 @@ import { FaReact } from 'react-icons/fa';
 import { FaNodeJs } from 'react-icons/fa';
 import { FaSass } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
+import { VscVscode } from 'react-icons/vsc';
+import { FaNpm } from 'react-icons/fa';
+import { SiRedux } from 'react-icons/si';
+import { FaFigma } from 'react-icons/fa';
+import { SiWebpack } from 'react-icons/si';
 
 const Code = ({ currentLanguage }) => {
   return (
@@ -63,6 +68,26 @@ const Code = ({ currentLanguage }) => {
               <li className={css.skill}>
                 Ajax
                 <TiHtml5 className={css.icon} />
+              </li>
+              <li className={css.skill}>
+                VS Code
+                <VscVscode className={css.icon} />
+              </li>
+              <li className={css.skill}>
+                npm
+                <FaNpm className={css.icon} />
+              </li>
+              <li className={css.skill}>
+                Redux
+                <SiRedux className={css.icon} />
+              </li>
+              <li className={css.skill}>
+                webpack
+                <SiWebpack className={css.icon} />
+              </li>
+              <li className={css.skill}>
+                Figma
+                <FaFigma className={css.icon} />
               </li>
             </ul>
           </div>
