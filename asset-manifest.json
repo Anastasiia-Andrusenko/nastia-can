@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nastia-can/static/css/main.6b290438.css",
-    "main.js": "/nastia-can/static/js/main.eb2616a8.js",
+    "main.js": "/nastia-can/static/js/main.6873ccfb.js",
     "static/css/91.fcf1acdc.chunk.css": "/nastia-can/static/css/91.fcf1acdc.chunk.css",
     "static/js/91.41a8e430.chunk.js": "/nastia-can/static/js/91.41a8e430.chunk.js",
     "static/css/176.68f44514.chunk.css": "/nastia-can/static/css/176.68f44514.chunk.css",
@@ -11,7 +11,7 @@
     "static/css/905.ffaa6d4b.chunk.css": "/nastia-can/static/css/905.ffaa6d4b.chunk.css",
     "static/js/905.59aa88be.chunk.js": "/nastia-can/static/js/905.59aa88be.chunk.js",
     "static/css/602.c6ac8f9d.chunk.css": "/nastia-can/static/css/602.c6ac8f9d.chunk.css",
-    "static/js/602.4c25ed62.chunk.js": "/nastia-can/static/js/602.4c25ed62.chunk.js",
+    "static/js/602.989b681b.chunk.js": "/nastia-can/static/js/602.989b681b.chunk.js",
     "static/js/330.0da0ea89.chunk.js": "/nastia-can/static/js/330.0da0ea89.chunk.js",
     "static/js/667.21a4541d.chunk.js": "/nastia-can/static/js/667.21a4541d.chunk.js",
     "static/js/451.e1e0c6c7.chunk.js": "/nastia-can/static/js/451.e1e0c6c7.chunk.js",
@@ -30,14 +30,12 @@
     "static/media/015.jpg": "/nastia-can/static/media/015.fa44457bdaa2c34109f8.jpg",
     "static/media/2.jpg": "/nastia-can/static/media/2.88aa76c06fac08a81dce.jpg",
     "static/media/07.jpg": "/nastia-can/static/media/07.eced616f2aed8479f5a2.jpg",
-    "static/media/024.jpg": "/nastia-can/static/media/024.7ad7c3254ad0518f8a19.jpg",
     "static/media/023.jpg": "/nastia-can/static/media/023.0bbd43db3902abfc1623.jpg",
     "static/media/025.jpg": "/nastia-can/static/media/025.7e6a41ce1c9fb8125704.jpg",
     "static/media/020.jpg": "/nastia-can/static/media/020.d1998459c9fac4e04569.jpg",
     "static/media/021.jpg": "/nastia-can/static/media/021.fa6b0d9e8862f41c3f46.jpg",
     "static/media/09.jpg": "/nastia-can/static/media/09.78987c2e04e063083b30.jpg",
     "static/media/011.jpg": "/nastia-can/static/media/011.6c7a7c2e1d037d9d4dce.jpg",
-    "static/media/017.jpg": "/nastia-can/static/media/017.ff0cfcb8f3a828bdda72.jpg",
     "static/media/028.jpg": "/nastia-can/static/media/028.3806391a52e996678f40.jpg",
     "static/media/rb-portrait.webp": "/nastia-can/static/media/rb-portrait.2aa0e8c172a9e26463b1.webp",
     "static/media/6.webp": "/nastia-can/static/media/6.598057ab472ef9a67522.webp",
@@ -71,7 +69,7 @@
     "static/media/family.webp": "/nastia-can/static/media/family.340ee3508741368f5280.webp",
     "index.html": "/nastia-can/index.html",
     "main.6b290438.css.map": "/nastia-can/static/css/main.6b290438.css.map",
-    "main.eb2616a8.js.map": "/nastia-can/static/js/main.eb2616a8.js.map",
+    "main.6873ccfb.js.map": "/nastia-can/static/js/main.6873ccfb.js.map",
     "91.fcf1acdc.chunk.css.map": "/nastia-can/static/css/91.fcf1acdc.chunk.css.map",
     "91.41a8e430.chunk.js.map": "/nastia-can/static/js/91.41a8e430.chunk.js.map",
     "176.68f44514.chunk.css.map": "/nastia-can/static/css/176.68f44514.chunk.css.map",
@@ -81,13 +79,13 @@
     "905.ffaa6d4b.chunk.css.map": "/nastia-can/static/css/905.ffaa6d4b.chunk.css.map",
     "905.59aa88be.chunk.js.map": "/nastia-can/static/js/905.59aa88be.chunk.js.map",
     "602.c6ac8f9d.chunk.css.map": "/nastia-can/static/css/602.c6ac8f9d.chunk.css.map",
-    "602.4c25ed62.chunk.js.map": "/nastia-can/static/js/602.4c25ed62.chunk.js.map",
+    "602.989b681b.chunk.js.map": "/nastia-can/static/js/602.989b681b.chunk.js.map",
     "330.0da0ea89.chunk.js.map": "/nastia-can/static/js/330.0da0ea89.chunk.js.map",
     "667.21a4541d.chunk.js.map": "/nastia-can/static/js/667.21a4541d.chunk.js.map",
     "451.e1e0c6c7.chunk.js.map": "/nastia-can/static/js/451.e1e0c6c7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6b290438.css",
-    "static/js/main.eb2616a8.js"
+    "static/js/main.6873ccfb.js"
   ]
 }
