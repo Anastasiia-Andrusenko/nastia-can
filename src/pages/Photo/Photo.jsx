@@ -164,20 +164,6 @@ const Photo = ({ currentLanguage }) => {
             </SwiperSlide>
             <SwiperSlide className={cx('slide')}>
               <img
-                src={require('../../img/pic/024.jpg')}
-                alt="1"
-                className={cx('img')}
-              />
-            </SwiperSlide>
-            <SwiperSlide className={cx('slide')}>
-              <img
-                src={require('../../img/pic/017.jpg')}
-                alt="1"
-                className={cx('img')}
-              />
-            </SwiperSlide>
-            <SwiperSlide className={cx('slide')}>
-              <img
                 src={require('../../img/pic/010.jpg')}
                 alt="1"
                 className={cx('img')}
