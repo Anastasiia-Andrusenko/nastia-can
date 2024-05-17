@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/nastia-can/static/css/main.6b290438.css",
-    "main.js": "/nastia-can/static/js/main.6873ccfb.js",
-    "static/css/91.fcf1acdc.chunk.css": "/nastia-can/static/css/91.fcf1acdc.chunk.css",
+    "main.js": "/nastia-can/static/js/main.8f9c3af5.js",
+    "static/css/91.6e203abb.chunk.css": "/nastia-can/static/css/91.6e203abb.chunk.css",
     "static/js/91.41a8e430.chunk.js": "/nastia-can/static/js/91.41a8e430.chunk.js",
     "static/css/176.68f44514.chunk.css": "/nastia-can/static/css/176.68f44514.chunk.css",
     "static/js/176.3a360c19.chunk.js": "/nastia-can/static/js/176.3a360c19.chunk.js",
@@ -37,7 +37,7 @@
     "static/media/09.jpg": "/nastia-can/static/media/09.78987c2e04e063083b30.jpg",
     "static/media/011.jpg": "/nastia-can/static/media/011.6c7a7c2e1d037d9d4dce.jpg",
     "static/media/028.jpg": "/nastia-can/static/media/028.3806391a52e996678f40.jpg",
-    "static/media/rb-portrait.webp": "/nastia-can/static/media/rb-portrait.2aa0e8c172a9e26463b1.webp",
+    "static/media/aaa.png": "/nastia-can/static/media/aaa.09da0b4eaab349452231.png",
     "static/media/6.webp": "/nastia-can/static/media/6.598057ab472ef9a67522.webp",
     "static/media/18.webp": "/nastia-can/static/media/18.5a64d66dcdecbfa01470.webp",
     "static/media/026.jpg": "/nastia-can/static/media/026.f94ba2e931bba53ea07f.jpg",
@@ -69,8 +69,8 @@
     "static/media/family.webp": "/nastia-can/static/media/family.340ee3508741368f5280.webp",
     "index.html": "/nastia-can/index.html",
     "main.6b290438.css.map": "/nastia-can/static/css/main.6b290438.css.map",
-    "main.6873ccfb.js.map": "/nastia-can/static/js/main.6873ccfb.js.map",
-    "91.fcf1acdc.chunk.css.map": "/nastia-can/static/css/91.fcf1acdc.chunk.css.map",
+    "main.8f9c3af5.js.map": "/nastia-can/static/js/main.8f9c3af5.js.map",
+    "91.6e203abb.chunk.css.map": "/nastia-can/static/css/91.6e203abb.chunk.css.map",
     "91.41a8e430.chunk.js.map": "/nastia-can/static/js/91.41a8e430.chunk.js.map",
     "176.68f44514.chunk.css.map": "/nastia-can/static/css/176.68f44514.chunk.css.map",
     "176.3a360c19.chunk.js.map": "/nastia-can/static/js/176.3a360c19.chunk.js.map",
@@ -86,6 +86,6 @@
   },
   "entrypoints": [
     "static/css/main.6b290438.css",
-    "static/js/main.6873ccfb.js"
+    "static/js/main.8f9c3af5.js"
   ]
 }
