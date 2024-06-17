@@ -18,6 +18,8 @@ export const App = () => {
 
   const currentLanguage = getLanguage(); // Отримати поточну мову
 
+  // const [faviconUrl, setFaviconUrl] = useState("../../src/img/aaa.png");
+
   return (
     <div className={css.container}>
       <Suspense fallback={<div className={css.loader}></div>}>

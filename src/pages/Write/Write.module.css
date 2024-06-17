@@ -4,98 +4,147 @@
 
 .container {
   display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  max-width: 1400px;
+  flex-direction: column; /* Вертикальне розташування для мобільних пристроїв */
+  gap: 0px;
+  max-width: 1200px;
   margin: auto;
   padding: 20px;
 
-  @media screen and (min-width: 1000px) {
-    margin-top: 3vw;
+  @media screen and (min-width: 860px) {
+    flex-direction: row; /* Горизонтальне розташування для великих екранів */
+    align-items: center;
+    justify-content: center;
   }
-  /* outline: 1px solid pink; */
+
+  @media screen and (min-width: 1000px) {
+    margin: 3vw auto;
+  }
 }
 
 .content {
   list-style: none;
   margin: auto;
+  width: 100%; /* Повна ширина для мобільних пристроїв */
   max-width: 360px;
-  height: 80vh;
-  border: 2px solid rgba(0, 0, 0, 0.4);
-  border-radius: 6px;
+  height: fit-content;
+  border: 2px solid rgba(0, 0, 0, 0.8);
   overflow-y: scroll;
   padding: 16px;
   text-align: center;
-  /* outline: 1px solid red; */
 
   @media screen and (min-width: 860px) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
     height: 70vh;
+    margin: 0;
+    max-width: 480px;
+  }
+
+  @media screen and (min-width: 1000px) {
+    max-width: 580px;
   }
 }
 
 .contentItem {
   cursor: pointer;
-  padding: 10px;
-  font-size: 20px;
+  padding: 0;
+  font-size: 16px;
+  
   border-bottom: 2px solid rgba(0, 0, 0, 0);
   transition: all 200ms linear;
-}
+  margin-bottom: 10px;
+  
+  @media screen and (min-width: 800px) {
+    padding: 4px 4px 0 4px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  }
 
-.current {
-  cursor: pointer;
-  padding: 10px;
-  font-size: 24px;
-  font-weight: 800;
-  border-bottom: 2px solid black;
-  transition: all 200ms linear;
+  @media screen and (min-width: 1000px) {
+    font-size: 18px;
+  }
 }
 
 .contentItem:focus,
 .contentItem:active {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 800;
 }
 
 .contentItem:hover {
   border-bottom: 2px solid black;
+
+  @media screen and (min-width: 1000px) {
+    font-size: 22px;
+  }
 }
+
+.current {
+  cursor: pointer;
+  padding: 4px 4px 0;
+  margin: 0 0 10px;
+  font-size: 20px;
+  font-weight: 800;
+  border-bottom: 2px solid black;
+  transition: all 200ms linear;
+
+  @media screen and (min-width: 800px) {
+    font-size: 24px;
+  }
+}
+
+.oops {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.date {
+  text-decoration: underline;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.remark {
+  font-style: italic;
+  font-size: 14px;
+  line-height: normal;
+  color: rgba(0, 0, 0, 0.6);
+}
+
 
 .article {
   position: relative;
-  text-align: center;
   margin: auto;
-  width: 360px;
-  height: 80vh;
-  border: 2px solid rgba(0, 0, 0, 0.4);
-  border-radius: 6px;
-  padding: 16px;
-  font-size: 20px;
+  width: 100%; /* Повна ширина для мобільних пристроїв */
+  max-width: 360px;
+  min-height: 30vh;
+  height: fit-content;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  padding-bottom: 30px;
+  font-size: 16px;
+  letter-spacing: 0.09rem;
+  line-height: 1.6rem;
   overflow-y: scroll;
 
   @media screen and (min-width: 860px) {
-    width: 40vw;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+    line-height: 1.8rem;
+    max-width: 480px;
     height: 70vh;
+    margin: auto 0;
+    padding: 30px;
   }
+
+  @media screen and (min-width: 1000px) {
+    max-width: 580px;
+  }
+
+  animation: VerticalFlip 600ms ease-in-out;
 }
 
-/* .loader {
-  position: absolute;
-  z-index: -100;
-  left: calc(50% - 25px);
-  top: calc(50% - 50px);
-  width: 50px;
-  aspect-ratio: 1;
-  --g: #0000 calc(100% - 5px), #000 calc(100% - 3px) 93%, #0000;
-  background: radial-gradient(farthest-side at bottom, var(--g)) top / 100% 50%,
-    radial-gradient(farthest-side at top, var(--g)) bottom 18% right 0 /80% 40%,
-    radial-gradient(farthest-side at bottom, var(--g)) left 50% top 30%/60% 30%,
-    radial-gradient(farthest-side at top, var(--g)) right 34% bottom 37%/40% 20%,
-    radial-gradient(farthest-side at bottom, var(--g)) left 52% top 43%/24% 12%;
-  background-repeat: no-repeat;
-  animation: l20 1s infinite linear;
+@keyframes VerticalFlip {
 }
-@keyframes l20 {
-  100% {
-    transform: rotate(1turn);
-  }
-} */
