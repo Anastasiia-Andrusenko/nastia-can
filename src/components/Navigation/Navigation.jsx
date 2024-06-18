@@ -19,14 +19,6 @@ const Navigation = ({ currentLanguage }) => {
           </NavLink>
         </li>
         <li className={css.likeItem}>
-          <NavLink className={css.link} to="/draw">
-            <PiPaintBrushDuotone className={css.icon} />
-            {currentLanguage === 'ua'
-              ? lang.likeList.ua[1]
-              : lang.likeList.en[1]}
-          </NavLink>
-        </li>
-        <li className={css.likeItem}>
           <NavLink className={css.link} to="/code">
             <FaLaptopCode className={css.icon} />
             {currentLanguage === 'ua'
@@ -34,6 +26,15 @@ const Navigation = ({ currentLanguage }) => {
               : lang.likeList.en[2]}
           </NavLink>
         </li>
+        <li className={css.likeItem}>
+          <NavLink className={css.link} to="/draw">
+            <PiPaintBrushDuotone className={css.icon} />
+            {currentLanguage === 'ua'
+              ? lang.likeList.ua[1]
+              : lang.likeList.en[1]}
+          </NavLink>
+        </li>
+
         <li className={css.likeItem}>
           <NavLink className={css.link} to="/photo">
             <ImCamera className={css.icon} />

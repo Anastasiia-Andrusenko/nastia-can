@@ -124,7 +124,8 @@
   width: fit-content;
 }
 
-.title {
+.title, 
+.biographyTitle {
   margin: 0;
   font-size: calc(100vw / 14);
   font-weight: 600;
@@ -138,4 +139,29 @@
   @media screen and (max-width: 1199px) {
     text-align: center;
   }
+}
+
+
+.biographyTitle {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.biographyWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 80vw;
+}
+
+.wrapperBorn,
+.wrapperSchool,
+.wrapperStudy,
+.wrapperWork,
+.wrapperCopy,
+.wrapperDev{
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
 }

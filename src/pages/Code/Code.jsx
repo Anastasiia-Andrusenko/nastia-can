@@ -21,7 +21,9 @@ const Code = ({ currentLanguage }) => {
     <>
       <div className={css.section}>
         <Header currentLanguage={currentLanguage} />
+        <h2 className={css.titlePage}>{currentLanguage === 'ua' ? langArr.codePageTitle.ua : langArr.codePageTitle.en}</h2>
         <div className={css.container}>
+        <div className={css.laptop}></div>
           <div className={css.skills}>
             <h3 className={css.title}>
               {currentLanguage === 'ua'
@@ -97,14 +99,14 @@ const Code = ({ currentLanguage }) => {
                 ? langArr.codePortfolio.ua
                 : langArr.codePortfolio.en}
             </h3>
-            <ul className={css.workList}>
+            <div className={css.viewWindow}>
+              <ul className={css.workList}>
               <li className={css.workItem}>
                 <a
                   href="https://anastasiia-andrusenko.github.io/goit-markup-hw-08/"
                   target="blank"
                   className={css.webStudio}
                 >
-                  WebStudio
                 </a>
               </li>
               <li className={css.workItem}>
@@ -113,7 +115,14 @@ const Code = ({ currentLanguage }) => {
                   target="blank"
                   className={css.iceCream}
                 >
-                  Ice Cream Shop
+                </a>
+              </li>
+              <li className={css.workItem}>
+                <a
+                  href="https://anastasiia-andrusenko.github.io/my-mood-playlist/"
+                  target="blank"
+                  className={css.moodPlaylist}
+                >
                 </a>
               </li>
               <li className={css.workItem}>
@@ -122,16 +131,6 @@ const Code = ({ currentLanguage }) => {
                   target="blank"
                   className={css.movies}
                 >
-                  Movieland
-                </a>
-              </li>
-              <li className={css.workItem}>
-                <a
-                  href="https://anastasiia-andrusenko.github.io/world-family/"
-                  target="blank"
-                  className={css.family}
-                >
-                  World Family
                 </a>
               </li>
               <li className={css.workItem}>
@@ -140,10 +139,10 @@ const Code = ({ currentLanguage }) => {
                   target="blank"
                   className={css.pets}
                 >
-                  Your Pet
                 </a>
               </li>
-            </ul>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

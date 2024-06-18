@@ -2,6 +2,8 @@
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import css from './Draw.module.css';
+import langArr from '../../lang';
+
 const classNames = require('classnames/bind');
 
 const Draw = ({ currentLanguage }) => {
@@ -17,6 +19,7 @@ const Draw = ({ currentLanguage }) => {
     <>
       <div className={css.section}>
         <Header currentLanguage={currentLanguage} />
+        <h2 className={css.title}>{currentLanguage === 'ua' ? langArr.drawPageTitle.ua : langArr.drawPageTitle.en}</h2>
         <div className={css.container}>
           <ul className={css.picList}>
             {images.map((image, index) => (

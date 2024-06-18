@@ -1,38 +1,113 @@
-/* .section {
-} */
+.section {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+.titlePage {
+  text-align: center;
+  margin: 40px auto 0 auto;
+  padding: 0 20px;
+  max-width: 90vw;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+
+  @media screen and (min-width: 860px) {
+    font-size: 22px;
+    font-weight: 600;
+    max-width: 600px;
+  }
+
+  @media screen and (min-width: 1100px) {
+    font-size: 26px;
+    font-weight: 800;
+    max-width: 900px;
+  }
+}
 
 .container {
+  position: relative;
   display: flex;
+  flex-direction: column-reverse;
   flex-wrap: wrap;
   gap: 30px;
   max-width: 1400px;
   margin: auto;
   padding: 20px;
+  /* border-bottom: 2px solid rgba(0, 0, 0, 0.4); */
 
-  @media screen and (min-width: 1000px) {
-    margin-top: 3vw;
+  @media screen and (min-width: 860px) {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
   }
-  /* outline: 1px solid pink; */
+}
+
+.laptop {
+  position: absolute;
+  right: 0;
+  z-index: 2;
+
+  @media screen and (min-width: 860px) {
+    background-image: url('../../img/laptop.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 800px;
+    height: 400px;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  @media screen and (min-width: 1100px) {
+    width: 900px;
+    height: 460px;
+    top: 80px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 940px;
+    height: 500px;
+  }
+
+  @media screen and (min-width: 1300px) {
+    width: 1000px;
+    height: 550px;
+  }
 }
 
 .skills {
+  z-index: 3;
   margin: auto;
   min-width: 280px;
   max-width: 360px;
   max-height: 80vh;
-  /* border: 2px solid rgba(0, 0, 0, 0.4); */
-  border-radius: 6px;
   overflow-y: scroll;
   padding: 16px;
   text-align: center;
 
   @media screen and (min-width: 710px) {
-    height: 70vh;
+    max-width: 80vw;
+  }
+
+  @media screen and (min-width: 860px) {
+    margin: 0;
+  }
+
+  @media screen and (min-width: 1100px) {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
+
+  @media screen and (min-width: 1300px) {
   }
 }
 
 .title {
-  margin: 0;
+  margin: 10px;
   margin-bottom: 40px;
   text-transform: uppercase;
   font-weight: 800;
@@ -40,11 +115,16 @@
 }
 
 .titleWork {
-  margin: 0;
-  margin-bottom: 40px;
+  margin: 20px;
+  margin-bottom: 30px;
   text-transform: uppercase;
   font-weight: 800;
   font-size: 24px;
+
+  @media screen and (min-width: 1100px) {
+    margin-top: 50px;
+    /* transform: translateX(15%); */
+  }
 }
 
 .workList,
@@ -64,115 +144,30 @@
 .workList {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   gap: 14px;
   padding: 20px 10px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  overflow-y: scroll;
+  min-height: auto;
+  max-height: 66vh;
+
+  @media screen and (min-width: 860px) {
+    padding: 0;
+  }
 }
+
 .workItem {
-  /* color: white; */
   cursor: pointer;
   margin: auto;
 }
 
-.webStudio,
-.iceCream,
-.movies,
-.family,
-.pets {
-  padding-top: 66%;
-  display: block;
-  width: 140px;
-  height: 140px;
 
-  -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-  box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
-
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  transition: all 200ms linear;
-
-  @media screen and (min-width: 860px) {
-    width: 180px;
-    height: 180px;
-  }
-}
-
-.webStudio {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.7),
-      rgba(173, 173, 173, 0.7)
-    ),
-    url('../../img/webStudioBW.webp');
-}
-.iceCream {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.7),
-      rgba(173, 173, 173, 0.7)
-    ),
-    url('../../img/iceBW.webp');
-}
-.movies {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.7),
-      rgba(173, 173, 173, 0.7)
-    ),
-    url('../../img/movieBW.webp');
-}
-.family {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.7),
-      rgba(173, 173, 173, 0.7)
-    ),
-    url('../../img/familyBW.webp');
-}
-.pets {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.7),
-      rgba(173, 173, 173, 0.7)
-    ),
-    url('../../img/petsBW.webp');
-}
-
-.webStudio:hover,
-.iceCream:hover,
-.movies:hover,
-.family:hover,
-.pets:hover {
-  color: transparent;
-}
-
-.webStudio:hover {
-  background-image: url('../../img/webStudio.webp');
-}
-.iceCream:hover {
-  background-image: url('../../img/iceCream.webp');
-}
-.movies:hover {
-  background-image: url('../../img/movieland.webp');
-}
-.family:hover {
-  background-image: url('../../img/family.webp');
-}
-.pets:hover {
-  background-image: url('../../img/pets.webp');
-}
 
 .skill {
   position: relative;
   padding: 10px;
-  font-size: 20px;
+  font-size: 16px;
   transition: color 250ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
@@ -197,19 +192,63 @@
 }
 
 .works {
+  z-index: 3;
   text-align: center;
-  margin: auto;
-  width: 360px;
-  min-height: auto;
-  max-height: 80vh;
-  /* border: 2px solid rgba(0, 0, 0, 0.4); */
-  border-radius: 6px;
-  padding: 16px;
+  margin: 0;
+  width: 80vw;
+  border-top: 2px solid rgba(0, 0, 0, 0.4);
   font-size: 20px;
-  overflow-y: scroll;
+  margin: 0 auto;
 
-  @media screen and (min-width: 710px) {
-    width: 40vw;
-    height: 70vh;
+  @media screen and (min-width: 860px) {
+    width: 800px;
+    height: 400px;
+    /* border-top: none; */
   }
+
+  @media screen and (min-width: 1100px) {
+    width: 900px;
+    height: 460px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 940px;
+    height: 500px;
+  }
+
+  @media screen and (min-width: 1300px) {
+    width: 1000px;
+    height: 550px;
+  }
+}
+
+.viewWindow {
+  background-color: rgba(0, 0, 0, 0.5);
+  
+  @media screen and (min-width: 860px) {
+    width: 266px;
+    height: 162px;
+    margin: 38px auto auto 142px;
+    overflow: scroll;
+    clip-path: polygon(0% 0%, 100% 0%, 99% 100%, 3% 100%);
+  }
+
+  @media screen and (min-width: 1100px) {
+    width: 300px;
+    height: 184px;
+    margin: 48px auto auto 160px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 315px;
+    height: 191px;
+    margin: 62px auto auto 166px;
+  }
+
+  @media screen and (min-width: 1300px) {
+    width: 335px;
+    height: 203px;
+    margin: 76px auto auto 176px;
+  }
+  
 }

@@ -8,6 +8,9 @@ body {
   font-style: normal;
   background-image: url('./img/bg-paper.webp');
   background-size: cover;
+  background-attachment: fixed; /* Фіксований фон */
+  background-size: cover;
+  background-position: center;
   width: 100vw;
 }
 

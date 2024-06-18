@@ -2,34 +2,58 @@
   width: 100vw;
 }
 
+.title {
+  text-align: center;
+  margin: 40px auto 0 auto;
+  padding: 0 20px;
+  max-width: 90vw;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+
+  @media screen and (min-width: 860px) {
+    margin-top: 50px;
+    font-size: 22px;
+    font-weight: 600;
+    max-width: 600px;
+  }
+
+  @media screen and (min-width: 1100px) {
+    margin-top: 60px;
+    font-size: 26px;
+    font-weight: 800;
+    max-width: 900px;
+  }
+}
+
 .container {
   display: flex;
-  flex-direction: column; /* Вертикальне розташування для мобільних пристроїв */
+  flex-direction: column; 
   gap: 0px;
   max-width: 1200px;
   margin: auto;
   padding: 20px;
 
   @media screen and (min-width: 860px) {
-    flex-direction: row; /* Горизонтальне розташування для великих екранів */
+    flex-direction: row; 
     align-items: center;
     justify-content: center;
   }
 
   @media screen and (min-width: 1000px) {
-    margin: 3vw auto;
+    margin: 2vw auto;
   }
 }
 
 .content {
   list-style: none;
   margin: auto;
-  width: 100%; /* Повна ширина для мобільних пристроїв */
+  width: 100%; 
   max-width: 360px;
   height: fit-content;
   border: 2px solid rgba(0, 0, 0, 0.8);
   overflow-y: scroll;
-  padding: 16px;
+  padding: 20px;
   text-align: center;
 
   @media screen and (min-width: 860px) {
@@ -41,10 +65,12 @@
     height: 70vh;
     margin: 0;
     max-width: 480px;
+    padding: 30px;
   }
 
   @media screen and (min-width: 1000px) {
     max-width: 580px;
+    padding: 80px 40px;
   }
 }
 
@@ -56,42 +82,43 @@
   border-bottom: 2px solid rgba(0, 0, 0, 0);
   transition: all 200ms linear;
   margin-bottom: 10px;
+  transform: scale(0.9);
   
   @media screen and (min-width: 800px) {
     padding: 4px 4px 0 4px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
   }
 
   @media screen and (min-width: 1000px) {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
 .contentItem:focus,
 .contentItem:active {
-  font-size: 18px;
+  transform: scale(1);
   font-weight: 800;
 }
 
 .contentItem:hover {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.6);
 
   @media screen and (min-width: 1000px) {
-    font-size: 22px;
+    transform: scale(1.1);
   }
 }
 
 .current {
   cursor: pointer;
-  padding: 4px 4px 0;
+  padding: 4px 4px 0 4px;
   margin: 0 0 10px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 800;
   border-bottom: 2px solid black;
   transition: all 200ms linear;
 
   @media screen and (min-width: 800px) {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 

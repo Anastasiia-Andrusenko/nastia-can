@@ -65,6 +65,7 @@ const Write = ({ currentLanguage }) => {
     <>
       <div className={css.section}>
         <Header currentLanguage={currentLanguage} />
+        <h2 className={css.title}>{currentLanguage === 'ua' ? langArr.writePageTitle.ua : langArr.writePageTitle.en}</h2>
         <div className={css.container}>
           <ol className={css.content} type="1">
             {renderContentItems()}

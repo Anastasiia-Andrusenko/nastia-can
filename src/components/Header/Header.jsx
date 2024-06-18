@@ -37,19 +37,19 @@ const Header = ({ currentLanguage }) => {
             </NavLink>
           </li>
           <li className={css.likeItem}>
-            <NavLink className={getClassName} to="/draw">
-              <PiPaintBrushDuotone className={css.icon} />
-              {currentLanguage === 'ua'
-                ? lang.likeList.ua[1]
-                : lang.likeList.en[1]}
-            </NavLink>
-          </li>
-          <li className={css.likeItem}>
             <NavLink className={getClassName} to="/code">
               <FaLaptopCode className={css.icon} />
               {currentLanguage === 'ua'
                 ? lang.likeList.ua[2]
                 : lang.likeList.en[2]}
+            </NavLink>
+          </li>
+          <li className={css.likeItem}>
+            <NavLink className={getClassName} to="/draw">
+              <PiPaintBrushDuotone className={css.icon} />
+              {currentLanguage === 'ua'
+                ? lang.likeList.ua[1]
+                : lang.likeList.en[1]}
             </NavLink>
           </li>
           <li className={css.likeItem}>

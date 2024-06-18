@@ -1,3 +1,27 @@
+.title {
+  text-align: center;
+  margin: 40px auto 0 auto;
+  padding: 0 20px;
+  max-width: 90vw;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+
+  @media screen and (min-width: 860px) {
+    margin-top: 50px;
+    font-size: 22px;
+    font-weight: 600;
+    max-width: 600px;
+  }
+
+  @media screen and (min-width: 1100px) {
+    margin-top: 60px;
+    font-size: 26px;
+    font-weight: 800;
+    max-width: 900px;
+  }
+}
+
 .picList {
   position: relative;
   list-style: none;
@@ -7,10 +31,10 @@
   justify-content: center;
   width: 80vw;
   max-width: 1400px;
-  height: 60vh;
+  height: fit-content;
   margin: 40px auto;
   gap: 10px;
-  overflow: scroll; /* Приховуємо невидимий контент */
+  overflow: visible; /* Приховуємо невидимий контент */
   position: relative; /* Додаємо для контексту позиціювання */
 
   @media screen and (min-width: 1200px) {

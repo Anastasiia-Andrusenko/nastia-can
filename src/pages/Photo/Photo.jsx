@@ -9,6 +9,7 @@ import 'swiper/css/pagination';
 import css from './Photo.module.css';
 import { FaChevronLeft } from "react-icons/fa6";
 import { FaChevronRight } from "react-icons/fa";
+import langArr from '../../lang';
 
 const classNames = require('classnames/bind');
 
@@ -24,6 +25,7 @@ const Photo = ({ currentLanguage }) => {
     <>
       <div className={css.wrapper}>
         <Header currentLanguage={currentLanguage} />
+        <h2 className={css.titlePage}>{currentLanguage === 'ua' ? langArr.photoPageTitle.ua : langArr.photoPageTitle.en}</h2>
         <div className={css.photo}>
           <Swiper
             speed={1000}
