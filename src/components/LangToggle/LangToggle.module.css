@@ -6,9 +6,9 @@
   position: absolute;
   right: 20px;
 
-  /* @media screen and (min-width: 860px) { */
-  /* position: static; */
-  /* } */
+  @media screen and (min-width: 860px) {
+    
+  }
 }
 
 .text {
@@ -20,6 +20,11 @@
   font-size: 24px;
   padding: 0 6px;
   color: rgba(0, 0, 0, 0);
+
+  @media screen and (min-width: 860px) {
+    width: 1px;
+    height: 1px;
+  }
 }
 
 .lang {

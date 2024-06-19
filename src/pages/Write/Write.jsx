@@ -17,7 +17,7 @@ const Write = ({ currentLanguage }) => {
   }, []);
 
   const scrollTo = () => {
-    scroll.scrollTo(950);
+    scroll.scrollTo(860);
   };
 
   const getArticleNumber = () => {
@@ -73,10 +73,10 @@ const Write = ({ currentLanguage }) => {
           <article className={css.article} name="article">
           <p className={css.date}>
               {selectedArticle ? selectedArticle.date[currentLanguage] : ''}
-            </p> {/* Динамічно підставляємо дату */}
+            </p> 
             <p className={css.remark}>
               {selectedArticle ? selectedArticle.remark[currentLanguage] : ''}
-            </p> {/* Динамічно підставляємо коментар */}
+            </p> 
             <br/>
             {selectedText === ''
               ? currentLanguage === 'ua'

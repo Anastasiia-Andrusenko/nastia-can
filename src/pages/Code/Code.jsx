@@ -101,46 +101,56 @@ const Code = ({ currentLanguage }) => {
             </h3>
             <div className={css.viewWindow}>
               <ul className={css.workList}>
-              <li className={css.workItem}>
-                <a
-                  href="https://anastasiia-andrusenko.github.io/goit-markup-hw-08/"
-                  target="blank"
-                  className={css.webStudio}
-                >
-                </a>
-              </li>
-              <li className={css.workItem}>
-                <a
-                  href="https://anastasiia-andrusenko.github.io/project14__ice-cream/"
-                  target="blank"
-                  className={css.iceCream}
-                >
-                </a>
-              </li>
-              <li className={css.workItem}>
-                <a
-                  href="https://anastasiia-andrusenko.github.io/my-mood-playlist/"
-                  target="blank"
-                  className={css.moodPlaylist}
-                >
-                </a>
-              </li>
-              <li className={css.workItem}>
-                <a
-                  href="https://anastasiia-andrusenko.github.io/goit-react-hw-05-movies/"
-                  target="blank"
-                  className={css.movies}
-                >
-                </a>
-              </li>
-              <li className={css.workItem}>
-                <a
-                  href="https://yourpet-nu.vercel.app/main"
-                  target="blank"
-                  className={css.pets}
-                >
-                </a>
-              </li>
+                <li className={`${css.workItem} ${css.webStudio}`}>
+                  <a
+                    href="https://anastasiia-andrusenko.github.io/goit-markup-hw-08/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={css.link}
+                  >
+                    Web Studio
+                  </a>
+                </li>
+                <li className={`${css.workItem} ${css.iceCream}`}>
+                  <a
+                    href="https://anastasiia-andrusenko.github.io/project14__ice-cream/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={css.link}
+                  >
+                    Ice Cream Project
+                  </a>
+                </li>
+                <li className={`${css.workItem} ${css.moodPlaylist}`}>
+                  <a
+                    href="https://anastasiia-andrusenko.github.io/my-mood-playlist/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={css.link}
+                  >
+                    Mood Playlist
+                  </a>
+                </li>
+                <li className={`${css.workItem} ${css.movies}`}>
+                  <a
+                    href="https://anastasiia-andrusenko.github.io/goit-react-hw-05-movies/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={css.link}
+                  >
+                    Movies App
+                  </a>
+                </li>
+                <li className={`${css.workItem} ${css.pets}`}>
+                  <a
+                    href="https://yourpet-nu.vercel.app/main"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={css.link}
+                  >
+                    Your Pet
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
