@@ -15,9 +15,8 @@ import { FaNpm } from 'react-icons/fa';
 import { SiRedux } from 'react-icons/si';
 import { FaFigma } from 'react-icons/fa';
 import { SiWebpack } from 'react-icons/si';
-import { PiMouseScrollFill } from "react-icons/pi";
-import { MdAdsClick } from "react-icons/md";
-import { useEffect, useRef, useState } from 'react';
+// import { PiMouseScrollFill } from "react-icons/pi";
+// import { MdAdsClick } from "react-icons/md";
 
 
 const Code = ({ currentLanguage }) => {
