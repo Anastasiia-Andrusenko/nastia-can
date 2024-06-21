@@ -113,11 +113,18 @@ const articleArr = [
       ua: `День народження мого дідуся. Через сильні обстріли Донецьку немає звʼязку і я навіть не знаю чи жив він ще.`,
     },
     name: {
-      en: '79 in the hallway',
+      en: '79 in the corridor',
       ua: '79 в коридорі',
     },
     text: {
-      en: ``,
+      en: ` \v \b \v 79 in the corridor.
+         \v \b \v This is not how my grandfather dreamed of celebrating his birthday. All he wanted was to hear his granddaughters' voices in the morning, but now that's impossible; now I can't even call him. Donetsk is enduring such heavy shelling now, heavier than any it has faced in the eight years of war. Yes, exactly eight years. For some, the war started on February 24, 2022, but for me and all the people of Donetsk and Luhansk, it started in the summer of 2014.
+         \v \b \v That's when my grandfather stopped living in the future, or even the present, and started living in the past. Every phone call included the phrase, "Do you remember when we...". Thanks to my grandfather, I have many "remember when" moments. Walks in the forest. First driving lessons. My grandfather told me and showed me everything he knew. While grandma yelled "Kolya, that's enough!" he took me horse riding, played hockey on the frozen pond, caught frogs, took me sledding in the summer, taught me how to load cartridges and build a fire...
+         \v \b \v I am writing this text not in Russian but in the language of war. It has been like this since 2014. Before 2014, I spoke my first words in this language, Grandpa read poems, and Grandma called us to eat. How did it come to this? I don't understand. I have always lived with the belief that we get what we deserve. But none of us deserved this war. Why are our tears not coming from happiness? Why do we dance while dodging bullets? Why are our homes and hopes being destroyed? Why can't I hug my grandfather on his birthday?
+         \v \b \v The scariest part is that my story is considered a happy one. While I lament losing my home for the second time, my friends are losing their loved ones. Too many losses in this nightmare.
+         \v \b \v It feels like when Grandpa and I fell asleep in the hayloft, some straw was painfully pressing against my ribs. Grandpa, wake me up and tell me a good story, and then let's go celebrate your birthday.
+        All together.
+        Not in the corridor.`,
       ua: ` \v \b \v 79 лет в коридоре.
          \v \b \v Не так мой дедушка мечтал встретить свой День рождения. Всё, что он хотел это услышать голоса внучек с утра, но сейчас это невозможно, сейчас я не могу ему даже позвонить. Сейчас Донецк терпит такие сильные обстрелы, каких не знал за все 8 лет войны. Да, именно 8 лет. Для кого-то война началась 24.02.22, для меня и всех донецких/луганских с приходом лета 2014.
          \v \b \v Именно тогда мой дедушка стал жить не будущем, даже не настоящим, а прошлым. Каждый телефонный звонок содержал фразу «помнишь, как мы с тобой…». Благодаря дедушке у меня очень много «помнишь». Прогулки по лесу. Первые уроки вождения. Дедушка рассказал и показал мне всё что знает. Пока бабушка кричала «Коля, хватит», он катал меня на лошади, играл в хоккей на замёрзшем ставке, ловил лягушек, летом катал на санках, учил заряжать патроны и разводить костёр… 
@@ -143,7 +150,30 @@ const articleArr = [
       ua: 'А памʼятаєш?',
     },
     text: {
-      en: ``,
+      en: `\v \b \v Do you remember how at dawn on Thursday, Svitka called with the words, "Are you sleeping? The war has started!"
+\v \b \v Do you remember how I didn’t believe, “Again? Someone wants to take my home, no way!”
+\v \b \v Do you remember how we went outside on the first day of the war and realized everyone had forgotten about the pandemic?
+\v \b \v Do you remember how we threw out our healthy eating habits and bought sweets to eat away our fear?
+\v \b \v Do you remember how we taped the windows with crosses?
+\v \b \v Do you remember how I taught you to distinguish between outgoing and incoming shells?
+\v \b \v Do you remember how we poured ourselves wine, turned on a Nina Simone record, and danced with smiles to keep from crying?
+\v \b \v Do you remember how we slept in the corner of the basement with a heart drawn on the wall?
+\v \b \v Do you remember how we decided to leave our home for a while, and while packing the essentials, you took down all our photos?
+\v \b \v Do you remember how, to the sound of the siren, we dared to lock the doors from the outside?
+\v \b \v Do you remember how the Carpathian fir trees wanted to cheer you up and covered themselves in snow?
+\v \b \v Do you remember the family from Nemyriv, who not only gave us shelter but also their thermos?
+\v \b \v Do you remember Matviychik in Kolomyia, who gave up his bed for my sister and sang the anthem to us before sleep?
+\v \b \v Do you remember how we lived in a small but friendly commune in an old village house?
+\v \b \v Do you remember how our eyes welled up with tears at every display of Ukrainian unity?
+\v \b \v Do you remember how we thought of the worst but believed in the best?
+\v \b \v Do you remember how we returned home?
+\v \b \v Do you remember how we hung the photos back up and danced to jazz again?
+\v \b \v Do you remember how the entire country, with bloodied hands, rebuilt every house, every bridge, and every road?
+\v \b \v Do you remember how we achieved everything we dreamed of?
+\v \b \v Do you remember how the hardest time for us became a memory we would like to forget, but never can...
+\n
+\v \b \v P.S.: ${daysDifference} days have passed. The war is still not a memory.
+`,
       ua: ` \v \b \v А пам'ятаєш, як на світанку у четвер зателефонувала Свєтка  зі словами «Ви що спите? Війна почалася!»
  \v \b \v А пам'ятаєш, як я не повірила «вдруге? Хтось хоче забрати мій дім, ну ні!»
  \v \b \v А пам'ятаєш, як вийшли надвір у перший день війни й виявилося, всі забули про корону ?
@@ -185,19 +215,30 @@ const articleArr = [
       ua: 'Масові заходи',
     },
     text: {
-      en: ``,
+      en: `\v \b \v Mass events during a pandemic. A dance contest is one way to exchange bacteria with hundreds of people and legally stare at them. That's exactly what I'm doing.
+        \v \b \v Quite an ordinary, but very pleasant man, I thought. First of all, he's wearing glasses. But not everyone in glasses seems pleasant to me. Or do they? What's the matter now? And after I realized that it wasn’t the man himself that touched me, but the fact that he was carrying his five-year-old daughter, my tenderness quickly turned to indignation and a little bit of anger at myself.
+        \v \b \v What the hell!
+        Why on earth does a man just need to be there to seem pleasant? Just be with his family. And that's it. If he's somewhere lost, it's no surprise, but if he came to his daughter's performance, then immediately, "Wow, what a man, father of the year!" Why did my attention first go to the man with the daughter, and then I noticed an equally pleasant woman busily preparing this girl's costume while talking to the older son?
+        \v \b \v I caught myself thinking stereotypically, scolded myself, and continued to watch them.
+        \v \b \v Thank the Gods, the family from five-year-olds to forty-five-year-olds turned out to be quite pleasant. Mom, dad, older son around 8-9 years old, and a girl around 5 years old. All four share a facial feature that's hard to pinpoint. The brother looks like the sister. The children look like the parents, and the husband and wife, after a long life together, have acquired a shared wrinkle. Families like these should be sold in new photo frames, not those plastic and sugary ones.
+        \v \b \v Early Saturday morning wake-up, quick breakfast, cold car, fog over Kyiv, and here’s a sleepy family on the left bank watching a bunch of girls in blue swimsuits with white wings. Two minutes of long-awaited performance. And here’s the pleasant one in glasses carrying a crying angel with his own last name.
+        Did she get nervous? Did something go wrong?
+        \v \b \v It's not clear. This time, my attention was drawn to the second pleasant man in this family.
+        \v \b \v When the culprit was standing on a chair, wiping her tears and taking off her wings, the older brother looked at his younger sister with dog-like eyes, gently stroked her, and said nothing. God, there was more empathy on his face than I have felt in my entire life. When the child calmed down, he stepped aside and continued to watch the performance of other people's sisters.
+        \v \b \v A few more observations of the beautiful mother, and I realized that this family is definitely the most beautiful of all present here.
+        `,
       ua: ` \v \b \v Масові заходи під час пандемії. Танцювальний конкурс - один зі способів обмінятися бактеріями з сотнями людей і законно витріщатися на них. Чим я й займаюся. 
- \v \b \v Цілком звичайний, але дуже приємний чоловік, подумала я. По-перше, він в окулярах.  Але ж далеко не всі в окулярах мені здаються приємними. Чи всі? У чому справа зараз? І після того, як я зрозуміла, що мене зворушив не сам чоловік, а те, що він ніс на руках доньку років п'яти, розчулення швидко перетворилося на обурення і невелику злість на себе.
- \v \b \v Якого біса!
-З якого переляку мужику, щоб здаватися приємним, досить просто бути? Бути поряд із сім'єю. І все. Якщо він десь загублений, то не дивно, а якщо він прийшов на виступ доньки, то одразу "Ваааау, оце чоловік, батько року!". Чому мою увагу привернув спочатку чоловік із донькою, й потім вже, я помітила не менш приємну жінку, яка метушливо готувала цій дівчинці костюм, при цьому спілкуючись зі старшим сином.
- \v \b \v Застукала себе на стереотипній думці, пожурилася і продовжила за ними спостерігати.
- \v \b \v Слава Богам, що сім'я від п'ятирічних до сорока п'ятирічних виявилася цілком приємною. Мама, тато, старший син років 8-9 та дівчинка років 5. Вся четвірка має загальну рису обличчя, яка не вловна поглядом. Брат схожий на сестру. Діти схожі на батьків, а чоловік із дружиною, через довге співжиття, отримали одну на двох зморшку. Ось такі сім'ї повинні продаватися в нових фото рамках, а не ті пластикові й нудотні.
- \v \b \v Ранній суботаранковий підйом, швидкий сніданок, холодна машина, туман над Києвом і ось сім'я, що не виспалася, на лівому березі дивиться на купку дівчаток у синіх купальниках та з білими крильцями. Дві хвилини довгоочікуваного виступу. І ось цей приємний в окулярах несе ридаюче янголя зі своїм же прізвищем. 
-Перенервувала? Щось пішло не так? 
- \v \b \v Не ясно. Цього разу мою увагу привернув другий приємний чоловік цієї родини.
- \v \b \v Коли винуватиця стояла на стільці, витирала сльози й знімала крила, старший брат собачими очима дивився на молодшу, ніжно гладив її та нічого не говорив. Боже, на його обличчі було стільки співпереживання, скільки я за все життя не відчувала. Коли дитина заспокоїлася, він відійшов убік і продовжив дивитися виступ чужих сестер.
- \v \b \v Ще кілька спостережень за прекрасною мамою і я зрозуміла, що ця сім'я є однозначно найкрасивішою з усіх присутніх тут.
-`,
+         \v \b \v Цілком звичайний, але дуже приємний чоловік, подумала я. По-перше, він в окулярах.  Але ж далеко не всі в окулярах мені здаються приємними. Чи всі? У чому справа зараз? І після того, як я зрозуміла, що мене зворушив не сам чоловік, а те, що він ніс на руках доньку років п'яти, розчулення швидко перетворилося на обурення і невелику злість на себе.
+         \v \b \v Якого біса!
+        З якого переляку мужику, щоб здаватися приємним, досить просто бути? Бути поряд із сім'єю. І все. Якщо він десь загублений, то не дивно, а якщо він прийшов на виступ доньки, то одразу "Ваааау, оце чоловік, батько року!". Чому мою увагу привернув спочатку чоловік із донькою, й потім вже, я помітила не менш приємну жінку, яка метушливо готувала цій дівчинці костюм, при цьому спілкуючись зі старшим сином.
+         \v \b \v Застукала себе на стереотипній думці, пожурилася і продовжила за ними спостерігати.
+         \v \b \v Слава Богам, що сім'я від п'ятирічних до сорока п'ятирічних виявилася цілком приємною. Мама, тато, старший син років 8-9 та дівчинка років 5. Вся четвірка має загальну рису обличчя, яка не вловна поглядом. Брат схожий на сестру. Діти схожі на батьків, а чоловік із дружиною, через довге співжиття, отримали одну на двох зморшку. Ось такі сім'ї повинні продаватися в нових фото рамках, а не ті пластикові й нудотні.
+         \v \b \v Ранній суботаранковий підйом, швидкий сніданок, холодна машина, туман над Києвом і ось сім'я, що не виспалася, на лівому березі дивиться на купку дівчаток у синіх купальниках та з білими крильцями. Дві хвилини довгоочікуваного виступу. І ось цей приємний в окулярах несе ридаюче янголя зі своїм же прізвищем. 
+        Перенервувала? Щось пішло не так? 
+         \v \b \v Не ясно. Цього разу мою увагу привернув другий приємний чоловік цієї родини.
+         \v \b \v Коли винуватиця стояла на стільці, витирала сльози й знімала крила, старший брат собачими очима дивився на молодшу, ніжно гладив її та нічого не говорив. Боже, на його обличчі було стільки співпереживання, скільки я за все життя не відчувала. Коли дитина заспокоїлася, він відійшов убік і продовжив дивитися виступ чужих сестер.
+         \v \b \v Ще кілька спостережень за прекрасною мамою і я зрозуміла, що ця сім'я є однозначно найкрасивішою з усіх присутніх тут.
+        `,
     },
   },
   {
@@ -258,8 +299,36 @@ const articleArr = [
       ua: 'Яйця пашот чи некруто?',
     },
     text: {
-      en: ``,
-      ua: ``,
+      en: `\v \b \v Poached or soft-boiled eggs?
+        \v \b \v Before stepping out onto the balcony, my head was heavy. The number of tangled questions inside my skull exceeded the amount of tangled hair outside. Maybe they curl not by nature, but from thoughts.
+        My Sunday midday morning:
+        \v \b \v - it's when my pupils dart around the room, catching on items that scream "do this, no do that, but first do this...";
+        \v \b \v - when plans for the week ahead are already laid out, and it's advisable to find a window of time because October cinema won’t visit itself;
+        \v \b \v - it's when the to-do list is longer than my patience;
+        \v \b \v - when there's no time to decide whether you want to see people or not;
+        \v \b \v - when one hand is busy brushing teeth, and the other is placing an online order at the pharmacy.
+        On autopilot, I find myself on the balcony. Stepping out from the arched kitchen window, here I am, above the chestnut trees, warming my knees in the sun. Breakfast of a couple of eggs, hot bread, and salmon awaits while I turn on the music. Now, if the neighbors' windows are open, they'll be listening to John Coltrane, whether they like it or not.
+        \v \b \v My roommate likes it. And I like that she is a chocolatier, so when balcony matters come to bergamot, I have truffles with dorblu and cocoa beans to accompany my tea.
+        \v \b \v Thoughts/tasks/questions attack, the wind rushes, the sun treacherously hides behind a cloud, and the crow starts to caw.
+        \v \b \v But the saxophone, through the years and the portable speaker, captures 100% of my attention.
+        \v \b \v Update complete.
+        \v \b \v And as I leave the balcony, there’s only one question in my mind: "Did I have my eggs poached or soft-boiled?"
+      `,
+      ua: ` \v \b \v Яйця пашот чи некруто?
+         \v \b \v Перед тим, як вийти на балкон, голова була важка. Кількість плутаних питань усередині черепної коробки перевищувала кількість заплутаного волосся зовні. Можливо і в'ються вони не від природи, а від думок.
+        Мій ранок недільного півдня:
+         \v \b \v - це, коли зіниці снують по кімнаті чіпляючись за предмети, які кричать "це зроби, ні ось це, але спочатку це...";
+         \v \b \v - коли вже плани на тиждень вперед розписані та бажано знайти віконце, адже Жовтень(кінотеатр) сам у себе не сходить;
+         \v \b \v - це коли список справ довший за терпіння;
+         \v \b \v - коли немає часу зрозуміти хочеш ти бачити людей чи ні;
+         \v \b \v - коли одна рука зайнята зубним чищенням, а інша робить онлайн замовлення в аптеці.
+         Так на автопілоті я опиняюся на балконі. Вихід з аркового вікна кухні і ось ти вже вище каштанів грієш коліна на сонці. Сніданок з пари яєць, гарячого хліба та сьомги чекають, поки я вмикаю музику. Тепер, якщо у сусідів відчинені вікна, вони слухатимуть Джона Колтрейна, подобається це їм чи ні.
+         \v \b \v Моїй сусідці по квартирі подобається. А мені подобається, що вона шоколатьє і коли балконні справи доходять до бергамотового, в прикуску до чаю у мене трюфеля з дорублю і какао боби.
+         \v \b \v Думки/справи/питання атакують, вітер поспішає, сонце зрадницьки ховається за хмару, а ворона перейшла на крик. 
+         \v \b \v Але саксофон крізь роки і портативну колонку поглинають 100% моєї уваги.
+         \v \b \v Оновлення завершилось.
+         \v \b \v  І коли я йду з балкона, то в голові лише одне питання "а яйця я їла пашот чи некруто?"
+      `,
     },
   },
   {

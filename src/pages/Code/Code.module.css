@@ -201,13 +201,12 @@
 
 .viewWindow {
   width: 100%;
-  /* background-color: rgba(0, 0, 0, 0.5); */
+  overflow: auto;
   
   @media screen and (min-width: 860px) {
     width: 266px;
-    height: 162px;
+    height: 162px; /*висота вказана тут*/
     margin: 38px auto auto 142px;
-    overflow: scroll;
     clip-path: polygon(0% 0%, 100% 0%, 99% 100%, 3% 100%);
   }
 
@@ -230,11 +229,15 @@
   }
   
 }
+
 .workList {
   display: flex;
   flex-direction: column;
   width: 100%;
+  height: fit-content;
 }
+
+
 
 .workItem {
   width: 100%;
@@ -283,3 +286,4 @@
   height: 100%;
   padding: 10px;
 }
+

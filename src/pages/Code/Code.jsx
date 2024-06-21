@@ -15,8 +15,13 @@ import { FaNpm } from 'react-icons/fa';
 import { SiRedux } from 'react-icons/si';
 import { FaFigma } from 'react-icons/fa';
 import { SiWebpack } from 'react-icons/si';
+import { PiMouseScrollFill } from "react-icons/pi";
+import { MdAdsClick } from "react-icons/md";
+import { useEffect, useRef, useState } from 'react';
+
 
 const Code = ({ currentLanguage }) => {
+
   return (
     <>
       <div className={css.section}>
@@ -100,7 +105,8 @@ const Code = ({ currentLanguage }) => {
                 : langArr.codePortfolio.en}
             </h3>
             <div className={css.viewWindow}>
-              <ul className={css.workList}>
+              <ul className={css.workList}
+                >
                 <li className={`${css.workItem} ${css.webStudio}`}>
                   <a
                     href="https://anastasiia-andrusenko.github.io/goit-markup-hw-08/"
