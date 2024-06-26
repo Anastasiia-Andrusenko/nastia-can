@@ -1,7 +1,7 @@
 // pages Write.jsx
 
 import React, { useEffect, useState } from 'react';
-import { animateScroll as scroll, scrollSpy } from 'react-scroll';
+import { scrollSpy } from 'react-scroll';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import css from './Write.module.css';
