@@ -15,8 +15,8 @@ import { FaNpm } from 'react-icons/fa';
 import { SiRedux } from 'react-icons/si';
 import { FaFigma } from 'react-icons/fa';
 import { SiWebpack } from 'react-icons/si';
-// import { PiMouseScrollFill } from "react-icons/pi";
-// import { MdAdsClick } from "react-icons/md";
+import BtnToTop from 'components/BtnToTop/BtnToTop';
+import { GiClick } from "react-icons/gi";
 
 
 const Code = ({ currentLanguage }) => {
@@ -27,7 +27,7 @@ const Code = ({ currentLanguage }) => {
         <Header currentLanguage={currentLanguage} />
         <h2 className={css.titlePage}>{currentLanguage === 'ua' ? langArr.codePageTitle.ua : langArr.codePageTitle.en}</h2>
         <div className={css.container}>
-        <div className={css.laptop}></div>
+          <div className={css.laptop}></div>
           <div className={css.skills}>
             <h3 className={css.title}>
               {currentLanguage === 'ua'
@@ -157,8 +157,12 @@ const Code = ({ currentLanguage }) => {
                   </a>
                 </li>
               </ul>
+              <div className={css.clickBtn}>
+                <GiClick className={css.clickIcon}/>
+              </div>
             </div>
           </div>
+          <BtnToTop/>
         </div>
       </div>
       <Footer currentLanguage={currentLanguage} />

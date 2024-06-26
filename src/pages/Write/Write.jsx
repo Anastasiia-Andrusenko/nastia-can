@@ -7,6 +7,7 @@ import Footer from '../../components/Footer/Footer';
 import css from './Write.module.css';
 import articleArr from '../../articles';
 import langArr from '../../lang';
+import BtnToTop from 'components/BtnToTop/BtnToTop';
 
 const Write = ({ currentLanguage }) => {
   const [selectedText, setSelectedText] = useState('');
@@ -17,7 +18,20 @@ const Write = ({ currentLanguage }) => {
   }, []);
 
   const scrollTo = () => {
-    scroll.scrollTo(860);
+    let scrollValue;
+
+    if (window.innerWidth > 1100) {
+      scrollValue = 520; // Значення для ширини більше 1100 пікселів
+    } else if (window.innerWidth >= 860) {
+      scrollValue = 400; // Значення для ширини більше 860 пікселів
+    } else {
+      scrollValue = 860; // Значення для ширини менше або дорівнює 860 пікселям
+    }
+  
+    window.scrollTo({
+      top: scrollValue,
+      behavior: "smooth"
+    });
   };
 
   const getArticleNumber = () => {
@@ -36,11 +50,11 @@ const Write = ({ currentLanguage }) => {
   };
 
   const handleClickOnList = e => {
+    scrollTo();
     const selectedItemValue = e.target.value;
     setItemNumber(selectedItemValue);
     getArticle();
     setSelectedItem(selectedItemValue); // Встановлюємо вибраний елемент
-    scrollTo();
   };
 
   const renderContentItems = () => {
@@ -71,12 +85,33 @@ const Write = ({ currentLanguage }) => {
             {renderContentItems()}
           </ol>
           <article className={css.article} name="article">
-          <p className={css.date}>
+            <ul className={css.decorList}>
+              <li className={css.decorItem}></li>
+              <li className={css.decorItem}></li>
+              <li className={css.decorItem}></li>
+              <li className={css.decorItem}></li>
+              <li className={css.decorItem}></li>
+              <li className={css.decorItem}></li>
+              <li className={css.decorItem}></li>
+              <li className={css.decorItem}></li>
+            </ul>
+            <p className={css.date}>
               {selectedArticle ? selectedArticle.date[currentLanguage] : ''}
             </p> 
             <p className={css.remark}>
               {selectedArticle ? selectedArticle.remark[currentLanguage] : ''}
             </p> 
+            <div className={css.illustrationWrapper}>
+              {selectedArticle
+              ? <img 
+                  className={css.illustration}
+                  src={selectedArticle ? selectedArticle.illustration : ''} 
+                  alt={selectedArticle ? selectedArticle.name[currentLanguage] : ''}
+                  width={400}>
+                </img> 
+              : ''
+              }
+            </div>
             <br/>
             {selectedText === ''
               ? currentLanguage === 'ua'
@@ -89,6 +124,7 @@ const Write = ({ currentLanguage }) => {
                   </React.Fragment>
                 ))}
           </article>
+          <BtnToTop/>
         </div>
       </div>
       <Footer currentLanguage={currentLanguage} />

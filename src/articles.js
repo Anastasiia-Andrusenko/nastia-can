@@ -1,3 +1,6 @@
+import rose from '../src/media/rose.jpg';
+import grandpa from '../src/media/grandpa.gif';
+
 // Get the current date
 const today = new Date();
 
@@ -40,6 +43,7 @@ const articleArr = [
          \v \b \v Розказати, про своє щасливе дитинство, про важкі 10 років війни. Про те як 29 - го мені стукнуло 29, а я розучилася мріяти. Зізнатися, що кайфувала, від Майлі Сайрус яка може сама купити собі квіти. Хочу коротко розповісти історію свого довгого життя та кохання. Розказати як у мене були два Джек Рассел Терєра і величезний білий пікап. Як на старості років виграла в покер і вирушила в круїз.
          \v \b \v Розкажу, як колись я стала різдвяною кулькою. Але поки що ми всі тут.`,
     },
+    illustration: ``,
   },
   {
     id: 2,
@@ -71,6 +75,7 @@ const articleArr = [
           \v \b \v  А потім пролунали сирени по всій країні й кожен щось втратив. Хтось спокій, хтось домівку, а хтось родину.\n
           \v \b \v  Коли я перетинала кордон, на вʼїзді в Україну я побачила відсутній напис: «Обережно, оголені люди»`,
     },
+    illustration: ``,
   },
   {
     id: 3,
@@ -101,6 +106,7 @@ const articleArr = [
          \v \b \v Щиро вважаю несправедливим, що тобі завжди діставалась важка робота, а дідусеві - лаври. Я не казала, але знай, твоя внучечка пишається тобою! Я вдячна за твої пісні перед сном, за твої "вдягни шапочку" та за твої солоні огірки. Весь час поки дідусь тягнув мене на авантюру, ти молилася за мене. Дякую. 
          \v \b \v Мені дуже прикро прикро, що народившись у війні, тобі доводиться переживати її знову і зустрічати своє 80-річчя не в обіймах, а в жаху. Але, я знаю, це точно твій не останній ювілей і наступний ми відсвяткуємо як і планували. Я замовлю тобі піцу, про яку ти мрієш вже декілька років, ми сядемо в нашому квітучому садочку, дідусь буде цитувати мене п'ятирічну, а бджоли гудітимуть як ніколи!`,
     },
+    illustration: ``,
   },
   {
     id: 4,
@@ -134,6 +140,7 @@ const articleArr = [
         Все вместе. 
         Не в коридоре.`,
     },
+    illustration: `${grandpa}`,
   },
   {
     id: 5,
@@ -199,6 +206,7 @@ const articleArr = [
  \v \b \v P.S.: Пройшло ${daysDifference} днів. Війна все ще не стала спогадом.
  `,
     },
+    illustration: ``,
   },
   {
     id: 6,
@@ -240,16 +248,17 @@ const articleArr = [
          \v \b \v Ще кілька спостережень за прекрасною мамою і я зрозуміла, що ця сім'я є однозначно найкрасивішою з усіх присутніх тут.
         `,
     },
+    illustration: ``,
   },
   {
     id: 7,
     date: {
-      en: ``,
-      ua: ``,
+      en: `August 2019`,
+      ua: `Серпень 2019`,
     },
     remark: {
-      en: ``,
-      ua: ``,
+      en: `I got into the phone and saw that there were already 47 notes. I hope no one will ever read most of them. But here is one of those that allowed.`,
+      ua: `Залізла в телефон, побачила, що нотаток вже 47. Більшість із них, сподіваюся ніхто й ніколи не прочитає. Але ось одна з тих, що можна.`,
     },
     name: {
       en: 'Notes on the phone',
@@ -257,8 +266,16 @@ const articleArr = [
     },
     text: {
       en: ``,
-      ua: ``,
+      ua: ` \v \b \v Київ  
+        \v \b \v Автобусний маршрут номер 62.
+        Через обруч навушників я спираюсь головою на велике вікно автобуса.
+        \v \b \v Зупинка на липках. Заходять пасажири.
+        \v \b \v 1. Молода й красиво мама з маленькою донькою на руках. У жінки неймовірно витончені риси обличчя та на диво широка ступня. А ще вона явно в когось закохана. Інакше не можу виправдати ці червоні балетки.
+        \v \b \v 2.Бабуся в білій хустинці.
+        Сідає поруч і кладе, як школярка, навколішки свою улюблену сумку. Здається, вона з тих, хто здатний помічати гарне. Доказ тому — її усміхнені зморшки. Мою увагу привернула сумка схожа на Катрін Деньов. Колись дуже модна, з дуже коштовною биркою, а зараз із потертостями по краях. Думаю, бабуся в білій хустинці вже дуже давно ходить із цією сумкою. Швидше за все, це сумка її дочки. Гадаю, спочатку дочка відходила з цією сумкою сезон, потім кілька років зберігала в коробці на шафі, а потім у зворотний спадок передала своїй матері. І ось контролерка витріщалася на цей не доречний в автобусі гламур.
+        \n Може від того, що сидимо ми на місцях автобуса, що «качають», а може від того, що літня мати пишається, любить і страшно сумує за давно самостійною донькою…не знаю…але з якоїсь причини, та посміхалася і двома руками притискала потерту, дорогу і вже не модну сумку до в'язаної кофти. Автобус нахиляється на повороті, там де церква. Жінка похилого віку хреститься. Вона продовжує вірити в Бога та гомеопатію, а кожна штопана її річ пропахлася Барбовалом.`,
     },
+    illustration: ``,
   },
   {
     id: 8,
@@ -275,7 +292,13 @@ const articleArr = [
       ua: 'Ірландія',
     },
     text: {
-      en: ``,
+      en: `\v \b \v My trip was very short, but very significant.
+        I have always wanted to visit those faraway countries where people don't go for glamorous parties, don't take new dresses, and don't expect to get a good tan. My favorite performers are from Iceland. Their songs exude coolness, tranquility, warming drinks, and the coziness that comes from hugging a loved one. I dreamed of Iceland, but I got cheap tickets, and I flew to Dublin - Ireland. There were struggles with visas, documents, and now my life is divided into BEFORE and AFTER.
+         \v \b \v It was worth it!
+         \v \b \v I don't know how much I spent, I don't remember how I suffered in the visa queue. I remember standing on the edge of a cliff, the Atlantic Ocean raging below me, the wind lifting my tears upwards, and I realized that even if this piece of land I was standing on now broke off along with me and we plummeted into the ocean from a height of 120 meters, I wouldn't be the least bit upset. That's how overwhelming my emotions were.
+        The land didn't break off and I was lucky. And in general, Ireland is pure luck! Luck literally at every step and in everything, no country has greeted me like this - with open arms. Nature. Air. Ocean. Rainbow. Nice people. Pubs. Architecture. Rain. A sense of fairy tale. In this country, I knew how to fly! I will definitely get to Iceland, but Ireland has forever settled in my heart.
+         \v \b \v Do you remember that feeling when you had to part with someone at the peak of your love for a while? And you endlessly look through photos, miss them, love the whole world, but can't imagine life without the one in the photo. So. I have the same, only in my photos it’s Ireland and the feeling over 70,273km² is stronger.
+`,
       ua: ` \v \b \v Поїздка моя була дуже недовгою, але дуже значною. 
         Я завжди хотіла побувати в тих далеких країнах, куди люди не їдуть за гламурними тусовками, не беруть нові сукні та не сподіваються там гарно засмагнути. Мої улюблені виконавці з Ісландії. Від їхніх пісень віє прохолодою, умиротворенням, зігріваючими напоями та затишком, що видобувається обіймами з коханою людиною. Я мріяла про Ісландію, але мені потрапили дешеві квитки, і я полетіла в Дублін - Ірландія. Були муки з візами, документами й тепер моє життя ділиться на ДО та ПІСЛЯ.
          \v \b \v Воно того варте!
@@ -283,6 +306,7 @@ const articleArr = [
         Земля не обірвалася і мені пощастило. Та й загалом, Ірландія – це суцільне везіння! Щастило буквально на кожному кроці та в усьому, мене жодна країна не зустрічала так - з розкритими обіймами. природа. Повітря. Океан. Веселка. Милі люди. Паби. Архітектура. Дощ. Відчуття казки. У цій країні я вміла літати! Я обов'язково доїду до Ісландії, але Ірландія назавжди оселилася у моєму серці.
          \v \b \v Пам'ятаєте це відчуття, коли довелося на якийсь час розлучитися з людиною на піку вашого кохання? І ви нескінченно переглядаєте фото, сумуєте, любите весь світ, але не уявляєте життя без того, хто на фото. Так ось. У мене так само, тільки на моїх фото Ірландія та відчуття в 70273 км² сильніші.`,
     },
+    illustration: ``,
   },
   {
     id: 9,
@@ -330,6 +354,7 @@ const articleArr = [
          \v \b \v  І коли я йду з балкона, то в голові лише одне питання "а яйця я їла пашот чи некруто?"
       `,
     },
+    illustration: ``,
   },
   {
     id: 10,
@@ -346,19 +371,28 @@ const articleArr = [
       ua: 'Особливий день',
     },
     text: {
-      en: ``,
-      ua: ``,
+      en: `\v \b \v Today is a special day for me.
+        \v \b \v I don't anticipate it with excitement, I don't plan celebrations, and I don't try to escape like on my birthday. Today, I accidentally looked at the calendar and realized that exactly 6 years ago, a new era of my life began.
+        \v \b \v Six years ago, I successfully jumped onto the platform and landed at home. And I went, somewhat blurred, slightly hunched, to take root among the city dwellers. I entered the doorways and came out of the main entrances. I started drinking menthol cigarettes with tea and milk. I fell in love and designated my favorite color — the color of the metro line where "my love lives".
+        \v \b \v The infatuations and menthol cigarettes are left in the past. But the maybugs remind me that now is the best time for new beginnings. After all, only in May, when all your life plans are ruined, do you want to dance and laugh for no reason, just from walking around the city.
+      `,
+      ua: ` \v \b \v Сьогодні особливий день для мене.
+        \v \b \v Я не чекаю на нього передчуваючи, не планую святкування і не намагаюся втекти, як у свій День народження. Сьогодні, я випадково подивилася на календар і зрозуміла, що рівно 6 років тому почалася нова ера мого життя.
+        \v \b \v Шість років тому я вдало стрибнула на перон, а приземлилася вдома. І пішла ось така нерізка, трохи сутула пускати коріння у столичних мешканців. Я заходила до під'їздів, а виходила з парадних. Я почала цигарки з ментолом запивати чаєм з молоком. Я закохувалась та призначала улюбленим кольором — колір лінії метро, ​​де «живе моє кохання».
+        \v \b \v Закоханості та ментолові сигарети залишилися в минулому. Але хрущі нагадують, що зараз – найкращий час для починань. Адже тільки в травні, коли всі плани на життя зруйновані, тобі хочеться танцювати та невиправдано сміятися, просто від прогулянки містом.
+        `,
     },
+    illustration: ``,
   },
   {
     id: 11,
     date: {
-      en: ``,
-      ua: ``,
+      en: `January 9, 2021`,
+      ua: `9 січня 2021`,
     },
     remark: {
-      en: ``,
-      ua: ``,
+      en: `Conclusions after drawing beautiful hands.`,
+      ua: `Висновки після малювання гарних рук.`,
     },
     name: {
       en: 'Election campaign',
@@ -366,18 +400,25 @@ const articleArr = [
     },
     text: {
       en: ``,
-      ua: ``,
+      ua: ` Якби я балотувалася в президенти, то мала б таку передвиборчу кампанію:
+        \v \b \v  - Безкоштовний проїзд людям із гарними руками!
+        \v \b \v  - Пом'якшувальні обставини в суді для людей в окулярах. Не тому, що мені їх шкода, а тому, що це красиво!
+        \v \b \v  – Виключила б червоне сухе зі списку алкогольних напоїв. Все одно діти таке не п'ють, а мені набридло кожен раз показувати паспорт.
+        \v \b \v  - Збільшила б пенсію людям похилого віку, які не розучилися посміхатися.
+        \v \b \v  - І щоб чемним  за люб'язність молоко давали.
+        \n Ну оскільки з такими обіцянками мене до парламенту ніхто не пустить, залишається ходити за вином із паспортом та милуватися вашими гарними руками.`,
     },
+    illustration: ``,
   },
   {
     id: 12,
     date: {
-      en: ``,
-      ua: ``,
+      en: `January 5, 2021`,
+      ua: `5 січня 2021`,
     },
     remark: {
-      en: ``,
-      ua: ``,
+      en: `Passed by the railway. I smelled coal. It became a bit sad that I can't take the train to home.`,
+      ua: `Проходила повз залізничного. Відчула запах вугілля. Стало трохи сумно, що не можу сісти на потяг додому.`,
     },
     name: {
       en: 'Rose of Donbass',
@@ -385,8 +426,12 @@ const articleArr = [
     },
     text: {
       en: ``,
-      ua: ``,
+      ua: `\v \b \v Троянда Донбасу
+         \v \b \v Перед вами на фото набережна Кальміусу, юна красуня з трояндою в руках та розумінням у голові, що не хоче прожити у Донецьку все життя. Але є дещо про що ця наївна навіть не підозрювала.
+         \v \b \v Одним із факторів сприятливого середовища для починань життя в новому місті є знання того, що в тебе завжди є можливість приїхати додому. У гості, на тиждень, на годинку, щоб пройтися місцями колишньої слави. Та що там, знання того, що десь є будинок, куди Дід Мороз приносив тобі подарунки, допомагає тобі сьогоднішній дорослій. І відповідно навпаки. Без можливості пройтися вулицею, де збивалися коліна, впевненість у завтрашньому дні випаровується. Дивна річ.
+         \v \b \v Я давно живу у Києві та дуже цьому рада. Але коли взимку на пероні залізничного вокзалу пахне вугіллям, я впізнаю цей запах у якому росла і стає трохи сумно, що скоро й старих поїздів із вугільним опаленням не стане.`,
     },
+    illustration: `${rose}`,
   },
   {
     id: 13,
@@ -406,6 +451,7 @@ const articleArr = [
       en: ``,
       ua: ``,
     },
+    illustration: ``,
   },
   {
     id: 14,
@@ -425,6 +471,7 @@ const articleArr = [
       en: ``,
       ua: ``,
     },
+    illustration: ``,
   },
   {
     id: 15,
@@ -444,6 +491,7 @@ const articleArr = [
       en: ``,
       ua: ``,
     },
+    illustration: ``,
   },
 ];
 

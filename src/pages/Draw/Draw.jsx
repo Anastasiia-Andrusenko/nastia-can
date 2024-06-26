@@ -3,6 +3,7 @@ import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import css from './Draw.module.css';
 import langArr from '../../lang';
+import BtnToTop from 'components/BtnToTop/BtnToTop';
 
 const classNames = require('classnames/bind');
 
@@ -29,6 +30,7 @@ const Draw = ({ currentLanguage }) => {
             ))}
           </ul>
           <ul className={css.contents}></ul>
+          <BtnToTop/>
         </div>
       </div>
       <Footer currentLanguage={currentLanguage} />
