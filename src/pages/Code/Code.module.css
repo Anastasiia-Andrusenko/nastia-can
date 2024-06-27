@@ -169,7 +169,8 @@
 }
 
 .works {
-  z-index: 3;
+  background-color: pink;
+  /* z-index: 3; */
   text-align: center;
   margin: 0;
   width: 80vw;
