@@ -169,7 +169,7 @@
 }
 
 .works {
-  background-color: pink;
+  background-color: tomato;
   /* z-index: 3; */
   text-align: center;
   margin: 0;
@@ -201,10 +201,13 @@
 }
 
 .viewWindow {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  height: fit-content;
+
+  @media screen and (max-width: 859px) {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: fit-content;
+  }
   
   @media screen and (min-width: 860px) {
     overflow: auto;
