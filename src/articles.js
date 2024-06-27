@@ -11,6 +11,12 @@ import Ireland from '../src/media/irish.jpg';
 import karachi from '../src/media/kukarucha.jpg';
 import donetsk from '../src/media/bade.jpg';
 import sad from '../src/media/sad.jpg';
+import balcony from '../src/media/balcony.webp';
+import hands from '../src/media/hands.webp';
+import bar from '../src/media/bar.webp';
+import family from '../src/media/family.webp';
+import memo from '../src/media/memo.webp';
+import cherry from '../src/media/cherry.webp';
 
 // Get the current date
 const today = new Date();
@@ -277,7 +283,15 @@ const articleArr = [
       ua: 'Нотатки на телефоні',
     },
     text: {
-      en: ``,
+      en: `\v \b \v Kyiv  
+        \v \b \v Bus route number 62.
+        Through the headphone hoop, I rest my head on the large bus window.
+        \v \b \v Stop at Lypky. Passengers are boarding.
+        \v \b \v 1. A young and beautiful mother with a small daughter in her arms. The woman has incredibly delicate facial features and surprisingly wide feet. And she's clearly in love with someone. Otherwise, I can't justify these red ballet flats.
+        \v \b \v 2. A grandmother in a white scarf.
+        She sits next to me and places her favorite bag on her lap, like a schoolgirl. She seems to be the kind who can notice beauty. Proof of that are her smiling wrinkles. My attention was drawn to a bag that looked like it belonged to Catherine Deneuve. Once very fashionable, with a very expensive tag, now it has worn edges. I think the grandmother in the white scarf has been using this bag for a very long time. Most likely, it's her daughter's bag. I guess the daughter used the bag for a season, then kept it in a box on top of the wardrobe for several years, and then handed it back to her mother. And now the controller is staring at this out-of-place glamour in the bus.
+        \v Maybe because we're sitting in the bus seats that "sway", or maybe because the elderly mother is proud, loves, and terribly misses her long-independent daughter... I don't know... but for some reason, she was smiling and clutching the worn, expensive, and no longer fashionable bag to her knitted cardigan with both hands. The bus leans on the turn where the church is. The elderly woman crosses herself. She continues to believe in God and homeopathy, and every darned piece of her clothing smells of Barboval.
+      `,
       ua: ` \v \b \v Київ  
         \v \b \v Автобусний маршрут номер 62.
         Через обруч навушників я спираюсь головою на велике вікно автобуса.
@@ -285,7 +299,8 @@ const articleArr = [
         \v \b \v 1. Молода й красиво мама з маленькою донькою на руках. У жінки неймовірно витончені риси обличчя та на диво широка ступня. А ще вона явно в когось закохана. Інакше не можу виправдати ці червоні балетки.
         \v \b \v 2.Бабуся в білій хустинці.
         Сідає поруч і кладе, як школярка, навколішки свою улюблену сумку. Здається, вона з тих, хто здатний помічати гарне. Доказ тому — її усміхнені зморшки. Мою увагу привернула сумка схожа на Катрін Деньов. Колись дуже модна, з дуже коштовною биркою, а зараз із потертостями по краях. Думаю, бабуся в білій хустинці вже дуже давно ходить із цією сумкою. Швидше за все, це сумка її дочки. Гадаю, спочатку дочка відходила з цією сумкою сезон, потім кілька років зберігала в коробці на шафі, а потім у зворотний спадок передала своїй матері. І ось контролерка витріщалася на цей не доречний в автобусі гламур.
-        \n Може від того, що сидимо ми на місцях автобуса, що «качають», а може від того, що літня мати пишається, любить і страшно сумує за давно самостійною донькою…не знаю…але з якоїсь причини, та посміхалася і двома руками притискала потерту, дорогу і вже не модну сумку до в'язаної кофти. Автобус нахиляється на повороті, там де церква. Жінка похилого віку хреститься. Вона продовжує вірити в Бога та гомеопатію, а кожна штопана її річ пропахлася Барбовалом.`,
+        \n Може від того, що сидимо ми на місцях автобуса, що «качають», а може від того, що літня мати пишається, любить і страшно сумує за давно самостійною донькою…не знаю…але з якоїсь причини, та посміхалася і двома руками притискала потерту, дорогу і вже не модну сумку до в'язаної кофти. Автобус нахиляється на повороті, там де церква. Жінка похилого віку хреститься. Вона продовжує вірити в Бога та гомеопатію, а кожна штопана її річ пропахлася Барбовалом.
+      `,
     },
     illustration: `${bus}`,
   },
@@ -366,7 +381,7 @@ const articleArr = [
          \v \b \v  І коли я йду з балкона, то в голові лише одне питання "а яйця я їла пашот чи некруто?"
       `,
     },
-    illustration: ``,
+    illustration: `${balcony}`,
   },
   {
     id: 10,
@@ -411,7 +426,14 @@ const articleArr = [
       ua: 'Передвиборча кампанія',
     },
     text: {
-      en: ``,
+      en: `If I ran for president, my campaign would be like this:
+        \v \b \v  - Free transportation for people with beautiful hands!
+        \v \b \v  - Mitigating circumstances in court for people with glasses. Not because I pity them, but because it looks beautiful!
+        \v \b \v  – I would exclude red dry wine from the list of alcoholic beverages. Kids don’t drink it anyway, and I’m tired of showing my ID every time.
+        \v \b \v  - I would increase pensions for elderly people who haven't forgotten how to smile.
+        \v \b \v  - And for those who are polite, give milk for kindness.
+        \n Well, since no one will let me into parliament with such promises, I’ll keep going for wine with my ID and admiring your beautiful hands.
+`,
       ua: ` Якби я балотувалася в президенти, то мала б таку передвиборчу кампанію:
         \v \b \v  - Безкоштовний проїзд людям із гарними руками!
         \v \b \v  - Пом'якшувальні обставини в суді для людей в окулярах. Не тому, що мені їх шкода, а тому, що це красиво!
@@ -420,7 +442,7 @@ const articleArr = [
         \v \b \v  - І щоб чемним  за люб'язність молоко давали.
         \n Ну оскільки з такими обіцянками мене до парламенту ніхто не пустить, залишається ходити за вином із паспортом та милуватися вашими гарними руками.`,
     },
-    illustration: ``,
+    illustration: `${hands}`,
   },
   {
     id: 12,
@@ -437,7 +459,11 @@ const articleArr = [
       ua: 'Троянда Донбасу',
     },
     text: {
-      en: ``,
+      en: `\v \b \v The Rose of Donbas
+         \v \b \v In front of you in the photo is the Kalmius embankment, a young beauty with a rose in her hand and an understanding in her head that she doesn’t want to live in Donetsk all her life. But there is something that this naive girl didn’t even suspect.
+         \v \b \v One of the factors of a favorable environment for starting a life in a new city is knowing that you always have the opportunity to come back home. For a visit, for a week, for an hour, to walk the places of former glory. The mere knowledge that somewhere there is a house where Santa Claus brought you gifts helps you today as an adult. And vice versa. Without the possibility to walk the street where your knees were skinned, confidence in the future evaporates. A strange thing.
+         \v \b \v I have been living in Kyiv for a long time and I am very glad about it. But when in winter, on the platform of the railway station, it smells of coal, I recognize this smell I grew up with and it becomes a bit sad that soon even the old coal-heated trains will be gone.
+        `,
       ua: `\v \b \v Троянда Донбасу
          \v \b \v Перед вами на фото набережна Кальміусу, юна красуня з трояндою в руках та розумінням у голові, що не хоче прожити у Донецьку все життя. Але є дещо про що ця наївна навіть не підозрювала.
          \v \b \v Одним із факторів сприятливого середовища для починань життя в новому місті є знання того, що в тебе завжди є можливість приїхати додому. У гості, на тиждень, на годинку, щоб пройтися місцями колишньої слави. Та що там, знання того, що десь є будинок, куди Дід Мороз приносив тобі подарунки, допомагає тобі сьогоднішній дорослій. І відповідно навпаки. Без можливості пройтися вулицею, де збивалися коліна, впевненість у завтрашньому дні випаровується. Дивна річ.
@@ -460,14 +486,23 @@ const articleArr = [
       ua: 'Вчора спіймала тарганчика',
     },
     text: {
-      en: ``,
-      ua: `Вчора спіймала тарганчика!
+      en: `\v \b \v Yesterday I caught a little cockroach!
+        And here we are both surprised, looking each other in the eyes as he says to me:
+        \v \b \v "Nastyusha, if you're about to do something, and someone suddenly hints/asks or even firmly tells you to do the same thing you were already planning to do, then you must change your mind immediately! That is, if someone tells you to do what you were already going to do, believe me, your plans are a ridiculous idea! No matter what that person's intentions are, the desire automatically becomes not yours. Get angry and run, your plans have been ruined!
+        \v \b \v Of course, I start arguing with the cockroach, making arguments, asking questions like: for example, I want to eat this chocolate cake, and just as I'm about to take a piece, my taste buds are already savoring it, and then someone says to me:
+        \v \b \v "Come on, go ahead, eat that cake!"
+        \v \b \v And what? Will I immediately lose the desire to eat it? Even if it's already on the spoon and almost near my mouth?
+        \v \b \v Yes! The desire is ruined. The cake is probably not tasty, and you are following the lead of others!
+        \v \b \v Reflecting on my behavior, I realized that this cockroach has been living with me for a long time. And he feels like family, while people feel like strangers. And what should I do with him? Squash him? Release him? Or gently put him back in my head and let him continue to "take care" of me?
+      `,
+      ua: `\v \b \v Вчора спіймала тарганчика!
         І ось сидимо ми обидва здивовані, дивимось очі в очі як він мені каже:
-        "Настюша, якщо збираєшся щось зробити, а хтось раптом натякнув/попросив чи навіть стверджено сказав зробити те саме, що ти й так збиралася робити, то в мить треба передумати! Тобто, якщо тобі кажуть робити те, що ти й так збиралася робити, то повір, твої плани — безглуздий задум! Неважливо які наміри у цієї людини, бажання автоматично стає не твоїм. Злись й біжи, він твої плани зруйновано!
-        Я звичайно починаю сперечатися з тарганом, наводити аргументи, ставити питання на кшталт: ось я хочу з'їсти цей шоколадний торт, наприклад, і тільки відламую шматочок, смакові рецептори вже смакують і тут хтось мені каже: "ну ж бо, давай, з'їж цей торт!"
-        І що? Мені відразу перехочеться його? Навіть якщо він вже у ложечці та майже біля мого рота?
-        Так! Все, бажання зіпсовано. Торт, напевно, не смачний, а ти йдеш на поводу інших!
-        Пригадуючи свою поведінку, я зрозуміла, що цей тарган зі мною живе давно. І наче вже рідний, а люди чужі. І що з ним зробити? Прибити? Відпустити? Чи дбайливо повернути в голову і дозволити далі "піклуватися" про мене?`,
+        \v \b \v "Настюша, якщо збираєшся щось зробити, а хтось раптом натякнув/попросив чи навіть стверджено сказав зробити те саме, що ти й так збиралася робити, то в мить треба передумати! Тобто, якщо тобі кажуть робити те, що ти й так збиралася робити, то повір, твої плани — безглуздий задум! Неважливо які наміри у цієї людини, бажання автоматично стає не твоїм. Злись й біжи, він твої плани зруйновано!
+        \v \b \v Я звичайно починаю сперечатися з тарганом, наводити аргументи, ставити питання на кшталт: ось я хочу з'їсти цей шоколадний торт, наприклад, і тільки відламую шматочок, смакові рецептори вже смакують і тут хтось мені каже: 
+        \v \b \v "ну ж бо, давай, з'їж цей торт!" 
+        \v \b \v І що? Мені відразу перехочеться його? Навіть якщо він вже у ложечці та майже біля мого рота?
+        \v \b \v Так! Все, бажання зіпсовано. Торт, напевно, не смачний, а ти йдеш на поводу інших!
+        \v \b \v Пригадуючи свою поведінку, я зрозуміла, що цей тарган зі мною живе давно. І наче вже рідний, а люди чужі. І що з ним зробити? Прибити? Відпустити? Чи дбайливо повернути в голову і дозволити далі "піклуватися" про мене?`,
     },
     illustration: `${karachi}`,
   },
@@ -486,153 +521,221 @@ const articleArr = [
       ua: 'Не можна просто',
     },
     text: {
-      en: ``,
-      ua: `Не можна просто з'їздити до Донецька не написавши про це текст. Не тому, що "немає тексту — не було поїздки", а тому, що подорож до "міста вугілля та троянд" у сотні разів емоційніша за відпочинок на екзотичних островах. Не дивлячись на те, що замість крему для засмаги я беру із собою пачку заспокійливих.
-        На фото основні причини моїх добровільних мук. Вони сумують та плачуть. Вони вирощують помідори, закривають огірочки та заморожують вишні тільки для того, щоб подивитися як я їм їхні запасики. Сенс їхнього життя – дочекатися онучок та нагодувати. І так останні шість років. Їм навіть особливо спілкуватися з нами не потрібно. Вони хочуть надивитися.
-        Частіше я нетерпима до них, можу навіть підвищити голос, коли вони намагаються зробити мені добро проти моєї волі. Я не вмію сказати, що люблю їх і теж сумую. Я скоріше фиркну, коли вони спробують засунути мені в сумку згорток тараньки. Але в результаті я везу гостинці та величезний ком в горлі, а бабусі та дідусі починають новий відлік. Я знаю, що поки я проходжу блокпости та намагаюся тримати очі сухими, вони згадують, як у коридорі стояло на дві пари взуття більше, як я на ніч могла випити літр чаю дивлячись на зірки і яка ж я "худенька стала в цьому своєму Києві".
-        Ці люди співчувають мені до сліз, хоч живуть у війні. Їм важливіше, щоб мені не тягнуло з вікна мого знімного подільського житла, ніж те, що в них уже кілька разів вилітали вікна через обстріли.
-        Скоро я повернуся до Києва і в мене продовжиться моє звичне життя. Вони ображатимуться, що не дзвоню. Я тим часом думатиму про них, про те, як мені добре і відчуватиму свою провину за це.`,
+      en: `\v \b \v You can't just go to Donetsk without writing about it. Not because "no text — no trip," but because a journey to the "city of coal and roses" is a hundred times more emotional than a vacation on exotic islands. Despite the fact that instead of suntan lotion, I take a pack of sedatives with me.
+        \v \b \v In the photo are the main reasons for my voluntary torment. They miss and cry. They grow tomatoes, pickle cucumbers, and freeze cherries just to see me eat their provisions. The meaning of their life is to wait for their grandchildren and feed them. And so it has been for the last six years. They don't even particularly need to talk to us. They just want to watch.
+        \v \b \v Often, I am intolerant of them, and I can even raise my voice when they try to do good for me against my will. I don't know how to say that I love them and miss them too. I would rather snort when they try to slip a bundle of dried fish into my bag. But in the end, I bring home the treats and a huge lump in my throat, while my grandparents start a new countdown. I know that while I pass the checkpoints and try to keep my eyes dry, they remember how there used to be two more pairs of shoes in the hallway, how I could drink a liter of tea at night while looking at the stars, and how "skinny I’ve become in this Kyiv of mine."
+        \v \b \v These people sympathize with me to the point of tears, even though they live in a war. It is more important to them that I don't get a draft from the window of my rented Podil apartment than the fact that their windows have been blown out several times by shelling.
+        \v \b \v Soon I will return to Kyiv, and my usual life will continue. They will be offended that I don't call. Meanwhile, I will be thinking about them, about how good I have it, and feeling guilty about it.
+      `,
+      ua: `\v \b \v Не можна просто з'їздити до Донецька не написавши про це текст. Не тому, що "немає тексту — не було поїздки", а тому, що подорож до "міста вугілля та троянд" у сотні разів емоційніша за відпочинок на екзотичних островах. Не дивлячись на те, що замість крему для засмаги я беру із собою пачку заспокійливих.
+        \v \b \v На фото основні причини моїх добровільних мук. Вони сумують та плачуть. Вони вирощують помідори, закривають огірочки та заморожують вишні тільки для того, щоб подивитися як я їм їхні запасики. Сенс їхнього життя – дочекатися онучок та нагодувати. І так останні шість років. Їм навіть особливо спілкуватися з нами не потрібно. Вони хочуть надивитися.
+        \v \b \v Частіше я нетерпима до них, можу навіть підвищити голос, коли вони намагаються зробити мені добро проти моєї волі. Я не вмію сказати, що люблю їх і теж сумую. Я скоріше фиркну, коли вони спробують засунути мені в сумку згорток тараньки. Але в результаті я везу гостинці та величезний ком в горлі, а бабусі та дідусі починають новий відлік. Я знаю, що поки я проходжу блокпости та намагаюся тримати очі сухими, вони згадують, як у коридорі стояло на дві пари взуття більше, як я на ніч могла випити літр чаю дивлячись на зірки і яка ж я "худенька стала в цьому своєму Києві".
+        \v \b \v Ці люди співчувають мені до сліз, хоч живуть у війні. Їм важливіше, щоб мені не тягнуло з вікна мого знімного подільського житла, ніж те, що в них уже кілька разів вилітали вікна через обстріли.
+        \v \b \v Скоро я повернуся до Києва і в мене продовжиться моє звичне життя. Вони ображатимуться, що не дзвоню. Я тим часом думатиму про них, про те, як мені добре і відчуватиму свою провину за це.
+        `,
     },
     illustration: `${donetsk}`,
   },
   {
     id: 15,
     date: {
-      en: ``,
-      ua: ``,
+      en: `September 2020`,
+      ua: `Вересень 2020`,
     },
     remark: {
-      en: ``,
-      ua: ``,
+      en: `Tram reflections at the beginning of autumn.`,
+      ua: `Трамвайні роздуми на початку осені.`,
     },
     name: {
-      en: 'Sadember',
-      ua: 'Сумопад',
+      en: 'Sadtember',
+      ua: 'Журбересень',
     },
     text: {
-      en: ``,
-      ua: ``,
+      en: `\v \b \v Sadtember is
+        \v \b \v When the first tired-colored leaves fall on still warm asphalt.
+        \v \b \v When his chances increase that she will agree to have a hot coffee/tea with him.
+        \v \b \v When knees are still covered in green antiseptic under school pants.
+        \v \b \v When a new layer of clothing appears on the white stripes from the swimsuit.
+        \v \b \v When clearing out the phone's full memory, you stumble upon old photos and start scrolling, counting how many autumns have passed since then.
+        \v \b \v When people lose bets and start smoking again.
+        \v \b \v When friends migrate to the kitchen, and a blanket appears on the balcony.
+        \v \b \v When his jacket warms her shoulders on a bench in the park.
+        \v \b \v When I turn on my autumn playlist and enjoy the sweet melancholy on my way to work.
+`,
+      ua: `\v \b \v Журбересень – це 
+        \v \b \v Коли перше листя втомленого кольору падає на ще теплий асфальт.
+        \v \b \v Коли в нього підвищуються шанси на те, що вона погодиться випити з ним гарячої кави/чаю.
+        \v \b \v Коли під шкільними брюками коліна досі в зеленці.
+        \v \b \v Коли на білих смужках від купальника з'являється додатковий шар одягу.
+        \v \b \v Коли очищаючи переповнену пам'ять на телефоні, ти натикаєшся на фото з минулого і починаєш переглядати, рахуючи скільки осеней минуло з того часу.
+        \v \b \v Коли люди програють суперечки та починають знову палити.
+        \v \b \v Коли друзі перекочовують на кухню, а на балконі з'являється пледик.
+        \v \b \v Коли його куртка гріє її плечі на лавочці в парку.
+        \v \b \v Коли я вмикаю осінній плейлист і насолоджуюся солодким смутком на шляху до роботи.
+      `,
     },
     illustration: `${sad}`,
   },
   {
     id: 16,
     date: {
-      en: ``,
-      ua: ``,
+      en: `August 27, 2019`,
+      ua: `27 серпня 2019`,
     },
     remark: {
-      en: ``,
-      ua: ``,
+      en: `Once I got into the most atmospheric bar ever.`,
+      ua: `Одного разу я потрапила в найатмосферніший бар.`,
     },
     name: {
-      en: '',
+      en: 'Bar Godar',
       ua: 'Бар Годар',
     },
     text: {
-      en: ``,
-      ua: `Я сегодня побывала в лучшем заведении из всех, что когда-либо посещала!
-Меня туда привели мои добрые знакомые. Тот, кто не знает, никогда в жизни не найдёт дороги сам. Идти нужно через дворы и арки, сделав несколько неожиданных поворотов, вы попадаете в длинный узкий дворик в цветах осени. На улице будут стоять ребята в брюках и очках, в одной руке у них будут самокрутки, а в другой - бокалы из толстого стекла. Они неспешно потягивают красное сухое и обсуждают искусство. 
-В углу дворика, между двумя зданиями конца 19 века, зажата небольшая дверь. Когда вы зайдёте в неё, вы чудесным образом (как в шатре Гарри Поттера) попадаете в огромное пространство. Всё помещение разбито на несколько разных зон. Более светлых и с приглушенным светом. С маленькими столиками и местами для больших компаний. Там стоит проигрыватель, который крутит виниловые пластинки, а напротив, в другом конце зала, стоит рояль. Места очень много, несмотря на миллионы антикварной мебели. Окон нет. Пол деревянный и неровный, но отполирован туфлями на красивых ногах. Ещё у одной стены расположен камин, который должны прочистить до ноября.
-Бар Годар - это очень уютный и атмосферный бар! Вы никогда не уйдёте оттуда с ощущением, что зря потратили время. Там полно художников и киношников, архитекторов, музыкантов и прочей творческой интеллигенции.
-Конечно, я встретила там парочку знакомых лиц, но когда шла поздороваться, я проснулась...
-Если вы вдруг встретите такое место, как "Годар", отведите меня туда.`,
+      en: `\v \b \v Today I visited the best place I've ever been to!
+        My good friends took me there. If you don't know about it, you'll never find the way on your own. You have to go through courtyards and arches, make a few unexpected turns, and you end up in a long narrow courtyard in autumn colors. Outside, there will be guys in pants and glasses, holding roll-your-own cigarettes in one hand and thick glass or crystal glasses in the other. They slowly sip red wine and discuss art. In the corner of the courtyard, between two late 19th-century buildings, there's a small door squeezed in. When you enter, you magically (like in Harry Potter's tent) step into a huge space.
+         \v \b \v The whole place is divided into several different zones. Some are brighter, and others have more subdued lighting. There are small tables and spots for large groups. There's a turntable playing vinyl records, and opposite, at the other end of the room, stands a grand piano. There's plenty of space despite the abundance of antique furniture. There are no windows. The wooden floor is uneven but polished by the shoes on beautiful legs. There's also a fireplace by one wall, which they promised to clean by November.
+         \v \b \v The Godard Bar is a very cozy and atmospheric bar! You'll never leave with the feeling that you've wasted your time. It's full of artists, filmmakers, architects, musicians, and other creative intelligentsia.
+         \v \b \v Of course, I met a few familiar faces there, but just as I was going to say hello, I woke up...
+         \v \b \v If you ever come across a place like "Godard," take me there. Please.
+      `,
+      ua: ` \v \b \v  Я сьогодні побувала у найкращому закладі з усіх, що колись відвідувала!
+        Мене туди привели мої добрі знайомі. Той, хто не знає, ніколи в житті не знайде дороги сам. Іти потрібно через двори та арки, зробивши кілька несподіваних поворотів, ви потрапляєте у довгий вузький дворик у кольорах осені. На вулиці стоятимуть хлопці у штанах та окулярах, в одній руці у них будуть самокрутки, а в іншій – келихи з товстого скла чи кришталю. Вони поволі потягують червоне сухе і обговорюють мистецтво. У кутку дворика, між двома будинками кінця 19 століття, затиснуті невеликі двері. Коли ви зайдете в них, ви чарівним методом (як у наметі Гаррі Поттера) потрапляєте у величезний простір. 
+         \v \b \v Все приміщення розбите на кілька різних зон. Світліших і з більш приглушеним світлом. З маленькими столиками та місцями для великих компаній. Там стоїть програвач, який крутить вінілові платівки, а навпроти, в іншому кінці зали стоїть рояль. Місця дуже багато, попри купи антикварних меблів. Вікон немає. Підлога дерев'яна і нерівна, але відполірована туфлями на красивих ногах. Ще біля однієї стіни розташований камін, який обіцяли прочистити до листопада.
+         \v \b \v Бар Годар – це дуже затишний та атмосферний бар! Ви ніколи не підете звідти з відчуттям, що даремно витратили час. Там повно художників, кіношників, архітекторів, музикантів та іншої творчої інтелігенції.
+         \v \b \v Звичайно, я зустріла там кілька знайомих осіб, але коли йшла привітатися, я прокинулася...
+         \v \b \v Якщо ви раптом зустрінете таке місце, як "Годар", відведіть мене туди. Будь ласочка.
+      `,
     },
-    illustration: ``,
+    illustration: `${bar}`,
   },
   {
     id: 17,
     date: {
-      en: ``,
-      ua: ``,
+      en: `August 10, 2019`,
+      ua: `10 серпня 2019`,
     },
     remark: {
-      en: ``,
-      ua: ``,
+      en: `I wanted to feel like a businesswoman and went to breakfast with a laptop.`,
+      ua: `Захотіла відчути себе діловою та пішла на сніданок з ноутбуком.`,
     },
     name: {
-      en: '',
+      en: 'Whose family I have not met',
       ua: 'Родина якої я не зустрічала',
     },
     text: {
-      en: ``,
-      ua: `Сижу в кафе, позавтракала, пью чай, работаю.
-За соседним столиком сидит обычная такая, приятная семья из папы, мамы и девочки- подростка. Даше 15 лет, это и много другое я узнала в моменты затихания звука в моих наушниках.
-Но самое интересное, что заставило меня обратить внимание на эту среднестатистическую семью, это !ВНИМАНИЕ ! то, что они вышли на семейный утренний кофе чтобы выбрать место, где они встретят НГ ! 
-Это был не разговор между-прочим, они реально больше часа выбирали куда лучше поехать.
-Варианты были разные, от Будапешта до Индии. Они смотрели карты, проверяли цены на авиабилеты и с воодушевлением делились мечтами о разных городах.
-Это была такая милая семья, называющая друг-друга в уменьшительно-ласкательных.
-Когда в очередной раз у меня затихли наушники, я услышала повышенный тон отца: 
-"Каждый хочет своё! Мама- в Египет, Даша- в Берлин"
-,а Я... а я в Чугуев ! "
-Они разругались и папа пошел на улицу ждать пока дочь допьет свой латте, а мама сходит в уборную.
-Интересно, куда они поедут на НГ ? Интересно, а можно-ли отправить каждого туда, куда он хочет ? И будет-ли мама счастлива встречая НГ в Египте без мужа и дочери? А папа в Чугуеве ? А дочь в Берлине ? Не понятно...
-И не менее интересно, живут ли полностью счастливые семьи на этой планете? 
-Или только в новых фото-рамках ?`,
+      en: `\v \b \v I'm sitting in a café, had breakfast, drinking tea, working. Pretending to be a business lady.
+        At the next table sits an ordinary, pleasant family consisting of a dad, mom, and a teenage girl. Dasha is 15 years old; this and much more I learned during the moments of silence in my headphones.
+        \v \b \v But the most interesting thing that made me pay attention to this average family is, ATTENTION! the fact that they went out for a family morning coffee to choose a place where they would celebrate New Year's Eve! Of course, I turned off the sound in my headphones and, without giving myself away, continued to eavesdrop on them.
+        \v \b \v This was not a casual conversation; they were really choosing for more than an hour where it would be best to go. The options ranged from Budapest to India. They looked at maps, checked flight prices, and enthusiastically shared dreams about different cities. They were such a cute family, calling each other affectionate names. I listened a little to their plans, then turned on the music again and continued working.
+        \v \b \v After another silence at the end of a song, I heard the raised tone of the "head of the family" from that family.
+        Everyone wants their own thing! Mom wants Egypt, Dasha wants Berlin, and I...
+        ...and I want Chuhuiv!
+        \v \b \v They argued, and the dad went outside to wait until the daughter finished her latte and the mom went to the restroom.
+        \v \b \v I wonder where they will celebrate the New Year? I wonder if it is possible to send each one where they want to go? And would mom be happy celebrating New Year's in Egypt without her husband and daughter? And dad in Chuhuiv? And the daughter in Berlin? It's unclear...
+        \v \b \v And no less interesting, do truly happy families really exist on this planet? 
+        Or do they only exist in new photo frames?
+      `,
+      ua: `\v \b \v Сиджу в кафе, поснідала, п'ю чай, працюю. Видаю з себе ділову мадам.
+        За сусіднім столиком сидить звичайна така, приємна родина що складається з тата, мами та дівчинки-підлітка. Даші 15 років, це та багато іншого я дізналася в моменти затихання звуку в моїх навушниках.
+        \v \b \v Але найцікавіше, що змусило мене звернути увагу на цю середньостатистичну сім'ю, це УВАГА! те, що вони вийшли на сімейну ранкову каву вибрати місце, де вони зустрінуть Новий Рік ! Звичайно я вимкнула звук в навушниках, та не подаючи вигляду продовжила їх підслуховувати.
+        \v \b \v Це була не розмова "між іншим", вони реально більше ніж годину вибирали куди краще поїхати. Варіанти були різні від Будапешта до Індії. Вони дивилися карти, перевіряли ціни на авіаквитки та з натхненням ділилися мріями про різні міста. Це була така мила сім'я, яка називала один одного пестливими іменами. Я послухала трішки про їх плани та знов увімкнула музику і продовжила працювати.
+        \v \b \v Після чергового затухання звуку наприкінці пісні, я почула підвищений тон "глави сімейства" тієї родини. 
+        Кожен хоче своє! Мама — в Єгипет, Даша — в Берлін, а я... 
+        ...а я в Чугуїв!
+        \v \b \v Вони посварилися і тато пішов на двір чекати доки дочка доп'є свій лате, а мама сходить у вбиральню.
+        \v \b \v Цікаво, де все ж таки вони зустрінуть новий рік? Цікаво, а чи можна відправити кожного туди, куди він хоче? І чи буде мама щаслива зустрічаючи НР у Єгипті без чоловіка та дочки? А тато у Чугуєві? А дочка в Берліні? Не зрозуміло...
+        \v \b \v І не менш цікаво, чи живуть реально щасливі родини на цій планеті? 
+        Чи вони існують лише у нових фото-рамках?`,
     },
-    illustration: ``,
+    illustration: `${family}`,
   },
   {
     id: 18,
     date: {
-      en: ``,
-      ua: ``,
+      en: `July 2019`,
+      ua: `Липень 2019`,
     },
     remark: {
-      en: ``,
-      ua: ``,
+      en: `Only what is important is not forgotten.`,
+      ua: `Тільки те, що важливо не забувається.`,
     },
     name: {
-      en: '',
-      ua: 'Проблеми з памʼяттю',
+      en: `Memory problems`,
+      ua: `Проблеми з памʼяттю`,
     },
     text: {
-      en: ``,
-      ua: `После того, как я спрошу у вас, читали ли вы книгу Лимонова "Эдичка", вы подумаете, что я умничаю. После я скажу, что прочла её вовремя и мне она очень понравилась, вы спросите "о чем она?". И когда я не смогу ответить, вы решите, что я вру.
-Я не процитирую вам стихи, после того как скажу, что они мне нравятся.
-Я не скажу, что в этом человеке такого, что я его люблю. Я не знаю почему лицо другого мне неприятно, даже, видеть. Я не смогу объяснить почему от этой песни хочется плакать или улыбаться. У меня не найдется аргументов чтобы защитить старый закошлаченный свитер.
-Всё что я смогу это молча надевать его снова и вспоминать как он лежал рядом, когда мне было тепло и нежно без него.
-Я не помню музыку песен, я не помню рифмы стихов, сюжет книги и даже почему моё лицо кривится при виде другого.
-Но я помню эти чувства. Что такого со мной сделала эта песня, какая атмосфера этого произведения, какой красивый был снег, когда свитер лежал в шкафу и на сколько соленые были слёзы, когда чьи-то глаза мне врали.
-Я не знаю, что это за память такая, добрая или злая. Но я доверяю морщинкам от улыбки и мурашкам на коже и это для меня главный аргумент, который не смогу описать словами, когда вы спросите "почему ?"`,
+      en: `\v \b \v After I ask you if you've read Limonov's book "It's Me, Eddie," you'll think I'm showing off. Then I’ll say that I read it at the right time and I really liked it (even though I didn’t finish it, like most books), you’ll ask, “what’s it about?” And when I can't answer, you'll think I'm lying.
+        \v \b \v I won't quote poems to you after saying that I like them. I won't be able to tell you what is so special about a person that makes me love them. I also don’t know why another person’s face is unpleasant for me to even look at. I can’t explain why this song makes me want to cry or smile. I won’t have arguments to defend an old worn-out sweater. All I can do is silently wear it again and remember how it lay next to me when I felt warm and tender without it. I don’t remember the chords of songs, I don’t remember the rhymes of poems, the plot of the book, or even why my face grimaces at seeing a certain image.
+        \v \b \v But I remember feelings well.
+        What this song did to me, the atmosphere of this work, how beautiful the snow was when the sweater lay in the closet, and how salty the tears were when someone's eyes lied to me.
+        \v \b \v I don’t know what kind of memory this is, good or bad.
+        But I trust the wrinkles from smiles and the goosebumps on my skin, and this is my main argument, which I won’t be able to describe in words when you ask “why?”
+      `,
+      ua: `\v \b \v Після того, як я спитаю у вас, чи ви читали книгу Лимонова "Едічка", ви подумаєте, що я випендрююсь. Після я скажу, що читала її та дуже вчасно і мені вона дуже сподобалася(не дивлячись, що я її не дочитала як і більшість книжок), ви запитаєте "про що ж вона?". І коли я не зможу відповісти, ви вирішите, що я підбріхую. 
+        \v \b \v Я не процитую вам вірші після того, як скажу, що вони мені подобаються. Я не скажу, що в тій людині такого, за що я її люблю. Так само не знаю, чому обличчя іншої людини мені неприємно, навіть, бачити. Я не зможу пояснити, чому від цієї пісні хочеться плакати чи посміхатися. У мене не знайдеться аргументів, щоб захистити старий залужений светр. Все, що я зможу це мовчки одягати його знову і згадувати, як він лежав поруч, коли мені було тепло і ніжно без нього. Я не пам'ятаю акордів пісень, я не пам'ятаю рими віршів, сюжет книги та навіть чому моє обличчя кривиться побачивши певний образ.
+        \v \b \v Але я добре пам'ятаю почуття. 
+        Що такого зі мною зробила ця пісня, яка атмосфера цього твору, який гарний був сніг, коли светр лежав у шафі та наскільки солоними були сльози, коли чиїсь очі мені брехали.
+        \v \b \v Я не знаю, що це за пам'ять така, гарна чи погана. 
+        Але я довіряю зморшкам від посмішок та мурашкам на шкірі й це для мене головний аргумент, який не зможу описати словами, коли ви запитаєте "чому?"
+      `,
     },
-    illustration: ``,
+    illustration: `${memo}`,
   },
   {
     id: 19,
     date: {
-      en: ``,
-      ua: ``,
+      en: `May 9, 2019`,
+      ua: `9 травня 2019`,
     },
     remark: {
-      en: ``,
-      ua: ``,
+      en: `It just so happened that I have a sister. We have a difference of almost 17 years, but we have the same initials.`,
+      ua: `Так склалося, що в мене є сестра. У нас різниця майже 17 років, проте однакові ініціали.`,
     },
     name: {
-      en: '',
+      en: 'Kitchen. Evening. Two people.',
       ua: 'Кухня. Вечір. Дві людини.',
     },
     text: {
-      en: ``,
-      ua: `Такие вечера как сегодняшний, маленькая ааа особенно ценит. Они откладываются в её неокрепшем восьмилетнем сознании и, наверняка, повлияют на формировании её  личности. Большая ААА очень надеется, что эта личность будет лучше чем ААА. Будет свободной от чужих мнений. И когда-нибудь ааа найдет ответы на вопросы, которых не может объяснить даже ААА. Она будет лучше, счастливее и свободнее. Когда-нибудь. Обязательно. И все начинается с вечеров под звёздам, со слежек за спутниками и чертовой желтой кухонной лампочки. Найдена мамина заначка вермута- это конечно не лучшее лекарство от ангины, но хочется. Возможно проходя вдоль желтого окна, кто-то заметил два силуэта. Это маленькая ааа и большая ААА. Если большой ААА в полночь хочется вермута, слушать голос чернокожей женщины и поджать одну ногу под себя сидя на кухонной табуретке, то почему ааа не может делать, то чего хочется ей ?! Может! Но миссия ААА сделать так, чтобы максимум, чего хотелось ааа на ночь глядя это просто посидеть рядом укутавшись в плед, задать пару вопросов и обдумывать их в волшебных красках сновидений.
-- ты встречала когда-нибудь монстров ?
-- каких именно ?
-- ну таких с зубами и страшными лапами(показывает)
-- ооо, так это не самые страшные монстры, я встречала пострашней!
-- правда ?! И какие они ?
-- на самом деле, они бывают очень красивыми, они даже могут улыбаться тебе
-- так это не страшно
-- понимаешь, когда перед тобой монстр с огромными зубами, тремя головами и колючим хвостом, это всё самое страшное что у него есть и ты это видишь, он это не скрывает...
-- но а если он хочет тебя убить?!?
-- это максимум, на что он способен. Куда страшнее, когда кто-то красивый тебе улыбается, а внутри, оказывается, он скрывает монстра...
-Тишина... 
-ААА уже сомневается, что параллельно со сказками можно рассказывать "такое". Остается надеяться, что ааа не унаследует эту НЕлюбовь к человечеству в целом.
-- люди что-ли ? Скривившись спросила ааа.
-- люди...
-Конечно это не конец разговора, а лишь затухание песни чернокожей женщины.  Что было дальше останется только между ними. Останется под мартовскими звездами и пледом на табуретке.
-Остынет желтая кухонная лампочка, а маленькая ааа будет засыпать вспоминая последнее на сегодня обещание ААА, что если мы будем вишенками в следующей жизни, то обязательно будем парой, бочок к бочку висеть на деревце.`,
+      en: `\v \b \v Evenings like tonight, little aaa especially cherishes. They are imprinted on her fragile eight-year-old consciousness and will probably influence the formation of her personality.
+        \v \b \v Big AAA really hopes that this person will be better than AAA. She will be free from others' opinions. And someday little aaa will find answers to questions that even big AAA cannot explain. She will be better, happier, and freer. Someday. Definitely. And it all starts with evenings under the stars, watching satellites, and that damn yellow kitchen light bulb.
+        \v \b \v Finding mom's stash of vermouth is, of course, not the best cure for a sore throat, but she wants it. Perhaps, walking past the yellow window, someone noticed two silhouettes. It's little aaa and big AAA. If big AAA wants vermouth at midnight, to listen to the voice of a long-dead African American woman and sit on a kitchen stool with one leg tucked under her, then can little aaa do what she wants? She can! But the mission of the elder is to make sure that the maximum the younger wants against the night is just to sit nearby wrapped in a blanket, ask a few questions, and think about them in the magical colors of dreams.
+        \v \b \v - Have you ever met monsters?
+        \v \b \v - What kind?
+        \v \b \v - Well, the ones with teeth and scary claws (shows)
+        \v \b \v - Oh, those are not the scariest monsters. I've met much scarier ones!
+        \v \b \v - Really?! What are they like?
+        \v \b \v - Actually, they can be very beautiful; they can even smile at you.
+        \v \b \v - But that's not scary.
+        \v \b \v - You see, when a monster with huge teeth, three heads, and a spiky tail is in front of you, that is the scariest thing about it and you see it, it doesn't hide it...
+        \v \b \v - But what if it wants to kill you?!?
+        \v \b \v - That's the maximum it can do. It's much scarier when someone beautiful smiles at you, but inside, it turns out they are hiding a monster.
+        Silence...
+        \v \b \v AAA already doubts that along with fairy tales, such things can be told. It remains to hope that aaa will not inherit this dislike for humanity as a whole.
+        \v \b \v - People, you mean? Little aaa asked, frowning.
+        \v \b \v - Yes, unfortunately...
+        Of course, this is not the end of the conversation, just the fading of a song. What happened next will remain only between AAA, aaa, and the forever living African American woman. It will remain under the March stars and under the blanket on the stool. The yellow kitchen light bulb will cool down, and little aaa will fall asleep remembering the last promise of AAA today, that if we become cherries in the next life, we will definitely be a pair, hanging side by side on a tree.
+      `,
+      ua: `\v \b \v Такі вечори як сьогоднішній, маленька ааа особливо цінує. Вони відкладаються у її незміцнілій восьмирічній свідомості та, напевно, вплинуть на формування її особистості.  
+        \v \b \v Велика ААА дуже сподівається, що ця персона буде кращою за ААА. Буде вільною від чужих думок. І колись мала ааа знайде відповіді на питання, яких не може пояснити навіть велика. Вона буде кращою, щасливішою і вільнішою. Колись. Обов'язково. І все починається з вечорів під зірками, зі стеження за супутниками та з бісової жовтої кухонної лампочки. 
+        \v \b \v Знайдена мамина заначка вермуту,  це звичайно не найкращі ліки проти ангіни, але хочеться. Можливо, проходячи вздовж жовтого вікна, хтось помітив два силуети. Це маленька ааа та велика ААА.  Якщо великий ААА опівночі хочеться вермуту, слухати голос давно померлої афроамериканської жінки та підігнувши одну ногу під себе сидячи на кухонній табуретці, то чи може мала ааа робити, то чого хочеться їй? Може! Але місія старшої зробити так, щоб максимум, чого хотілося молодшій проти ночі, це просто посидіти поруч укутавшись у плед, поставити кілька питань і обмірковувати їх у чарівних фарбах сновидінь.
+        \v \b \v - Ти зустрічала колись монстрів? 
+        \v \b \v - яких саме? 
+        \v \b \v - ну таких із зубами та страшними лапами (показує) 
+        \v \b \v - о, то це ще не такі й страшні монстри. Я зустрічала на багато страшніших! 
+        \v \b \v - правда?! І які вони? 
+        \v \b \v - насправді вони бувають дуже красивими, вони навіть можуть посміхатися тобі.
+        \v \b \v - так це не страшно
+        \v \b \v - розумієш, коли перед тобою монстр із величезними зубами, трьома головами та колючим хвостом, це все і є найстрашніше що в нього є і ти це бачиш, він це не приховує... 
+        \v \b \v - Але якщо він хоче тебе убити?!? 
+        \v \b \v - це максимум, на що він здатний. Набагато страшніше, коли хтось гарний тобі посміхається, а всередині, виявляється, він приховує монстра. 
+        Тиша...
+        \v \b \v ААА вже сумнівається, що паралельно із казками можна розповідати "таке". Залишається сподіватися, що ааа не успадкує цю нелюбов до людства в цілому. 
+        \v \b \v - Люди чи що? Скривившись спитала маленька ааа. 
+        \v \b \v - так, на жаль...
+        Звичайно, це не кінець розмови, а лише згасання пісні. Що було далі залишиться тільки між ААА, ааа та назавжди живої афроамериканської жінки. Залишиться під березневими зірками та під пледом на табуретці. Охолоне жовта кухонна лампочка, а маленька ааа засинатиме згадуючи останню на сьогодні обіцянку ААА, що якщо ми будемо вишеньками в наступному житті, то обов'язково будемо парочкою, бочок до бочки висіти на деревці.
+      `,
     },
-    illustration: ``,
+    illustration: `${cherry}`,
   }
 ];
 
