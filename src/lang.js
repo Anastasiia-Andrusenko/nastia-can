@@ -10,11 +10,11 @@ const langArr = {
     ua: 'можу спілкуватися',
   },
   like: {
-    en: 'I like do it:',
+    en: 'I like to do:',
     ua: 'Мені подобається',
   },
   likeList: {
-    en: ['to write', 'to draw', 'to code', 'make photo'],
+    en: ['write', 'draw', 'code', 'make photo'],
     ua: ['писати', 'малювати', 'кодити', 'фотографувати'],
   },
   noPage: {
@@ -69,22 +69,14 @@ const langArr = {
     en: `My short biography`,
     ua: `Моя коротка біографія`,
   },
-  birth: {
-    en: ``,
-    ua: ``,
+  feedbackTitle: {
+    en: `Feedbacks`,
+    ua: `Відгуки`,
   },
-  study: {
-    en: ``,
-    ua: ``,
+  feedbackBtn: {
+    en: `Leave your feedback`,
+    ua: `Залишити свій відгук`,
   },
-  architect: {
-    en: ``,
-    ua: ``,
-  },
-  work: {
-    en: ``,
-    ua: ``,
-  }
 };
 
 export default langArr;

@@ -109,7 +109,7 @@ const Code = ({ currentLanguage }) => {
                 <li className={`${css.workItem} ${css.webStudio}`}>
                   <a
                     href="https://anastasiia-andrusenko.github.io/goit-markup-hw-08/"
-                    target="_blank"
+                    target="blank"
                     rel="noopener noreferrer"
                     className={css.link}
                   >

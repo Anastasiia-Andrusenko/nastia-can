@@ -144,6 +144,7 @@
 
 .article {
   position: relative;
+  text-align: justify;
   margin: auto;
   width: 100%; 
   max-width: 560px;
