@@ -1,10 +1,11 @@
 import css from './Footer.module.css';
 import { FaRegHandPointRight } from 'react-icons/fa6';
 import langArr from '../../lang';
-import { ImSkype } from "react-icons/im";
+// import { ImSkype } from "react-icons/im";
 import { IoMdMail } from "react-icons/io";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 const Footer = ({ currentLanguage }) => {
   return (
@@ -24,11 +25,18 @@ const Footer = ({ currentLanguage }) => {
               nastya.andrus@gmail.com
             </a>
           </li>
-          <li className={css.contactItem}>
+          {/* <li className={css.contactItem}>
             <a href="https://join.skype.com/invite/cFrUyX19Qw90" target="blank"
             className={css.link}>
               <ImSkype className={css.icon}/>
               skype
+            </a>
+          </li> */}
+          <li className={css.contactItem}>
+            <a href="https://www.linkedin.com/in/anastasiia-andrusenko/" target="blank"
+            className={css.link}>
+              <FaLinkedin className={css.icon}/>
+              linkedin
             </a>
           </li>
           <li className={css.contactItem}>

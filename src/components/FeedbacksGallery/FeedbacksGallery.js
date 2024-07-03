@@ -47,6 +47,7 @@ const FeedbackGallery = ({currentLanguage}) => {
       const data = response.result.values;
       if (data && data.length > 0) {
         setReviews(data);
+        console.log(data);
       } else {
         setReviews([]);
       }
@@ -152,9 +153,6 @@ const FeedbackGallery = ({currentLanguage}) => {
     </div>
   );
 };
-
-
-
 
 
 export default FeedbackGallery;

@@ -10,8 +10,8 @@ const langArr = {
     ua: 'можу спілкуватися',
   },
   like: {
-    en: 'I like to:',
-    ua: 'Мені подобається',
+    en: 'I can:',
+    ua: 'Я можу:',
   },
   likeList: {
     en: ['write', 'draw', 'code', 'make photos'],

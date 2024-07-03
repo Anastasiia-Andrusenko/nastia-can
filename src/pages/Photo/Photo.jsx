@@ -18,7 +18,7 @@ const Photo = ({ currentLanguage }) => {
 
   // Массив зображень
   const images = [
-    '06.jpg', '05.jpg', '03.jpg', '021.jpg', '026.jpg', '09.jpg', '011.jpg', '04.jpg', '07.jpg'
+    '05.jpg', '06.jpg', '03.jpg', '021.jpg', '026.jpg', '09.jpg', '011.jpg', '04.jpg', '07.jpg'
   ];
 
   return (

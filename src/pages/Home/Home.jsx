@@ -5,7 +5,7 @@ import langArr from '../../lang.js';
 import Navigation from 'components/Navigation/Navigation';
 import Footer from '../../components/Footer/Footer';
 import biography from '../../biography';
-import FeedbackGallery from 'components/FeedbacksGallery/FeedbacksGallery';
+// import FeedbackGallery from 'components/FeedbacksGallery/FeedbacksGallery';
 import BtnToTop from 'components/BtnToTop/BtnToTop';
 
 const Home = ({ currentLanguage }) => {
@@ -59,7 +59,7 @@ const Home = ({ currentLanguage }) => {
           ))}
         </ul>
         <BtnToTop/>
-        <FeedbackGallery currentLanguage={currentLanguage}/>
+        {/* <FeedbackGallery currentLanguage={currentLanguage}/> */}
       </div>
       <Footer currentLanguage={currentLanguage} />
     </>
