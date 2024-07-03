@@ -6,8 +6,8 @@ const langArr = {
     ua2: 'Я Настя',
   },
   language: {
-    en: 'I can speak',
-    ua: 'можу спілкуватися',
+    en: 'I speak',
+    ua: 'Можу спілкуватися',
   },
   like: {
     en: 'I can:',
