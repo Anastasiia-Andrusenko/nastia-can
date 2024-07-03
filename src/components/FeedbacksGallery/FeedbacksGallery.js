@@ -1,5 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { gapi } from 'gapi-script';
 import css from './FeedbacksGallery.module.css';
 import FeedbackBtn from 'components/FeedbackBtn/FeedbackBtn';
@@ -10,10 +12,7 @@ import { BiMessageError } from "react-icons/bi";
 import { FaCaretLeft } from "react-icons/fa6";
 import { FaCaretRight } from "react-icons/fa6";
 import Slider from 'react-slick';
-// import { FaRegSmile } from "react-icons/fa";
-// import { PiSmileyBlankBold } from "react-icons/pi";
-// import { PiSmileySadBold } from "react-icons/pi";
-
+import '../../slick-custom.css';
 
 
 const API_KEY = 'AIzaSyC8Ex2_L-qtfha76b032HYEoapTDjzgzQI'; 
@@ -22,6 +21,7 @@ const RANGE = 'Sheet1!A2:G';
 
 const FeedbackGallery = ({currentLanguage}) => {
   const [reviews, setReviews] = useState([]);
+  const [loading, setLoading] = useState(true);
   const [showFeedback, setShowFeedback] = useState(false);
   // eslint-disable-next-line
   const [slider, setSlider] = useState(null);
@@ -50,23 +50,49 @@ const FeedbackGallery = ({currentLanguage}) => {
       } else {
         setReviews([]);
       }
+      setLoading(false);
     }).catch(error => {
       console.error('Error fetching data', error);
       setReviews([]);
+      setLoading(false);
     });
+  };
+
+  const CustomNextArrow = (props) => {
+    const {onClick } = props;
+    return (
+      <div
+        className={`${css.arrow} ${css.nextArrow}`}
+        onClick={onClick}
+      >
+        <FaCaretRight />
+      </div>
+    );
+  };
+  
+  const CustomPrevArrow = (props) => {
+    const {onClick } = props;
+    return (
+      <div
+        className={`${css.arrow} ${css.prevArrow}`}
+        onClick={onClick}
+      >
+        <FaCaretLeft />
+      </div>
+    );
   };
 
   const settings = {
     dots: true,
-    infinite: true,
-    speed: 500,
+    infinite: reviews.length > 1,
+    speed: 800,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: reviews.length > 1,
     autoplaySpeed: 3000,
     pauseOnHover: true,
-    nextArrow: <FaCaretRight className={css.arrow} />,
-    prevArrow: <FaCaretLeft className={css.arrow} />,
+    nextArrow: reviews.length > 1 ? <CustomNextArrow /> : null,
+    prevArrow: reviews.length > 1 ? <CustomPrevArrow /> : null,
   };
 
   const capitalizeFirstLetter = (string) => {
@@ -97,11 +123,9 @@ const FeedbackGallery = ({currentLanguage}) => {
         : langArr.feedbackTitle.en}
       </h2>
       <div className={css.gallery}>
-        {/* <button type='button' className={css.toggleFeedback} onClick={handleToggleFeedback}>
-          { showFeedback ? <IoIosArrowUp /> : <IoIosArrowDown />}
-          <span className={css.remark}>{ showFeedback ? 'згорнути відгук' : 'показати повністю'}</span>
-        </button> */}
-        {reviews.length > 0 ? (
+        {loading ? (<div className={css.loader}></div>
+        ) : (
+          reviews.length > 0 ? (
           <Slider {...settings} ref={c => setSlider(c)}>
             {reviews.map((review, index) => (
               <div key={index} className={css.review}>
@@ -118,11 +142,10 @@ const FeedbackGallery = ({currentLanguage}) => {
               </div>
             ))}
           </Slider>
-        ) : (
-          <p className={css.error}>
-            {currentLanguage === 'ua' ? langArr.oops.ua : langArr.oops.en}
+        ) : ( <p className={css.error}>
+            {currentLanguage === 'ua' ? 'Ще немає відгуків. Ти можеш стати першим' : 'No reviews yet. You can be the first'}
             <span className={css.errorIcon}><BiMessageError /></span>
-          </p>
+          </p>)
         )}
       </div>
       <FeedbackBtn currentLanguage={currentLanguage}/>
