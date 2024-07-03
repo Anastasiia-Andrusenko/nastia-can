@@ -6,11 +6,11 @@ const langArr = {
     ua2: 'Я Настя',
   },
   language: {
-    en: 'I can communicate in',
+    en: 'I can speak',
     ua: 'можу спілкуватися',
   },
   like: {
-    en: 'I like to do:',
+    en: 'I like to:',
     ua: 'Мені подобається',
   },
   likeList: {
