@@ -14,7 +14,7 @@ const langArr = {
     ua: 'Мені подобається',
   },
   likeList: {
-    en: ['write', 'draw', 'code', 'make photo'],
+    en: ['write', 'draw', 'code', 'make photos'],
     ua: ['писати', 'малювати', 'кодити', 'фотографувати'],
   },
   noPage: {
