@@ -14,7 +14,7 @@ const biography = [
     id: 1,
     period: {
       en: `Childhood`,
-      ua: `Дитинство`,
+      ua: `1. Дитинство`,
     },
     text: {
       en: `It all started in January 1994 in Donetsk. My childhood was super happy: I rode my bike, painted, played hockey on frozen ponds, helped my grandpa collect honey, crafted, and kept all sorts of "junk" (according to my mom, or "treasures," in my opinion).`,
@@ -26,7 +26,7 @@ const biography = [
     id: 2,
     period: {
       en: `School`,
-      ua: `Школа`,
+      ua: `2. Школа`,
     },
     text: {
       en: `In the year 2000, I started school. The first bell became memorable for me and the entire teaching staff when I accidentally bumped into an eleventh grader with the bell.`,
@@ -38,7 +38,7 @@ const biography = [
     id: 3,
     period: {
       en: `Education`,
-      ua: `Освіта`,
+      ua: `3. Освіта`,
     },
     text: {
       en: `Having finished school in 2010, I entered Donetsk Architectural Academy. Those were the most fulfilling four years of my life. I discovered myself, found friends, and immersed myself in adult life.`,
@@ -50,7 +50,7 @@ const biography = [
     id: 4,
     period: {
       en: `Relocation`,
-      ua: `Переїзд`,
+      ua: `4. Переїзд`,
     },
     text: {
       en: `In 2014, the war began, and I moved to Kyiv. Although I managed a few projects, I didn't quite become a full-fledged architect. Nevertheless, I always chose work related to creativity.`,
@@ -62,7 +62,7 @@ const biography = [
     id: 5,
     period: {
       en: `Design and Production`,
-      ua: `Дизайн та продакшн`,
+      ua: `5. Дизайн та продакшн`,
     },
     text: {
       en: `I found myself in a studio that created style and decor for brands, musicians, and advertising campaigns. I also had the opportunity to work in production, involved in shooting music videos and commercials.`,
@@ -74,7 +74,7 @@ const biography = [
     id: 6,
     period: {
       en: `Career in advertising`,
-      ua: `Кар'єра в рекламі`,
+      ua: `6. Кар'єра в рекламі`,
     },
     text: {
       en: `In 2018, I became a creative copywriter, not just participating in someone else's ideas but creating ideas myself. Without formal education but with great motivation, I mastered basic skills and gained valuable experience.`,
@@ -86,7 +86,7 @@ const biography = [
     id: 7,
     period: {
       en: `Career Change`,
-      ua: `Зміна професії`,
+      ua: `7. Зміна професії`,
     },
     text: {
       en: `In 2022, the war got me again. This motivated me to learn a new profession, and I successfully completed a FULLSTACK developer course. Thus, I became a developer.`,
@@ -98,7 +98,7 @@ const biography = [
     id: 8,
     period: {
       en: `Today`,
-      ua: `Сьогодні`,
+      ua: `8. Сьогодні`,
     },
     text: {
       en: `For now, I continue doing what I love and improving my skills. So, if you're looking for a copywriter to create naming, advertising scripts, and campaigns for your brand or need a promising JavaScript developer, feel free to contact me. I'm always open to exciting opportunities.`,

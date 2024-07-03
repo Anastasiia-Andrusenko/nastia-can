@@ -38,7 +38,7 @@ const Home = ({ currentLanguage }) => {
               : langArr.timeLineTitle.en
             }
         </h2>
-        <ul className={css.biographyWrapper}>
+        <ol className={css.biographyWrapper}>
           {biography.map((period) => (
             <li key={period.id} className={css.period}>
               <div className={css.item}>
@@ -57,7 +57,7 @@ const Home = ({ currentLanguage }) => {
               </p>
             </li>
           ))}
-        </ul>
+        </ol>
         <BtnToTop/>
         {/* <FeedbackGallery currentLanguage={currentLanguage}/> */}
       </div>
