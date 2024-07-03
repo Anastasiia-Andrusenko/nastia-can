@@ -6,6 +6,7 @@ import move from './img/timeline/leave.png';
 import copy from './img/timeline/copywriter.png';
 import dev from './img/timeline/development.png';
 import now from './img/timeline/forecast.png';
+import marketing from './img/timeline/marketing.png';
 
 
 const biography = [
@@ -16,8 +17,8 @@ const biography = [
       ua: `Дитинство`,
     },
     text: {
-      en: `It all started in January 1994 in Donetsk. My childhood was super happy: I rode a bicycle, drew, played hockey on a frozen pond, helped my grandfather collect honey, did crafts, kept all kinds of "junk" according to my mother's version, and "treasures" in my opinion.`,
-      ua: `Все почалося в січні 1994 в Донецьку. Моє дитинство було суперщасливим: я ганяла на велосипеді, малювала, грала в хокей на замерзлій водоймі, допомагала дідусю збирати мед, майструвала, зберігала усілякий "непотріб" по версії мами, та "скарби" на мою думку.`,
+      en: `It all started in January 1994 in Donetsk. My childhood was super happy: I rode my bike, painted, played hockey on frozen ponds, helped my grandpa collect honey, crafted, and kept all sorts of "junk" (according to my mom, or "treasures," in my opinion).`,
+      ua: `Все почалося в січні 1994 в Донецьку. Моє дитинство було супершасливим: я ганяла на велосипеді, малювала, грала в хокей на замерзлій водоймі, допомагала дідусю збирати мед, майструвала, зберігала всілякий "непотріб" (за версією мами, та "скарби" на мою думку).`,
     },
     icon: `${child}`,
   },
@@ -28,8 +29,8 @@ const biography = [
       ua: `Школа`,
     },
     text: {
-      en: `In 2000, I went to school. The first bell became memorable for me and all teachers, when I accidentally bumped an eleventh-grader with the bell.`,
-      ua: `У 2000 році я пішла в школу. Перший дзвоник став пам'ятним для мене та всього вчительського складу, коли я на лінійці випадково дзвоником набила шишку одинадцятикласнику.`,
+      en: `In the year 2000, I started school. The first bell became memorable for me and the entire teaching staff when I accidentally bumped into an eleventh grader with the bell.`,
+      ua: `У 2000 році я пішла в школу. Перший дзвінок став пам'ятним для мене та всього вчительського складу, коли я на лінійці випадково дзвоником набила шишку одинадцятикласнику.`,
     },
     icon: `${school}`,
   },
@@ -40,8 +41,8 @@ const biography = [
       ua: `Освіта`,
     },
     text: {
-      en: `After graduating from school in 2010, I entered the Donbas Academy of Architecture. These were the most fulfilling 4 years of my life. I understood myself, found friends and plunged into adult life.`,
-      ua: `Закінчивши школу у 2010, я вступила до Донбаської Архітектурної Академії. Це були найнасиченіші 4 роки мого життя. Я зрозуміла себе, знайшла друзів та занурилася в доросле життя.`,
+      en: `Having finished school in 2010, I entered Donetsk Architectural Academy. Those were the most fulfilling four years of my life. I discovered myself, found friends, and immersed myself in adult life.`,
+      ua: `Закінчивши школу у 2010, я вступила до Донецької Архітектурної Академії. Це були найнасиченіші 4 роки мого життя. Я зрозуміла себе, знайшла друзів та занурилася в доросле життя.`,
     },
     icon: `${edu}`,
   },
@@ -52,47 +53,59 @@ const biography = [
       ua: `Переїзд`,
     },
     text: {
-      en: `In 2014, the war started, and I moved to Kyiv. Although I implemented several projects, I did not become a full-fledged architect.`,
-      ua: `У 2014 почалась війна, і я переїхала в Київ. Хоч я і реалізувала кілька проєктів, але повноцінного архітектора з мене не вийшло. Проте я завжди обирала роботу повʼязану із творчістю. `,
+      en: `In 2014, the war began, and I moved to Kyiv. Although I managed a few projects, I didn't quite become a full-fledged architect. Nevertheless, I always chose work related to creativity.`,
+      ua: `У 2014 розпочалася війна, і я переїхала до Києва. Хоча я реалізувала кілька проєктів, але повноцінного архітектора з мене не вийшло. Проте я завжди обирала роботу, пов'язану із творчістю. `,
     },
     icon: `${move}`,
   },
   { 
     id: 5,
     period: {
-      en: `Career in advertising`,
-      ua: `Кар'єра в рекламі`,
+      en: `Design and Production`,
+      ua: `Дизайн та продакшн`,
     },
     text: {
-      en: `In 2018, I started working in advertising as a creative copywriter. Without the necessary education, but with a lot of motivation, I learned the basic skills and gained experience.`,
-      ua: `У 2018 році я почала працювати в рекламі як креативний копірайтер. Без потрібної освіти, але з великою мотивацією, я опанувала базові навички та здобула досвід.`,
+      en: `I found myself in a studio that created style and decor for brands, musicians, and advertising campaigns. I also had the opportunity to work in production, involved in shooting music videos and commercials.`,
+      ua: `Я знайшла себе в студії, яка створювала стиль та декор для брендів, музикантів та рекламних кампаній. Мені також довелося попрацювати у продакшені, який займався зйомкою кліпів та рекламних роликів.`,
     },
-    icon: `${copy}`,
+    icon: `${marketing}`,
   },
   { 
     id: 6,
     period: {
-      en: `Change of profession`,
-      ua: `Зміна професії`,
+      en: `Career in advertising`,
+      ua: `Кар'єра в рекламі`,
     },
     text: {
-      en: `In 2022, the war got me again. I started learning development and now work as a freelance copywriter and front end developer.`,
-      ua: `У 2022 війна дістала мене знов. Я почала вивчати розробку і тепер працюю як фриланс копірайтер та фронт енд розробниця.`,
+      en: `In 2018, I became a creative copywriter, not just participating in someone else's ideas but creating ideas myself. Without formal education but with great motivation, I mastered basic skills and gained valuable experience.`,
+      ua: `У 2018 році я стала креативним копірайтером. Тепер я не просто брала участь в реалізації чиїхось задумів, а сама створювала ідеї. Без необхідної освіти, але з великою мотивацією, я опанувала базові навички та здобула цінний досвід.`,
     },
-    icon: `${dev}`,
+    icon: `${copy}`,
   },
   { 
     id: 7,
     period: {
-      en: `Now`,
-      ua: `Наразі`,
+      en: `Career Change`,
+      ua: `Зміна професії`,
     },
     text: {
-      en: `For now, I continue to do what I love and continue to develop my skills. And I don't see work without art in work yet.`,
-      ua: `Зараз я продовжую робити те, що мені подобається й продовжую розвивати свої навички, та все ще не уявляю роботу без творчості.`,
+      en: `In 2022, the war got me again. This motivated me to learn a new profession, and I successfully completed a FULLSTACK developer course. Thus, I became a developer.`,
+      ua: `У 2022 війна дістала мене знов. Це змотивувало мене опанувати нову професію, і я успішно завершила курс FULLSTACK developer. Так я стала розробницею.`,
+    },
+    icon: `${dev}`,
+  },
+  { 
+    id: 8,
+    period: {
+      en: `Today`,
+      ua: `Сьогодні`,
+    },
+    text: {
+      en: `For now, I continue doing what I love and improving my skills. So, if you're looking for a copywriter to create naming, advertising scripts, and campaigns for your brand or need a promising JavaScript developer, feel free to contact me. I'm always open to exciting opportunities.`,
+      ua: `Зараз я продовжую робити те, що мені подобається та вдосконалюю свої здібності. Тож якщо ви шукаєте копірайтера для створення неймінгу, рекламних сценаріїв та кампаній для вашого бренду або вам потрібен перспективний JavaScript розробник, зв’яжіться зі мною. Я завжди відкрита для цікавих пропозицій.`,
     },
     icon: `${now}`,
-  }
+  },
 ];
 
 export default biography;

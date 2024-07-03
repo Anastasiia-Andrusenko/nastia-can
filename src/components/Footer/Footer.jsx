@@ -3,11 +3,16 @@ import { FaRegHandPointRight } from 'react-icons/fa6';
 import langArr from '../../lang';
 // import { ImSkype } from "react-icons/im";
 import { IoMdMail } from "react-icons/io";
-import { FaPhoneSquareAlt } from "react-icons/fa";
+// import { FaPhoneSquareAlt } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+// import { FaSquareWhatsapp } from "react-icons/fa6";
 
 const Footer = ({ currentLanguage }) => {
+  const email = "nastya.andrus@gmail.com";
+  const displayEmail = email.replace('@', ' at ').replace('.', ' dot ');
+
+
   return (
     <footer className={css.footer}>
       <div className={css.container}>
@@ -19,10 +24,9 @@ const Footer = ({ currentLanguage }) => {
         </p>
         <ul className={css.contactsList}>
           <li className={css.contactItem}>
-            <a href="mailto:nastya.andrus@gmail.com" target="blank"
-            className={css.link}>
+            <a href=' ' onClick={() => window.location.href = `mailto:${email}`} className={css.link}>
               <IoMdMail className={css.icon}/>
-              nastya.andrus@gmail.com
+              {displayEmail}
             </a>
           </li>
           {/* <li className={css.contactItem}>
@@ -39,13 +43,13 @@ const Footer = ({ currentLanguage }) => {
               linkedin
             </a>
           </li>
-          <li className={css.contactItem}>
+          {/* <li className={css.contactItem}>
             <a href="tel:+380996434033" target="blank"
             className={css.link}>
               <FaPhoneSquareAlt className={css.icon}/>
               +380 99 64 34 033
             </a>
-          </li>
+          </li> */}
           <li className={css.contactItem}>
             <a
               href="https://www.facebook.com/anastasiia.andrusenko"

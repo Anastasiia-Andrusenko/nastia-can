@@ -77,6 +77,10 @@ const langArr = {
     en: `Leave your feedback`,
     ua: `Залишити свій відгук`,
   },
+  summary: {
+    en: ``,
+    ua: ``,
+  }
 };
 
 export default langArr;
