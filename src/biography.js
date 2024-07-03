@@ -13,7 +13,7 @@ const biography = [
   {
     id: 1,
     period: {
-      en: `Childhood`,
+      en: `1. Childhood`,
       ua: `1. Дитинство`,
     },
     text: {
@@ -25,7 +25,7 @@ const biography = [
   {
     id: 2,
     period: {
-      en: `School`,
+      en: `2. School`,
       ua: `2. Школа`,
     },
     text: {
@@ -37,7 +37,7 @@ const biography = [
   {
     id: 3,
     period: {
-      en: `Education`,
+      en: `3. Education`,
       ua: `3. Освіта`,
     },
     text: {
@@ -49,7 +49,7 @@ const biography = [
   { 
     id: 4,
     period: {
-      en: `Relocation`,
+      en: `4. Relocation`,
       ua: `4. Переїзд`,
     },
     text: {
@@ -61,7 +61,7 @@ const biography = [
   { 
     id: 5,
     period: {
-      en: `Design and Production`,
+      en: `5. Design and Production`,
       ua: `5. Дизайн та продакшн`,
     },
     text: {
@@ -73,7 +73,7 @@ const biography = [
   { 
     id: 6,
     period: {
-      en: `Career in advertising`,
+      en: `6. Career in advertising`,
       ua: `6. Кар'єра в рекламі`,
     },
     text: {
@@ -85,7 +85,7 @@ const biography = [
   { 
     id: 7,
     period: {
-      en: `Career Change`,
+      en: `7. Career Change`,
       ua: `7. Зміна професії`,
     },
     text: {
@@ -97,7 +97,7 @@ const biography = [
   { 
     id: 8,
     period: {
-      en: `Today`,
+      en: `8. Today`,
       ua: `8. Сьогодні`,
     },
     text: {
