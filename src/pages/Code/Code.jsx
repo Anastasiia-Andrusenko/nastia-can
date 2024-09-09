@@ -16,16 +16,18 @@ import { SiRedux } from 'react-icons/si';
 import { FaFigma } from 'react-icons/fa';
 import { SiWebpack } from 'react-icons/si';
 import BtnToTop from 'components/BtnToTop/BtnToTop';
-import { GiClick } from "react-icons/gi";
-
+import { GiClick } from 'react-icons/gi';
 
 const Code = ({ currentLanguage }) => {
-
   return (
     <>
       <div className={css.section}>
         <Header currentLanguage={currentLanguage} />
-        <h2 className={css.titlePage}>{currentLanguage === 'ua' ? langArr.codePageTitle.ua : langArr.codePageTitle.en}</h2>
+        <h2 className={css.titlePage}>
+          {currentLanguage === 'ua'
+            ? langArr.codePageTitle.ua
+            : langArr.codePageTitle.en}
+        </h2>
         <div className={css.container}>
           <div className={css.laptop}></div>
           <div className={css.skills}>
@@ -104,8 +106,7 @@ const Code = ({ currentLanguage }) => {
                 : langArr.codePortfolio.en}
             </h3>
             <div className={css.viewWindow}>
-              <ul className={css.workList}
-                >
+              <ul className={css.workList}>
                 <li className={`${css.workItem} ${css.webStudio}`}>
                   <a
                     href="https://anastasiia-andrusenko.github.io/goit-markup-hw-08/"
@@ -128,7 +129,7 @@ const Code = ({ currentLanguage }) => {
                 </li>
                 <li className={`${css.workItem} ${css.moodPlaylist}`}>
                   <a
-                    href="https://anastasiia-andrusenko.github.io/my-mood-playlist/"
+                    href="https://my-mood-playlist.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={css.link}
@@ -138,7 +139,7 @@ const Code = ({ currentLanguage }) => {
                 </li>
                 <li className={`${css.workItem} ${css.movies}`}>
                   <a
-                    href="https://anastasiia-andrusenko.github.io/goit-react-hw-05-movies/"
+                    href="https://movielandi.netlify.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={css.link}
@@ -158,11 +159,11 @@ const Code = ({ currentLanguage }) => {
                 </li>
               </ul>
               <div className={css.clickBtn}>
-                <GiClick className={css.clickIcon}/>
+                <GiClick className={css.clickIcon} />
               </div>
             </div>
           </div>
-          <BtnToTop/>
+          <BtnToTop />
         </div>
       </div>
       <Footer currentLanguage={currentLanguage} />
